@@ -250,13 +250,13 @@ function App() {
         <div className="hero_content_inner">
           <div className="hero_top_pill">
             <div className="hero_pill_dot"></div>
-            <span className="hero_pill_text">Precast Concrete &amp; Engineering</span>
+            <span className="hero_pill_text">Precast Engineering &amp; Technologies</span>
           </div>
 
           <h1 className="hero_title_text">
-            Precision<br />
-            <span className="text-color-blue">Precast Engineering</span><br />
-            &amp; Structural Solutions
+            Precast Engineering<br />
+            <span className="text-color-blue">and Technologies</span><br />
+            <span className="hero_title_accent">Like Wine and Cheese, Always Best Together</span>
           </h1>
 
           <p className="hero_subtitle">
