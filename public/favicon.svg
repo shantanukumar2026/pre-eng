@@ -1,50 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#003B95" />
-      <stop offset="100%" stop-color="#001845" />
+      <stop offset="0%" stop-color="#001F54" />
+      <stop offset="100%" stop-color="#0A1128" />
     </linearGradient>
-    <linearGradient id="pStemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#F1F5F9" />
-    </linearGradient>
-    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.25" />
-    </filter>
   </defs>
 
   <!-- Background Squircle -->
   <rect width="256" height="256" rx="56" fill="url(#bgGrad)" />
 
-  <!-- Precast 'P' Icon Group -->
-  <g transform="translate(18, 52) scale(0.92)" filter="url(#subtleShadow)">
-    <!-- Vertical left stem of P -->
-    <rect x="20" y="10" width="76" height="150" rx="4" fill="url(#pStemGrad)" />
+  <!-- PET Monogram Emblem Centered -->
+  <g transform="translate(18, 54) scale(0.47)">
+    <!-- Letter P -->
+    <g>
+      <!-- Vertical Stem -->
+      <rect x="0" y="5" width="28" height="150" fill="#FFFFFF" />
+      <!-- Curved Loop -->
+      <path d="M 28 5 L 85 5 C 125 5 145 32 145 68 C 145 104 125 128 85 128 L 28 128 Z" fill="#FFFFFF" />
+      <!-- Cutout -->
+      <path d="M 28 32 L 72 32 C 96 32 112 45 112 68 C 112 90 96 102 72 102 L 28 102 Z" fill="#0A1128" />
 
-    <!-- Curved right loop of P -->
-    <path d="M 96 10 L 158 10 C 215 10 236 45 236 85 C 236 125 215 160 158 160 L 96 160 Z" fill="url(#pStemGrad)" />
+      <!-- 3D Isometric Precast Concrete Box -->
+      <g transform="translate(42, 36) scale(1.15)">
+        <!-- Top Face -->
+        <polygon points="26,4 48,16 26,28 4,16" fill="#93C5FD" stroke="#0A1128" stroke-width="1.5" stroke-linejoin="round" />
+        <polygon points="26,10 40,17.5 26,25 12,17.5" fill="#FFFFFF" />
 
-    <!-- Inner cutout of P -->
-    <path d="M 96 44 L 140 44 C 166 44 182 60 182 85 C 182 110 166 126 140 126 L 96 126 Z" fill="#002255" />
+        <!-- Right Face -->
+        <polygon points="26,28 48,16 48,50 26,62" fill="#0066FF" stroke="#0A1128" stroke-width="1.5" stroke-linejoin="round" />
 
-    <!-- 3D Isometric Precast Concrete Box -->
-    <g transform="translate(94, 38)">
-      <!-- Top Face (Ice / Sky Blue) -->
-      <polygon points="40,6 74,23 40,40 6,23" fill="#93C5FD" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" />
-      <polygon points="40,14 62,25 40,36 18,25" fill="#FFFFFF" />
-
-      <!-- Right Side Face (Vibrant Accent Blue) -->
-      <polygon points="40,40 74,23 74,72 40,89" fill="#3B82F6" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round" />
-
-      <!-- Left Side Face (Deep Blue) -->
-      <polygon points="6,23 40,40 40,89 6,72" fill="#1D4ED8" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="round" />
-
-      <!-- Small Nested Box Highlight -->
-      <g transform="translate(14, 42)">
-        <polygon points="12,0 24,6 12,12 0,6" fill="#60A5FA" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" />
-        <polygon points="0,6 12,12 12,24 0,18" fill="#2563EB" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" />
-        <polygon points="12,12 24,6 24,18 12,24" fill="#1E40AF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" />
+        <!-- Left Face -->
+        <polygon points="4,16 26,28 26,62 4,50" fill="#3B82F6" stroke="#0A1128" stroke-width="1.5" stroke-linejoin="round" />
       </g>
+    </g>
+
+    <!-- Letter E (3 Horizontal Bars) -->
+    <g transform="translate(156, 12)">
+      <rect x="0" y="0" width="138" height="30" rx="3" fill="#0066FF" />
+      <rect x="0" y="56" width="138" height="30" rx="3" fill="#0066FF" />
+      <rect x="0" y="112" width="138" height="30" rx="3" fill="#0066FF" />
+    </g>
+
+    <!-- Letter T -->
+    <g transform="translate(315, 12)">
+      <!-- Top Bar -->
+      <rect x="0" y="0" width="144" height="30" rx="3" fill="#FFFFFF" />
+      <!-- Vertical Stem -->
+      <rect x="52" y="30" width="40" height="112" rx="3" fill="#FFFFFF" />
     </g>
   </g>
 </svg>

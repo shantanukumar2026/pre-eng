@@ -792,8 +792,8 @@ function App() {
               {/* Bottom Footer Links */}
               <div className="footer_top-wrapper">
                 <div>
-                  <div style={{ background: '#ffffff', padding: '6px 14px', borderRadius: '2px', display: 'inline-block', marginBottom: '1.25rem' }}>
-                    <img src="/PEG.png" alt="Precast Engineering" style={{ height: '42px', display: 'block' }} />
+                  <div style={{ background: '#ffffff', padding: '8px 18px', borderRadius: '4px', display: 'inline-block', marginBottom: '1.25rem' }}>
+                    <img src="/PEG.png" alt="Precast Engineering & Technologies" style={{ height: '44px', width: 'auto', maxWidth: '300px', display: 'block', objectFit: 'contain' }} />
                   </div>
                   <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '13.5px', lineHeight: 1.7, maxWidth: '360px' }}>
                     Manufacturing and structural engineering excellence across North America, trusted by state DOTs &amp; heavy civil contractors worldwide.
