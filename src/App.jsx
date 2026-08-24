@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  ArrowUpRight, 
-  ChevronDown, 
-  ShieldCheck, 
-  CheckCircle2, 
-  ArrowRight, 
-  HardHat, 
-  Layers, 
-  Factory, 
-  Building2, 
-  Truck, 
-  FileCheck2, 
-  Gauge, 
-  Zap, 
-  Clock, 
-  Minus, 
+import {
+  ArrowUpRight,
+  ChevronDown,
+  ShieldCheck,
+  CheckCircle2,
+  ArrowRight,
+  HardHat,
+  Layers,
+  Factory,
+  Building2,
+  Truck,
+  FileCheck2,
+  Gauge,
+  Zap,
+  Clock,
+  Minus,
   Plus,
   Check,
   Award,
@@ -33,27 +33,27 @@ import {
   Phone
 } from 'lucide-react';
 
-const IconLinkedin = ({size=24, color="currentColor"}) => (
+const IconLinkedin = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
     <rect x="2" y="9" width="4" height="12"></rect>
     <circle cx="4" cy="4" r="2"></circle>
   </svg>
 );
-const IconYoutube = ({size=24, color="currentColor"}) => (
+const IconYoutube = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
     <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
   </svg>
 );
-const IconInstagram = ({size=24, color="currentColor"}) => (
+const IconInstagram = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
     <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
   </svg>
 );
-const IconFacebook = ({size=24, color="currentColor"}) => (
+const IconFacebook = ({ size = 24, color = "currentColor" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3.81l.39-4h-4.2V7a1 1 0 0 1 1-1h3z"></path>
   </svg>
@@ -170,7 +170,7 @@ function App() {
                   <div className="navbar_submenu_grid is-2">
                     <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
                       <div className="submenu_card_img_wrap">
-                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356f12?q=80&w=600&auto=format&fit=crop" alt="Manufacturing" className="submenu_card_img" />
+                        <img src="https://media.gettyimages.com/id/1402289225/photo/scaffolding-construction-site-iron-reinforcement-for-reinforced-concrete-construction.jpg?s=1024x1024&w=gi&k=20&c=FxRQhM1SxcegWy9N95MVczOBoMzFsgjjJlh9w8THWI4=" alt="Manufacturing" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -237,11 +237,11 @@ function App() {
           SECTION 1: CRYSTAL-CLEAR CINEMATIC HERO (Exact Reference Match)
           ========================================================================= */}
       <header className="section_header_hero" id="home">
-        <video 
+        <video
           className="header_bg_video"
-          autoPlay 
-          loop 
-          muted 
+          autoPlay
+          loop
+          muted
           playsInline
         >
           <source src="/assets/media/hero-bg.mp4" type="video/mp4" />
@@ -347,7 +347,7 @@ function App() {
                 Comprehensive Brand &amp; Marketing Solutions
               </h2>
             </div>
-            
+
             <div className="bento_grid">
               {/* Item 1: Large Horizontal */}
               <a href="#contact" className="bento_card is-large">
@@ -361,7 +361,7 @@ function App() {
                   <span className="bento_link">Explore Design <ArrowRight size={14} /></span>
                 </div>
               </a>
-              
+
               {/* Item 2: Tall Vertical */}
               <a href="#contact" className="bento_card is-tall">
                 <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Website Design & Development" className="bento_card_bg" />
@@ -374,7 +374,7 @@ function App() {
                   <span className="bento_link">Learn More <ArrowRight size={14} /></span>
                 </div>
               </a>
-              
+
               {/* Item 3: Small Square */}
               <a href="#contact" className="bento_card">
                 <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="Social Media Management" className="bento_card_bg" />
@@ -387,7 +387,7 @@ function App() {
                   <span className="bento_link">Learn More <ArrowRight size={14} /></span>
                 </div>
               </a>
-              
+
               {/* Item 4: Small Square */}
               <a href="#contact" className="bento_card">
                 <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="SEO & Digital Marketing" className="bento_card_bg" />
@@ -413,36 +413,36 @@ function App() {
             <div className="solutions-left">
               <h2 className="heading-style-h3 text-color-primary">Comprehensive Solutions Under One Roof</h2>
               <a href="#services" className="button-outline-blue">
-                VIEW ALL SERVICES <ArrowRight size={14}/>
+                VIEW ALL SERVICES <ArrowRight size={14} />
               </a>
             </div>
             <div className="solutions-right">
-              <div className="solution-card" style={{padding: 0, overflow: 'hidden'}}>
-                <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="Graphic Design" style={{width: '100%', height: '140px', objectFit: 'cover'}} />
-                <div style={{padding: '1.5rem'}}>
-                  <h3 className="solution-title">Digital Graphic<br/>Design</h3>
-                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14}/></a>
+              <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
+                <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="Graphic Design" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <div style={{ padding: '1.5rem' }}>
+                  <h3 className="solution-title">Digital Graphic<br />Design</h3>
+                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
-              <div className="solution-card" style={{padding: 0, overflow: 'hidden'}}>
-                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="Social Media" style={{width: '100%', height: '140px', objectFit: 'cover'}} />
-                <div style={{padding: '1.5rem'}}>
-                  <h3 className="solution-title">Social Media<br/>Management</h3>
-                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14}/></a>
+              <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
+                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="Social Media" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <div style={{ padding: '1.5rem' }}>
+                  <h3 className="solution-title">Social Media<br />Management</h3>
+                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
-              <div className="solution-card" style={{padding: 0, overflow: 'hidden'}}>
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="SEO" style={{width: '100%', height: '140px', objectFit: 'cover'}} />
-                <div style={{padding: '1.5rem'}}>
-                  <h3 className="solution-title">SEO & Digital<br/>Marketing</h3>
-                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14}/></a>
+              <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
+                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="SEO" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <div style={{ padding: '1.5rem' }}>
+                  <h3 className="solution-title">SEO & Digital<br />Marketing</h3>
+                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
-              <div className="solution-card" style={{padding: 0, overflow: 'hidden'}}>
-                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Web Design" style={{width: '100%', height: '140px', objectFit: 'cover'}} />
-                <div style={{padding: '1.5rem'}}>
-                  <h3 className="solution-title">Website Design &<br/>Development</h3>
-                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14}/></a>
+              <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
+                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Web Design" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <div style={{ padding: '1.5rem' }}>
+                  <h3 className="solution-title">Website Design &<br />Development</h3>
+                  <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
             </div>
@@ -456,39 +456,39 @@ function App() {
       {/* SECTION 4: 4-STEP METHODOLOGY */}
       <section className="section-methodology padding-global">
         <div className="container-large">
-          <h2 className="text-color-primary text-center heading-style-h4" style={{marginBottom: '3rem'}}>Our Proven 4-Step Methodology</h2>
+          <h2 className="text-color-primary text-center heading-style-h4" style={{ marginBottom: '3rem' }}>Our Proven 4-Step Methodology</h2>
           <div className="methodology-grid">
-            
+
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
-                <img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Discovery" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+                <img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Discovery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Discovery</h4>
               <p className="method-desc">We dive deep into your brand, target audience, and market landscape.</p>
             </div>
             <div className="method-line"></div>
-            
+
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
-                <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Strategy" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+                <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Strategy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Strategy & Design</h4>
               <p className="method-desc">Crafting solutions aligned with clear focused insights for maximum conversion.</p>
             </div>
             <div className="method-line"></div>
-            
+
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
-                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Development" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Development" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Development</h4>
               <p className="method-desc">Building lightning-fast, responsive platforms using modern tech stacks.</p>
             </div>
             <div className="method-line"></div>
-            
+
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="Growth" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="Growth" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Growth</h4>
               <p className="method-desc">Deploying targeted SEO and marketing campaigns to scale your reach.</p>
@@ -505,16 +505,16 @@ function App() {
 
 
       {/* SECTION 8: BLUE CTA BANNER */}
-      <section className="section-cta padding-global" style={{paddingBottom: '4rem'}}>
+      <section className="section-cta padding-global" style={{ paddingBottom: '4rem' }}>
         <div className="container-large">
           <div className="cta-banner">
             <div className="cta-icon-bg">
-              <CheckCircle2 size={64} style={{opacity: 0.8}} />
+              <CheckCircle2 size={64} style={{ opacity: 0.8 }} />
             </div>
             <div className="cta-content">
               <h2 className="cta-headline">Ready to Dominate Your Digital Market?</h2>
               <p className="cta-sub">Let's craft a bespoke strategy that drives traffic, engages users, and accelerates your revenue growth.</p>
-              <a href="#start" className="button-white">START YOUR PROJECT <ArrowRight size={14}/></a>
+              <a href="#start" className="button-white">START YOUR PROJECT <ArrowRight size={14} /></a>
             </div>
           </div>
         </div>
@@ -526,10 +526,10 @@ function App() {
         <div className="container-large">
           <div className="products-header">
             <div>
-              <h2 className="heading-style-h4 text-color-primary" style={{marginBottom: '0.5rem'}}>Our Core Digital Services</h2>
+              <h2 className="heading-style-h4 text-color-primary" style={{ marginBottom: '0.5rem' }}>Our Core Digital Services</h2>
               <p className="products-sub">Engineered for strength. Built for the future.</p>
             </div>
-            <a href="#services" className="products-link">VIEW PRODUCTS <ArrowRight size={14}/></a>
+            <a href="#services" className="products-link">VIEW PRODUCTS <ArrowRight size={14} /></a>
           </div>
           <div className="products-grid">
             <div className="product-card">
@@ -549,8 +549,8 @@ function App() {
               <div className="product-label">Brand Identity</div>
             </div>
             <div className="product-card view-all-card">
-              <span>VIEW ALL<br/>PRODUCTS</span>
-              <ArrowRight size={24} style={{marginTop: '1rem'}}/>
+              <span>VIEW ALL<br />PRODUCTS</span>
+              <ArrowRight size={24} style={{ marginTop: '1rem' }} />
             </div>
           </div>
         </div>
@@ -565,28 +565,28 @@ function App() {
             <h2 className="heading-style-h4 text-color-primary">Why Choose PET?</h2>
             <div className="why-us-grid">
               <div className="why-item">
-                <Layers size={28} className="text-color-primary"/>
-                <div className="why-text">Advanced<br/>Technology</div>
+                <Layers size={28} className="text-color-primary" />
+                <div className="why-text">Advanced<br />Technology</div>
               </div>
               <div className="why-item">
-                <Gauge size={28} className="text-color-primary"/>
-                <div className="why-text">Precision<br/>Engineering</div>
+                <Gauge size={28} className="text-color-primary" />
+                <div className="why-text">Precision<br />Engineering</div>
               </div>
               <div className="why-item">
-                <ShieldCheck size={28} className="text-color-primary"/>
-                <div className="why-text">Sustainable<br/>Practices</div>
+                <ShieldCheck size={28} className="text-color-primary" />
+                <div className="why-text">Sustainable<br />Practices</div>
               </div>
               <div className="why-item">
-                <Clock size={28} className="text-color-primary"/>
-                <div className="why-text">On-Time<br/>Delivery</div>
+                <Clock size={28} className="text-color-primary" />
+                <div className="why-text">On-Time<br />Delivery</div>
               </div>
               <div className="why-item">
-                <CheckCircle2 size={28} className="text-color-primary"/>
-                <div className="why-text">Customer-Centric<br/>Approach</div>
+                <CheckCircle2 size={28} className="text-color-primary" />
+                <div className="why-text">Customer-Centric<br />Approach</div>
               </div>
               <div className="why-item">
-                <Factory size={28} className="text-color-primary"/>
-                <div className="why-text">Cost-Effective<br/>Solutions</div>
+                <Factory size={28} className="text-color-primary" />
+                <div className="why-text">Cost-Effective<br />Solutions</div>
               </div>
             </div>
           </div>
@@ -600,14 +600,14 @@ function App() {
         <div className="container-large">
           <div className="operations-header">
             <div className="ops-header-text">
-              <h2 className="heading-style-h4 text-color-primary">State-of-the-Art<br/>Manufacturing</h2>
+              <h2 className="heading-style-h4 text-color-primary">State-of-the-Art<br />Manufacturing</h2>
               <p className="operations-sub">Our advanced facilities and skilled teams ensure unmatched quality and consistency.</p>
-              <a href="#tour" className="operations-link" style={{fontSize: '0.85rem', fontWeight: 600}}>TAKE A TOUR <ArrowRight size={14}/></a>
+              <a href="#tour" className="operations-link" style={{ fontSize: '0.85rem', fontWeight: 600 }}>TAKE A TOUR <ArrowRight size={14} /></a>
             </div>
             <div className="operations-grid">
-              <div className="ops-img-wrap"><img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Ops 1" className="ops-img"/></div>
-              <div className="ops-img-wrap"><img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Ops 2" className="ops-img"/></div>
-              <div className="ops-img-wrap"><img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Ops 3" className="ops-img"/></div>
+              <div className="ops-img-wrap"><img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Ops 1" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Ops 2" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Ops 3" className="ops-img" /></div>
             </div>
           </div>
         </div>
@@ -619,7 +619,7 @@ function App() {
       <section className="section-certs padding-global">
         <div className="container-large">
           <div className="certs-wrapper">
-            <h2 className="heading-style-h4 text-color-primary" style={{fontSize: '1.25rem'}}>Certifications & Compliance</h2>
+            <h2 className="heading-style-h4 text-color-primary" style={{ fontSize: '1.25rem' }}>Certifications & Compliance</h2>
             <div className="certs-grid">
               <div className="cert-logo">ISO 9001</div>
               <div className="cert-logo">ASTM</div>
@@ -639,32 +639,32 @@ function App() {
           <div className="news-split">
             <div className="news-left">
               <h2 className="heading-style-h4 text-color-primary">Latest News & Insights</h2>
-              <p className="news-sub" style={{marginBottom: '1rem'}}>Stay informed with trends, insights, and company updates.</p>
-              <a href="#news" className="news-link">VIEW ALL ARTICLES <ArrowRight size={14}/></a>
+              <p className="news-sub" style={{ marginBottom: '1rem' }}>Stay informed with trends, insights, and company updates.</p>
+              <a href="#news" className="news-link">VIEW ALL ARTICLES <ArrowRight size={14} /></a>
             </div>
             <div className="news-grid">
               <div className="news-card">
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="News 1"/>
+                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="News 1" />
                 <div className="news-date">MAY 15, 2026</div>
                 <div className="news-title">The Future of Precast Construction in 2026</div>
               </div>
               <div className="news-card">
-                <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="News 2"/>
+                <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="News 2" />
                 <div className="news-date">APR 22, 2026</div>
                 <div className="news-title">New Technology in Manufacturing</div>
               </div>
               <div className="news-card">
-                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="News 3"/>
+                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="News 3" />
                 <div className="news-date">MAR 10, 2026</div>
                 <div className="news-title">Sustainability in Precast Concrete Production</div>
               </div>
             </div>
             <div className="newsletter-box">
-              <h3 style={{marginBottom: '0.5rem', color: '#fff'}}>Subscribe to Our Newsletter</h3>
-              <p style={{marginBottom: '1.5rem', fontSize: '0.9rem', color: 'rgba(255,255,255,0.9)'}}>Get the latest news, insights, and industry updates.</p>
+              <h3 style={{ marginBottom: '0.5rem', color: '#fff' }}>Subscribe to Our Newsletter</h3>
+              <p style={{ marginBottom: '1.5rem', fontSize: '0.9rem', color: 'rgba(255,255,255,0.9)' }}>Get the latest news, insights, and industry updates.</p>
               <div className="newsletter-form">
                 <input type="email" placeholder="Enter your email" />
-                <button><ArrowRight size={16}/></button>
+                <button><ArrowRight size={16} /></button>
               </div>
             </div>
           </div>
@@ -677,36 +677,36 @@ function App() {
       <section className="section-resources padding-global">
         <div className="container-large">
           <div className="resources-wrapper">
-            <h2 className="heading-style-h4 text-color-primary" style={{fontSize: '1.25rem', width: '200px'}}>Resource Center</h2>
+            <h2 className="heading-style-h4 text-color-primary" style={{ fontSize: '1.25rem', width: '200px' }}>Resource Center</h2>
             <div className="resources-grid">
               <div className="resource-item">
-                <FileCheck2 size={24} className="text-color-primary" style={{marginBottom: '0.5rem'}}/>
+                <FileCheck2 size={24} className="text-color-primary" style={{ marginBottom: '0.5rem' }} />
                 <span>Case Studies</span>
               </div>
               <div className="resource-item">
-                <FileCheck2 size={24} className="text-color-primary" style={{marginBottom: '0.5rem'}}/>
+                <FileCheck2 size={24} className="text-color-primary" style={{ marginBottom: '0.5rem' }} />
                 <span>White Papers</span>
               </div>
               <div className="resource-item">
-                <FileCheck2 size={24} className="text-color-primary" style={{marginBottom: '0.5rem'}}/>
-                <span>Technical<br/>Documents</span>
+                <FileCheck2 size={24} className="text-color-primary" style={{ marginBottom: '0.5rem' }} />
+                <span>Technical<br />Documents</span>
               </div>
               <div className="resource-item">
-                <FileCheck2 size={24} className="text-color-primary" style={{marginBottom: '0.5rem'}}/>
-                <span>Product<br/>Catalogs</span>
+                <FileCheck2 size={24} className="text-color-primary" style={{ marginBottom: '0.5rem' }} />
+                <span>Product<br />Catalogs</span>
               </div>
               <div className="resource-item">
-                <FileCheck2 size={24} className="text-color-primary" style={{marginBottom: '0.5rem'}}/>
+                <FileCheck2 size={24} className="text-color-primary" style={{ marginBottom: '0.5rem' }} />
                 <span>FAQs</span>
               </div>
             </div>
             <div className="need-help-box">
-              <div style={{flex: 1}}>
-                <h4 style={{marginBottom: '0.25rem'}}>Need Help?</h4>
-                <p style={{fontSize: '0.85rem', color: '#0055b3', marginBottom: '1rem'}}>Our team is here to assist you with your project inquiries.</p>
-                <a href="#contact" className="button-blue-small">CONTACT US <ArrowRight size={12}/></a>
+              <div style={{ flex: 1 }}>
+                <h4 style={{ marginBottom: '0.25rem' }}>Need Help?</h4>
+                <p style={{ fontSize: '0.85rem', color: '#0055b3', marginBottom: '1rem' }}>Our team is here to assist you with your project inquiries.</p>
+                <a href="#contact" className="button-blue-small">CONTACT US <ArrowRight size={12} /></a>
               </div>
-              <div className="help-icon"><Compass size={40} className="text-color-primary"/></div>
+              <div className="help-icon"><Compass size={40} className="text-color-primary" /></div>
             </div>
           </div>
         </div>
@@ -725,22 +725,22 @@ function App() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
             <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Heart size={24}/></div>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Heart size={24} /></div>
               <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Client-Centricity</h4>
               <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>Your goals become our goals. We build deep partnerships focused entirely on your success.</p>
             </div>
             <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Lightbulb size={24}/></div>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Lightbulb size={24} /></div>
               <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Innovation First</h4>
               <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>The digital landscape moves fast. We stay ahead of the curve, constantly testing new strategies.</p>
             </div>
             <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Target size={24}/></div>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Target size={24} /></div>
               <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Data-Driven Precision</h4>
               <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>We don't guess. Every decision we make is backed by rigorous analytics and testing.</p>
             </div>
             <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
-              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Users size={24}/></div>
+              <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Users size={24} /></div>
               <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Radical Transparency</h4>
               <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>Honest reporting, clear communication, and no hidden agendas. We win when you win.</p>
             </div>
@@ -757,20 +757,20 @@ function App() {
             <div>
               <h2 className="heading-style-h3 text-color-primary">Frequently Asked Questions</h2>
               <p style={{ color: '#0055b3', marginBottom: '1.5rem' }}>Got questions? We've got answers. If you can't find what you're looking for, feel free to reach out to our team.</p>
-              <a href="#contact" className="button-blue">GET IN TOUCH <ArrowRight size={14}/></a>
+              <a href="#contact" className="button-blue">GET IN TOUCH <ArrowRight size={14} /></a>
             </div>
             <div className="faq-list" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               {faqs.map((faq, index) => (
-                <div 
-                  key={index} 
-                  className={`faq-item ${activeFaq === index ? 'is-active' : ''}`} 
+                <div
+                  key={index}
+                  className={`faq-item ${activeFaq === index ? 'is-active' : ''}`}
                   onClick={() => setActiveFaq(index)}
                   style={{ border: '1px solid #e2e8f0', borderRadius: '8px', padding: '1.5rem', cursor: 'pointer', transition: 'all 0.3s ease', background: activeFaq === index ? '#f8fafc' : '#fff' }}
                 >
                   <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#002868' }}>
                     {faq.q}
                     <div style={{ color: 'var(--color-primary)' }}>
-                      {activeFaq === index ? <Minus size={20}/> : <Plus size={20}/>}
+                      {activeFaq === index ? <Minus size={20} /> : <Plus size={20} />}
                     </div>
                   </div>
                   {activeFaq === index && (
@@ -795,7 +795,7 @@ function App() {
             <p style={{ color: '#0055b3', maxWidth: '600px', margin: '0 auto' }}>Operating across North America to deliver world-class solutions.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
-            
+
             <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0, 34, 89,0.03)' }}>
               <h4 style={{ color: 'var(--color-primary)', fontSize: '1.1rem', marginBottom: '1.5rem', fontWeight: 800, textTransform: 'uppercase' }}>Northeast Node</h4>
               <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
@@ -841,37 +841,37 @@ function App() {
       {/* SECTION 18 & 19: SUSTAINABILITY & CONSULTATION */}
       <section className="section-sustainability">
         <div className="sustain-banner">
-          <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Sustainability" className="sustain-img"/>
+          <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Sustainability" className="sustain-img" />
           <div className="sustain-overlay">
             <h2 className="sustain-title">Building a Sustainable Future</h2>
-            <p style={{fontSize: '0.9rem', marginBottom: '1.5rem'}}>We are committed to environmentally responsible practices<br/>and building infrastructure that lasts for generations.</p>
-            <a href="#sustainability" className="sustain-link" style={{fontSize: '0.8rem', fontWeight: 700}}>OUR SUSTAINABILITY INITIATIVES <ArrowRight size={14}/></a>
+            <p style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>We are committed to environmentally responsible practices<br />and building infrastructure that lasts for generations.</p>
+            <a href="#sustainability" className="sustain-link" style={{ fontSize: '0.8rem', fontWeight: 700 }}>OUR SUSTAINABILITY INITIATIVES <ArrowRight size={14} /></a>
           </div>
         </div>
       </section>
-      
+
       <section className="section-consultation padding-global">
         <div className="container-large">
           <div className="consult-wrapper">
             <div className="consult-left">
-              <div className="consult-icon"><Clock size={40} className="text-color-primary"/></div>
+              <div className="consult-icon"><Clock size={40} className="text-color-primary" /></div>
               <div>
-                <h3 className="consult-title" style={{fontSize: '1.25rem', color: 'var(--color-primary)', marginBottom: '0.5rem'}}>Schedule a Consultation</h3>
-                <p className="consult-desc" style={{fontSize: '0.9rem', color: '#0055b3', marginBottom: '1.5rem'}}>Let's discuss how PET can bring precision, efficiency,<br/>and innovation to your next project.</p>
-                <a href="#book" className="button-blue">BOOK A MEETING <ArrowRight size={14}/></a>
+                <h3 className="consult-title" style={{ fontSize: '1.25rem', color: 'var(--color-primary)', marginBottom: '0.5rem' }}>Schedule a Consultation</h3>
+                <p className="consult-desc" style={{ fontSize: '0.9rem', color: '#0055b3', marginBottom: '1.5rem' }}>Let's discuss how PET can bring precision, efficiency,<br />and innovation to your next project.</p>
+                <a href="#book" className="button-blue">BOOK A MEETING <ArrowRight size={14} /></a>
               </div>
             </div>
             <div className="consult-right">
               <div className="consult-feature">
-                <div style={{color: 'var(--color-primary)', marginBottom: '0.5rem'}}><Compass size={24}/></div>
+                <div style={{ color: 'var(--color-primary)', marginBottom: '0.5rem' }}><Compass size={24} /></div>
                 <span>Tailored Solutions</span>
               </div>
               <div className="consult-feature">
-                <div style={{color: 'var(--color-primary)', marginBottom: '0.5rem'}}><CheckCircle2 size={24}/></div>
+                <div style={{ color: 'var(--color-primary)', marginBottom: '0.5rem' }}><CheckCircle2 size={24} /></div>
                 <span>Expert Guidance</span>
               </div>
               <div className="consult-feature">
-                <div style={{color: 'var(--color-primary)', marginBottom: '0.5rem'}}><TrendingUp size={24}/></div>
+                <div style={{ color: 'var(--color-primary)', marginBottom: '0.5rem' }}><TrendingUp size={24} /></div>
                 <span>Measurable Results</span>
               </div>
             </div>
@@ -882,54 +882,54 @@ function App() {
       <div className="divider-line"></div>
 
       {/* SECTION 20: FOOTER */}
-      <footer className="section-footer padding-global" style={{paddingTop: '3rem', paddingBottom: '3rem'}}>
+      <footer className="section-footer padding-global" style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
         <div className="container-large">
           <div className="footer-grid-exact">
             <div className="footer-col brand-col">
-              <img src="/PEG.png" alt="Agency Logo" className="footer-logo" style={{height: '40px', marginBottom: '1rem'}}/>
-              <p style={{fontSize: '0.85rem', color: '#0055b3', marginBottom: '1.5rem', maxWidth: '250px'}}>An award-winning global engineering and manufacturing company delivering precast solutions worldwide.</p>
-              <div className="social-icons" style={{display: 'flex', gap: '0.5rem', marginBottom: '1.5rem'}}>
-                <a href="#" className="s-icon" style={{width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease'}} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconLinkedin size={16}/></a>
-                <a href="#" className="s-icon" style={{width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease'}} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconYoutube size={16}/></a>
-                <a href="#" className="s-icon" style={{width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease'}} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconInstagram size={16}/></a>
-                <a href="#" className="s-icon" style={{width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease'}} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconFacebook size={16}/></a>
+              <img src="/PEG.png" alt="Agency Logo" className="footer-logo" style={{ height: '40px', marginBottom: '1rem' }} />
+              <p style={{ fontSize: '0.85rem', color: '#0055b3', marginBottom: '1.5rem', maxWidth: '250px' }}>An award-winning global engineering and manufacturing company delivering precast solutions worldwide.</p>
+              <div className="social-icons" style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem' }}>
+                <a href="#" className="s-icon" style={{ width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease' }} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconLinkedin size={16} /></a>
+                <a href="#" className="s-icon" style={{ width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease' }} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconYoutube size={16} /></a>
+                <a href="#" className="s-icon" style={{ width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease' }} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconInstagram size={16} /></a>
+                <a href="#" className="s-icon" style={{ width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease' }} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconFacebook size={16} /></a>
               </div>
-              <div className="copyright" style={{fontSize: '0.75rem', color: '#94a3b8'}}>© 2026 Precast Engineering Technologies. All rights reserved.</div>
-            </div>
-            
-            <div className="footer-col" style={{fontSize: '0.85rem'}}>
-              <h4 style={{color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem'}}>COMPANY</h4>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>About Us</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Our Products</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Manufacturing & R&D</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Careers</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>News</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Contact</a>
-            </div>
-            
-            <div className="footer-col" style={{fontSize: '0.85rem'}}>
-              <h4 style={{color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem'}}>SERVICES</h4>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Graphic Design</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Social Media</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>SEO & Marketing</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Website Development</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Brand Strategy</a>
-            </div>
-            
-            <div className="footer-col" style={{fontSize: '0.85rem'}}>
-              <h4 style={{color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem'}}>RESOURCES</h4>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Case Studies</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Blogs</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>FAQs</a>
-              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Support</a>
+              <div className="copyright" style={{ fontSize: '0.75rem', color: '#94a3b8' }}>© 2026 Precast Engineering Technologies. All rights reserved.</div>
             </div>
 
-            <div className="footer-col contact-col" style={{fontSize: '0.85rem', color: '#004099'}}>
-              <p style={{marginBottom: '0.5rem'}}>+1 (800) 123-4567</p>
-              <p style={{marginBottom: '0.5rem'}}>info@precasteng.com</p>
-              <p style={{marginBottom: '2rem'}}>1234 Engineering Way,<br/>Houston, TX 77001</p>
-              <div className="footer-links" style={{fontSize: '0.75rem'}}>
-                <a href="#" style={{color: '#94a3b8', textDecoration: 'none'}}>Privacy Policy</a> | <a href="#" style={{color: '#94a3b8', textDecoration: 'none'}}>Terms of Service</a>
+            <div className="footer-col" style={{ fontSize: '0.85rem' }}>
+              <h4 style={{ color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem' }}>COMPANY</h4>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>About Us</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Our Products</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Manufacturing & R&D</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Careers</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>News</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Contact</a>
+            </div>
+
+            <div className="footer-col" style={{ fontSize: '0.85rem' }}>
+              <h4 style={{ color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem' }}>SERVICES</h4>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Graphic Design</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Social Media</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>SEO & Marketing</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Website Development</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Brand Strategy</a>
+            </div>
+
+            <div className="footer-col" style={{ fontSize: '0.85rem' }}>
+              <h4 style={{ color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem' }}>RESOURCES</h4>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Case Studies</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Blogs</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>FAQs</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Support</a>
+            </div>
+
+            <div className="footer-col contact-col" style={{ fontSize: '0.85rem', color: '#004099' }}>
+              <p style={{ marginBottom: '0.5rem' }}>+1 (800) 123-4567</p>
+              <p style={{ marginBottom: '0.5rem' }}>info@precasteng.com</p>
+              <p style={{ marginBottom: '2rem' }}>1234 Engineering Way,<br />Houston, TX 77001</p>
+              <div className="footer-links" style={{ fontSize: '0.75rem' }}>
+                <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}>Privacy Policy</a> | <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}>Terms of Service</a>
               </div>
             </div>
           </div>
