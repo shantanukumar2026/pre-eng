@@ -460,7 +460,7 @@ function App() {
           <div className="methodology-grid">
             
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0,0,0,0.1)'}}>
+              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
                 <img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Discovery" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
               </div>
               <h4 className="method-title">Discovery</h4>
@@ -469,7 +469,7 @@ function App() {
             <div className="method-line"></div>
             
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0,0,0,0.1)'}}>
+              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
                 <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Strategy" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
               </div>
               <h4 className="method-title">Strategy & Design</h4>
@@ -478,7 +478,7 @@ function App() {
             <div className="method-line"></div>
             
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0,0,0,0.1)'}}>
+              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
                 <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Development" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
               </div>
               <h4 className="method-title">Development</h4>
@@ -487,7 +487,7 @@ function App() {
             <div className="method-line"></div>
             
             <div className="method-step">
-              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0,0,0,0.1)'}}>
+              <div style={{width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)'}}>
                 <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="Growth" style={{width: '100%', height: '100%', objectFit: 'cover'}} />
               </div>
               <h4 className="method-title">Growth</h4>
@@ -703,7 +703,7 @@ function App() {
             <div className="need-help-box">
               <div style={{flex: 1}}>
                 <h4 style={{marginBottom: '0.25rem'}}>Need Help?</h4>
-                <p style={{fontSize: '0.85rem', color: '#64748b', marginBottom: '1rem'}}>Our team is here to assist you with your project inquiries.</p>
+                <p style={{fontSize: '0.85rem', color: '#0055b3', marginBottom: '1rem'}}>Our team is here to assist you with your project inquiries.</p>
                 <a href="#contact" className="button-blue-small">CONTACT US <ArrowRight size={12}/></a>
               </div>
               <div className="help-icon"><Compass size={40} className="text-color-primary"/></div>
@@ -721,28 +721,28 @@ function App() {
         <div className="container-large">
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
             <h2 className="heading-style-h3 text-color-primary">Our Core Values</h2>
-            <p style={{ color: '#64748b', maxWidth: '600px', margin: '0 auto' }}>The principles that drive our work, shape our culture, and ensure we always deliver excellence to our clients.</p>
+            <p style={{ color: '#0055b3', maxWidth: '600px', margin: '0 auto' }}>The principles that drive our work, shape our culture, and ensure we always deliver excellence to our clients.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
-            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
               <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Heart size={24}/></div>
-              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#0f172a' }}>Client-Centricity</h4>
-              <p style={{ fontSize: '0.9rem', color: '#64748b' }}>Your goals become our goals. We build deep partnerships focused entirely on your success.</p>
+              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Client-Centricity</h4>
+              <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>Your goals become our goals. We build deep partnerships focused entirely on your success.</p>
             </div>
-            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
               <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Lightbulb size={24}/></div>
-              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#0f172a' }}>Innovation First</h4>
-              <p style={{ fontSize: '0.9rem', color: '#64748b' }}>The digital landscape moves fast. We stay ahead of the curve, constantly testing new strategies.</p>
+              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Innovation First</h4>
+              <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>The digital landscape moves fast. We stay ahead of the curve, constantly testing new strategies.</p>
             </div>
-            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
               <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Target size={24}/></div>
-              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#0f172a' }}>Data-Driven Precision</h4>
-              <p style={{ fontSize: '0.9rem', color: '#64748b' }}>We don't guess. Every decision we make is backed by rigorous analytics and testing.</p>
+              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Data-Driven Precision</h4>
+              <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>We don't guess. Every decision we make is backed by rigorous analytics and testing.</p>
             </div>
-            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0,0,0,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+            <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
               <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Users size={24}/></div>
-              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#0f172a' }}>Radical Transparency</h4>
-              <p style={{ fontSize: '0.9rem', color: '#64748b' }}>Honest reporting, clear communication, and no hidden agendas. We win when you win.</p>
+              <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Radical Transparency</h4>
+              <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>Honest reporting, clear communication, and no hidden agendas. We win when you win.</p>
             </div>
           </div>
         </div>
@@ -756,7 +756,7 @@ function App() {
           <div className="faq-split" style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '4rem' }}>
             <div>
               <h2 className="heading-style-h3 text-color-primary">Frequently Asked Questions</h2>
-              <p style={{ color: '#64748b', marginBottom: '1.5rem' }}>Got questions? We've got answers. If you can't find what you're looking for, feel free to reach out to our team.</p>
+              <p style={{ color: '#0055b3', marginBottom: '1.5rem' }}>Got questions? We've got answers. If you can't find what you're looking for, feel free to reach out to our team.</p>
               <a href="#contact" className="button-blue">GET IN TOUCH <ArrowRight size={14}/></a>
             </div>
             <div className="faq-list" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -767,14 +767,14 @@ function App() {
                   onClick={() => setActiveFaq(index)}
                   style={{ border: '1px solid #e2e8f0', borderRadius: '8px', padding: '1.5rem', cursor: 'pointer', transition: 'all 0.3s ease', background: activeFaq === index ? '#f8fafc' : '#fff' }}
                 >
-                  <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#0f172a' }}>
+                  <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#002868' }}>
                     {faq.q}
                     <div style={{ color: 'var(--color-primary)' }}>
                       {activeFaq === index ? <Minus size={20}/> : <Plus size={20}/>}
                     </div>
                   </div>
                   {activeFaq === index && (
-                    <div className="faq-a" style={{ marginTop: '1rem', color: '#475569', fontSize: '0.95rem', lineHeight: 1.6 }}>
+                    <div className="faq-a" style={{ marginTop: '1rem', color: '#004099', fontSize: '0.95rem', lineHeight: 1.6 }}>
                       {faq.a}
                     </div>
                   )}
@@ -792,41 +792,41 @@ function App() {
         <div className="container-large">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <h2 className="heading-style-h3 text-color-primary">Our Global Nodes</h2>
-            <p style={{ color: '#64748b', maxWidth: '600px', margin: '0 auto' }}>Operating across North America to deliver world-class solutions.</p>
+            <p style={{ color: '#0055b3', maxWidth: '600px', margin: '0 auto' }}>Operating across North America to deliver world-class solutions.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
             
-            <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0,0,0,0.03)' }}>
+            <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0, 34, 89,0.03)' }}>
               <h4 style={{ color: 'var(--color-primary)', fontSize: '1.1rem', marginBottom: '1.5rem', fontWeight: 800, textTransform: 'uppercase' }}>Northeast Node</h4>
-              <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#475569', fontSize: '0.85rem', fontWeight: 600 }}>
+              <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
                 <MapPin size={18} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
                 <span>105 MAXESS ROAD, MELVILLE, NY 11747</span>
               </div>
-              <div style={{ display: 'flex', gap: '1rem', color: '#475569', fontSize: '0.85rem', fontWeight: 600 }}>
+              <div style={{ display: 'flex', gap: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
                 <Phone size={18} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
                 <span>(631) 452-1111</span>
               </div>
             </div>
 
-            <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0,0,0,0.03)' }}>
+            <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0, 34, 89,0.03)' }}>
               <h4 style={{ color: 'var(--color-primary)', fontSize: '1.1rem', marginBottom: '1.5rem', fontWeight: 800, textTransform: 'uppercase' }}>South Node</h4>
-              <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#475569', fontSize: '0.85rem', fontWeight: 600 }}>
+              <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
                 <MapPin size={18} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
                 <span>850 NW FEDERAL HWY, STUART, FL 34994</span>
               </div>
-              <div style={{ display: 'flex', gap: '1rem', color: '#475569', fontSize: '0.85rem', fontWeight: 600 }}>
+              <div style={{ display: 'flex', gap: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
                 <Phone size={18} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
                 <span>(772) 297-0700</span>
               </div>
             </div>
 
-            <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0,0,0,0.03)' }}>
+            <div className="location-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', borderLeft: '4px solid var(--color-primary)', boxShadow: '0 4px 10px rgba(0, 34, 89,0.03)' }}>
               <h4 style={{ color: 'var(--color-primary)', fontSize: '1.1rem', marginBottom: '1.5rem', fontWeight: 800, textTransform: 'uppercase' }}>Midwest Node</h4>
-              <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#475569', fontSize: '0.85rem', fontWeight: 600 }}>
+              <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
                 <MapPin size={18} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
                 <span>2200 HUNT STREET, DETROIT, MI 48207</span>
               </div>
-              <div style={{ display: 'flex', gap: '1rem', color: '#475569', fontSize: '0.85rem', fontWeight: 600 }}>
+              <div style={{ display: 'flex', gap: '1rem', color: '#004099', fontSize: '0.85rem', fontWeight: 600 }}>
                 <Phone size={18} style={{ color: 'var(--color-primary)', flexShrink: 0 }} />
                 <span>(631) 452-1111</span>
               </div>
@@ -857,7 +857,7 @@ function App() {
               <div className="consult-icon"><Clock size={40} className="text-color-primary"/></div>
               <div>
                 <h3 className="consult-title" style={{fontSize: '1.25rem', color: 'var(--color-primary)', marginBottom: '0.5rem'}}>Schedule a Consultation</h3>
-                <p className="consult-desc" style={{fontSize: '0.9rem', color: '#64748b', marginBottom: '1.5rem'}}>Let's discuss how PET can bring precision, efficiency,<br/>and innovation to your next project.</p>
+                <p className="consult-desc" style={{fontSize: '0.9rem', color: '#0055b3', marginBottom: '1.5rem'}}>Let's discuss how PET can bring precision, efficiency,<br/>and innovation to your next project.</p>
                 <a href="#book" className="button-blue">BOOK A MEETING <ArrowRight size={14}/></a>
               </div>
             </div>
@@ -887,7 +887,7 @@ function App() {
           <div className="footer-grid-exact">
             <div className="footer-col brand-col">
               <img src="/PEG.png" alt="Agency Logo" className="footer-logo" style={{height: '40px', marginBottom: '1rem'}}/>
-              <p style={{fontSize: '0.85rem', color: '#64748b', marginBottom: '1.5rem', maxWidth: '250px'}}>An award-winning global engineering and manufacturing company delivering precast solutions worldwide.</p>
+              <p style={{fontSize: '0.85rem', color: '#0055b3', marginBottom: '1.5rem', maxWidth: '250px'}}>An award-winning global engineering and manufacturing company delivering precast solutions worldwide.</p>
               <div className="social-icons" style={{display: 'flex', gap: '0.5rem', marginBottom: '1.5rem'}}>
                 <a href="#" className="s-icon" style={{width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease'}} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconLinkedin size={16}/></a>
                 <a href="#" className="s-icon" style={{width: '32px', height: '32px', border: '1px solid #cbd5e1', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--color-primary)', textDecoration: 'none', transition: 'all 0.2s ease'}} onMouseOver={(e) => { e.currentTarget.style.backgroundColor = 'var(--color-primary)'; e.currentTarget.style.color = '#fff'; }} onMouseOut={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--color-primary)'; }}><IconYoutube size={16}/></a>
@@ -899,32 +899,32 @@ function App() {
             
             <div className="footer-col" style={{fontSize: '0.85rem'}}>
               <h4 style={{color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem'}}>COMPANY</h4>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>About Us</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Our Products</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Manufacturing & R&D</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Careers</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>News</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Contact</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>About Us</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Our Products</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Manufacturing & R&D</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Careers</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>News</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Contact</a>
             </div>
             
             <div className="footer-col" style={{fontSize: '0.85rem'}}>
               <h4 style={{color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem'}}>SERVICES</h4>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Graphic Design</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Social Media</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>SEO & Marketing</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Website Development</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Brand Strategy</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Graphic Design</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Social Media</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>SEO & Marketing</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Website Development</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Brand Strategy</a>
             </div>
             
             <div className="footer-col" style={{fontSize: '0.85rem'}}>
               <h4 style={{color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem'}}>RESOURCES</h4>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Case Studies</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Blogs</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>FAQs</a>
-              <a href="#" style={{display: 'block', color: '#475569', marginBottom: '0.5rem', textDecoration: 'none'}}>Support</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Case Studies</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Blogs</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>FAQs</a>
+              <a href="#" style={{display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none'}}>Support</a>
             </div>
 
-            <div className="footer-col contact-col" style={{fontSize: '0.85rem', color: '#475569'}}>
+            <div className="footer-col contact-col" style={{fontSize: '0.85rem', color: '#004099'}}>
               <p style={{marginBottom: '0.5rem'}}>+1 (800) 123-4567</p>
               <p style={{marginBottom: '0.5rem'}}>info@precasteng.com</p>
               <p style={{marginBottom: '2rem'}}>1234 Engineering Way,<br/>Houston, TX 77001</p>
