@@ -77,20 +77,20 @@ function App() {
 
   const faqs = [
     {
-      q: 'What makes your digital marketing approach different?',
-      a: 'We combine data-driven insights with creative excellence. Our team doesn’t just chase clicks; we build full-funnel strategies focused on long-term ROI and sustainable brand growth.',
+      q: 'What are the main advantages of precast concrete?',
+      a: 'Precast concrete offers superior quality control, faster construction times, enhanced durability, and reduced environmental impact compared to traditional cast-in-place methods.',
     },
     {
-      q: 'How long does it take to see results from an SEO campaign?',
-      a: 'While you may see initial movement within 3-4 weeks, comprehensive SEO is a long-term strategy. We typically recommend a 6-month commitment to see significant, compounding growth in organic traffic and conversions.',
+      q: 'How do you ensure the quality of your precast products?',
+      a: 'Our manufacturing facilities are PCI certified and ISO 9001 compliant. We conduct rigorous testing at every stage, from material selection to final curing, ensuring maximum structural integrity.',
     },
     {
-      q: 'Do you offer custom web development or use templates?',
-      a: 'All our websites are 100% custom-built. We design unique, high-performance platforms tailored precisely to your brand’s identity and operational needs, ensuring lightning-fast load times and seamless UX.',
+      q: 'Can precast elements be customized for specific projects?',
+      a: 'Yes, our engineering team works closely with architects and contractors to design and manufacture custom precast solutions tailored to exact project specifications and aesthetic requirements.',
     },
     {
-      q: 'Will we get regular performance reports?',
-      a: 'Absolutely. We provide real-time dashboard access and schedule monthly deep-dive strategy sessions. Transparency is one of our core values, so you always know exactly how your campaigns are performing.',
+      q: 'What is your typical delivery and installation timeframe?',
+      a: 'Timelines vary based on project scale and complexity. However, precast manufacturing often occurs concurrently with site preparation, significantly compressing overall project schedules.',
     },
   ];
 
@@ -119,7 +119,7 @@ function App() {
                   <div className="navbar_submenu_grid">
                     <a href="#products" className="navbar_submenu_card">
                       <div className="submenu_card_img_wrap">
-                        <img src="/assets/media/gettyimages-588287750-170667a.jpg" alt="Box Culverts" className="submenu_card_img" />
+                        <img src="/assets/media/Box Culvert/11.jpeg" alt="Box Culverts" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -129,7 +129,7 @@ function App() {
 
                     <a href="#products" className="navbar_submenu_card">
                       <div className="submenu_card_img_wrap">
-                        <img src="/assets/media/gettyimages-961684452-1024x1024.jpg" alt="Bridge Girders" className="submenu_card_img" />
+                        <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Bridge Girders" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -139,7 +139,7 @@ function App() {
 
                     <a href="#products" className="navbar_submenu_card">
                       <div className="submenu_card_img_wrap">
-                        <img src="/assets/media/gettyimages-2115526938-170667a.jpg" alt="Doghouse Manholes" className="submenu_card_img" />
+                        <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Doghouse Manholes" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -149,7 +149,7 @@ function App() {
 
                     <a href="#products" className="navbar_submenu_card">
                       <div className="submenu_card_img_wrap">
-                        <img src="/assets/media/gettyimages-2273715061-170667a.jpg" alt="Architectural Panels" className="submenu_card_img" />
+                        <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Architectural Panels" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -170,7 +170,7 @@ function App() {
                   <div className="navbar_submenu_grid is-2">
                     <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
                       <div className="submenu_card_img_wrap">
-                        <img src="https://media.gettyimages.com/id/1402289225/photo/scaffolding-construction-site-iron-reinforcement-for-reinforced-concrete-construction.jpg?s=1024x1024&w=gi&k=20&c=FxRQhM1SxcegWy9N95MVczOBoMzFsgjjJlh9w8THWI4=" alt="Manufacturing" className="submenu_card_img" />
+                        <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Manufacturing" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -180,7 +180,7 @@ function App() {
 
                     <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
                       <div className="submenu_card_img_wrap">
-                        <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=600&auto=format&fit=crop" alt="R&D" className="submenu_card_img" />
+                        <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="R&D" className="submenu_card_img" />
                       </div>
                       <div className="submenu_arrow_square">
                         <ArrowUpRight size={18} />
@@ -341,62 +341,62 @@ function App() {
             <div className="bento_header">
               <div className="h-flex-tiny">
                 <div className="chip_box"></div>
-                <span className="chip">Creative Services</span>
+                <span className="chip">Engineering Services</span>
               </div>
               <h2 className="heading-style-h3" style={{ marginBottom: '2.5rem' }}>
-                Comprehensive Brand &amp; Marketing Solutions
+                Comprehensive Precast &amp; Engineering Solutions
               </h2>
             </div>
 
             <div className="bento_grid">
               {/* Item 1: Large Horizontal */}
               <a href="#contact" className="bento_card is-large">
-                <img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Digital Graphic Design" className="bento_card_bg" />
+                <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Structural Precast" className="bento_card_bg" />
                 <div className="bento_card_overlay"></div>
                 <div className="bento_card_content">
                   <div className="bento_icon_wrapper">
-                    <PenTool />
+                    <Building2 />
                   </div>
-                  <h3 className="bento_title">Digital Graphic<br />Design</h3>
-                  <span className="bento_link">Explore Design <ArrowRight size={14} /></span>
+                  <h3 className="bento_title">Structural Precast<br />Engineering</h3>
+                  <span className="bento_link">Explore Capabilities <ArrowRight size={14} /></span>
                 </div>
               </a>
 
               {/* Item 2: Tall Vertical */}
               <a href="#contact" className="bento_card is-tall">
-                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Website Design & Development" className="bento_card_bg" />
+                <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Infrastructure Solutions" className="bento_card_bg" />
                 <div className="bento_card_overlay"></div>
                 <div className="bento_card_content">
                   <div className="bento_icon_wrapper">
-                    <Monitor />
+                    <Factory />
                   </div>
-                  <h3 className="bento_title">Website Design<br />&amp; Development</h3>
+                  <h3 className="bento_title">Infrastructure<br />Solutions</h3>
                   <span className="bento_link">Learn More <ArrowRight size={14} /></span>
                 </div>
               </a>
 
               {/* Item 3: Small Square */}
               <a href="#contact" className="bento_card">
-                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="Social Media Management" className="bento_card_bg" />
+                <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Custom Casting" className="bento_card_bg" />
                 <div className="bento_card_overlay"></div>
                 <div className="bento_card_content">
                   <div className="bento_icon_wrapper">
-                    <Share2 />
+                    <Layers />
                   </div>
-                  <h3 className="bento_title">Social Media<br />Management</h3>
+                  <h3 className="bento_title">Custom<br />Casting</h3>
                   <span className="bento_link">Learn More <ArrowRight size={14} /></span>
                 </div>
               </a>
 
               {/* Item 4: Small Square */}
               <a href="#contact" className="bento_card">
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="SEO & Digital Marketing" className="bento_card_bg" />
+                <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Project Logistics" className="bento_card_bg" />
                 <div className="bento_card_overlay"></div>
                 <div className="bento_card_content">
                   <div className="bento_icon_wrapper">
-                    <TrendingUp />
+                    <Truck />
                   </div>
-                  <h3 className="bento_title">SEO &amp; Digital<br />Marketing</h3>
+                  <h3 className="bento_title">Project<br />Logistics</h3>
                   <span className="bento_link">Learn More <ArrowRight size={14} /></span>
                 </div>
               </a>
@@ -418,30 +418,30 @@ function App() {
             </div>
             <div className="solutions-right">
               <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
-                <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="Graphic Design" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <img src="/assets/media/Box Culvert/11.jpeg" alt="Box Culverts" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
-                  <h3 className="solution-title">Digital Graphic<br />Design</h3>
+                  <h3 className="solution-title">Box<br />Culverts</h3>
                   <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
               <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
-                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="Social Media" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Bridge Girders" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
-                  <h3 className="solution-title">Social Media<br />Management</h3>
+                  <h3 className="solution-title">Bridge<br />Girders</h3>
                   <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
               <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="SEO" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Manholes" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
-                  <h3 className="solution-title">SEO & Digital<br />Marketing</h3>
+                  <h3 className="solution-title">Doghouse<br />Manholes</h3>
                   <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
               <div className="solution-card" style={{ padding: 0, overflow: 'hidden' }}>
-                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Web Design" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
+                <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Architectural Panels" style={{ width: '100%', height: '140px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
-                  <h3 className="solution-title">Website Design &<br />Development</h3>
+                  <h3 className="solution-title">Architectural<br />Panels</h3>
                   <a href="#learn" className="solution-link">LEARN MORE <ArrowRight size={14} /></a>
                 </div>
               </div>
@@ -461,37 +461,37 @@ function App() {
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Discovery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Consultation" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
-              <h4 className="method-title">Discovery</h4>
-              <p className="method-desc">We dive deep into your brand, target audience, and market landscape.</p>
+              <h4 className="method-title">Consultation</h4>
+              <p className="method-desc">We collaborate with your team to understand project requirements and structural needs.</p>
             </div>
             <div className="method-line"></div>
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Strategy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Engineering" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
-              <h4 className="method-title">Strategy & Design</h4>
-              <p className="method-desc">Crafting solutions aligned with clear focused insights for maximum conversion.</p>
+              <h4 className="method-title">Engineering & Design</h4>
+              <p className="method-desc">Our experts design robust precast solutions optimized for safety and efficiency.</p>
             </div>
             <div className="method-line"></div>
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Development" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
-              <h4 className="method-title">Development</h4>
-              <p className="method-desc">Building lightning-fast, responsive platforms using modern tech stacks.</p>
+              <h4 className="method-title">Manufacturing</h4>
+              <p className="method-desc">Precision casting in our controlled, state-of-the-art manufacturing facilities.</p>
             </div>
             <div className="method-line"></div>
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="Growth" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Delivery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
-              <h4 className="method-title">Growth</h4>
-              <p className="method-desc">Deploying targeted SEO and marketing campaigns to scale your reach.</p>
+              <h4 className="method-title">Delivery & Logistics</h4>
+              <p className="method-desc">Coordinated, just-in-time delivery to your job site to keep projects on schedule.</p>
             </div>
 
           </div>
@@ -512,8 +512,8 @@ function App() {
               <CheckCircle2 size={64} style={{ opacity: 0.8 }} />
             </div>
             <div className="cta-content">
-              <h2 className="cta-headline">Ready to Dominate Your Digital Market?</h2>
-              <p className="cta-sub">Let's craft a bespoke strategy that drives traffic, engages users, and accelerates your revenue growth.</p>
+              <h2 className="cta-headline">Ready to Build with Precision?</h2>
+              <p className="cta-sub">Let's engineer a custom precast solution that ensures durability, efficiency, and structural integrity for your next project.</p>
               <a href="#start" className="button-white">START YOUR PROJECT <ArrowRight size={14} /></a>
             </div>
           </div>
@@ -526,27 +526,27 @@ function App() {
         <div className="container-large">
           <div className="products-header">
             <div>
-              <h2 className="heading-style-h4 text-color-primary" style={{ marginBottom: '0.5rem' }}>Our Core Digital Services</h2>
+              <h2 className="heading-style-h4 text-color-primary" style={{ marginBottom: '0.5rem' }}>Our Core Precast Products</h2>
               <p className="products-sub">Engineered for strength. Built for the future.</p>
             </div>
-            <a href="#services" className="products-link">VIEW PRODUCTS <ArrowRight size={14} /></a>
+            <a href="#products" className="products-link">VIEW PRODUCTS <ArrowRight size={14} /></a>
           </div>
           <div className="products-grid">
             <div className="product-card">
-              <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="Custom Websites" />
-              <div className="product-label">Custom Websites</div>
+              <img src="/assets/media/Box Culvert/11.jpeg" alt="Box Culverts" />
+              <div className="product-label">Box Culverts</div>
             </div>
             <div className="product-card">
-              <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="SEO Campaigns" />
-              <div className="product-label">SEO Campaigns</div>
+              <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Bridge Girders" />
+              <div className="product-label">Bridge Girders</div>
             </div>
             <div className="product-card">
-              <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="Social Media" />
-              <div className="product-label">Social Media</div>
+              <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Doghouse Manholes" />
+              <div className="product-label">Doghouse Manholes</div>
             </div>
             <div className="product-card">
-              <img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Brand Identity" />
-              <div className="product-label">Brand Identity</div>
+              <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Architectural Panels" />
+              <div className="product-label">Architectural Panels</div>
             </div>
             <div className="product-card view-all-card">
               <span>VIEW ALL<br />PRODUCTS</span>
@@ -605,9 +605,9 @@ function App() {
               <a href="#tour" className="operations-link" style={{ fontSize: '0.85rem', fontWeight: 600 }}>TAKE A TOUR <ArrowRight size={14} /></a>
             </div>
             <div className="operations-grid">
-              <div className="ops-img-wrap"><img src="/assets/media/graphic_design_digital_bg_1787570107555.jpg" alt="Ops 1" className="ops-img" /></div>
-              <div className="ops-img-wrap"><img src="/assets/media/web_design_bg_1787569943366.jpg" alt="Ops 2" className="ops-img" /></div>
-              <div className="ops-img-wrap"><img src="/assets/media/about_us_agency_1787570493372.jpg" alt="Ops 3" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Ops 1" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Ops 2" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Ops 3" className="ops-img" /></div>
             </div>
           </div>
         </div>
@@ -644,17 +644,17 @@ function App() {
             </div>
             <div className="news-grid">
               <div className="news-card">
-                <img src="/assets/media/seo_marketing_bg_1787569955904.jpg" alt="News 1" />
+                <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="News 1" />
                 <div className="news-date">MAY 15, 2026</div>
                 <div className="news-title">The Future of Precast Construction in 2026</div>
               </div>
               <div className="news-card">
-                <img src="/assets/media/graphic_design_bg_1787567845531.jpg" alt="News 2" />
+                <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="News 2" />
                 <div className="news-date">APR 22, 2026</div>
                 <div className="news-title">New Technology in Manufacturing</div>
               </div>
               <div className="news-card">
-                <img src="/assets/media/social_media_bg_1787570121764.jpg" alt="News 3" />
+                <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="News 3" />
                 <div className="news-date">MAR 10, 2026</div>
                 <div className="news-title">Sustainability in Precast Concrete Production</div>
               </div>
@@ -732,7 +732,7 @@ function App() {
             <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
               <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Lightbulb size={24} /></div>
               <h4 style={{ fontSize: '1.1rem', marginBottom: '0.75rem', color: '#002868' }}>Innovation First</h4>
-              <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>The digital landscape moves fast. We stay ahead of the curve, constantly testing new strategies.</p>
+              <p style={{ fontSize: '0.9rem', color: '#0055b3' }}>The engineering landscape evolves fast. We stay ahead of the curve, constantly adopting new precast technologies.</p>
             </div>
             <div className="value-card" style={{ background: '#fff', padding: '2rem', borderRadius: '8px', boxShadow: '0 4px 15px rgba(0, 34, 89,0.05)', textAlign: 'center', borderTop: '3px solid var(--color-primary)', transition: 'transform 0.3s ease' }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
               <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#eff6ff', color: 'var(--color-primary)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem auto' }}><Target size={24} /></div>
@@ -908,12 +908,12 @@ function App() {
             </div>
 
             <div className="footer-col" style={{ fontSize: '0.85rem' }}>
-              <h4 style={{ color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem' }}>SERVICES</h4>
-              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Graphic Design</a>
-              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Social Media</a>
-              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>SEO & Marketing</a>
-              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Website Development</a>
-              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Brand Strategy</a>
+              <h4 style={{ color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem' }}>PRODUCTS</h4>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Box Culverts</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Bridge Girders</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Doghouse Manholes</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Architectural Panels</a>
+              <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Custom Solutions</a>
             </div>
 
             <div className="footer-col" style={{ fontSize: '0.85rem' }}>
