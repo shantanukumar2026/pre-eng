@@ -71,9 +71,9 @@ const Footer = () => {
           </div>
 
           <div className="footer-col contact-col" style={{ fontSize: '0.85rem', color: '#004099' }}>
-            <p style={{ marginBottom: '0.5rem' }}>+1 (800) 123-4567</p>
+            <p style={{ marginBottom: '0.5rem' }}>(631) 452-1111</p>
             <p style={{ marginBottom: '0.5rem' }}>info@precasteng.com</p>
-            <p style={{ marginBottom: '2rem' }}>1234 Engineering Way,<br />Houston, TX 77001</p>
+            <p style={{ marginBottom: '2rem' }}>105 MAXESS ROAD,<br />MELVILLE, NY 11747</p>
             <div className="footer-links" style={{ fontSize: '0.75rem' }}>
               <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}>Privacy Policy</a> | <a href="#" style={{ color: '#94a3b8', textDecoration: 'none' }}>Terms of Service</a>
             </div>
