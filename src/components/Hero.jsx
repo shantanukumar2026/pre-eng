@@ -24,7 +24,7 @@ const Hero = () => {
         <h1 className="hero_title_text">
           Precision<br />
           <span className="text-color-blue">Precast Engineering</span><br />
-          and Seamless Engineering Solutions
+          and Seamless Technology Solutions
         </h1>
 
         <p className="hero_subtitle">

@@ -27,6 +27,24 @@ const Navbar = () => {
           <div className="navbar_menu_links">
             <a href="#home" className="navbar_link active">Home</a>
 
+            {/* Dropdown: Company */}
+            <div className="navbar_menu-dropdown" style={{ position: 'relative' }}>
+              <div className="navbar_link">
+                <span className="text_nav-link">Company</span>
+                <ChevronDown size={13} className="dropdown-chevron" />
+              </div>
+              <div className="simple_dropdown_list">
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                  <a href="#company-profile" className="simple_nav_link">Company Profile</a>
+                  <a href="#team" className="simple_nav_link">Our Team</a>
+                  <a href="#careers" className="simple_nav_link">Careers</a>
+                  <a href="#governance" className="simple_nav_link">Governance</a>
+                  <a href="#membership" className="simple_nav_link">Membership</a>
+                  <a href="#estore" className="simple_nav_link">eStore</a>
+                </div>
+              </div>
+            </div>
+
             {/* Mega Dropdown: Our Products */}
             <div className="navbar_menu-dropdown">
               <div className="navbar_link">
@@ -105,24 +123,6 @@ const Navbar = () => {
                     </div>
                     <div className="submenu_card_title">R&amp;D Engineering Labs</div>
                   </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Mega Dropdown: Company */}
-            <div className="navbar_menu-dropdown" style={{ position: 'relative' }}>
-              <div className="navbar_link">
-                <span className="text_nav-link">Company</span>
-                <ChevronDown size={13} className="dropdown-chevron" />
-              </div>
-              <div className="simple_dropdown_list">
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <a href="#company-profile" className="simple_nav_link">Company Profile</a>
-                  <a href="#team" className="simple_nav_link">Our Team</a>
-                  <a href="#careers" className="simple_nav_link">Careers</a>
-                  <a href="#governance" className="simple_nav_link">Governance</a>
-                  <a href="#membership" className="simple_nav_link">Membership</a>
-                  <a href="#estore" className="simple_nav_link">eStore</a>
                 </div>
               </div>
             </div>
