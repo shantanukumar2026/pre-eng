@@ -17,7 +17,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`navbar_component ${isScrolled ? 'is-scrolled' : ''}`}>
+    <header className={`navbar_component is-scrolled ${isScrolled ? 'is-scrolled' : ''}`}>
       <div className="navbar_container">
         <a href="/" className="navbar_logo-link">
           <img src="/PEG.png" alt="Precast Engineering Logo" className="navbar_logo" />
