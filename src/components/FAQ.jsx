@@ -6,60 +6,77 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: 'What are the main advantages of precast concrete?',
-      a: 'Precast concrete offers superior quality control, faster construction times, enhanced durability, and reduced environmental impact compared to traditional cast-in-place methods.',
+      q: 'How fast can you deliver standard precast products to jobsites?',
+      a: 'Standard drainage inlets, catch basins, utility manholes, and box culverts are maintained in plant inventory for same-day or next-day flatbed dispatch. Custom cored or special dimension structures are fabricated and shipped in 3 to 5 business days.',
     },
     {
-      q: 'How do you ensure the quality of your precast products?',
-      a: 'Our manufacturing facilities are PCI certified and ISO 9001 compliant. We conduct rigorous testing at every stage, from material selection to final curing, ensuring maximum structural integrity.',
+      q: 'Do your drawings include 50-state PE stamps for state DOT approval?',
+      a: 'Yes. Our in-house licensed civil and structural engineers provide signed and sealed PE calculation packages, 3D BIM models, and submittal drawings compliant with AASHTO, ASTM, and state DOT standards.',
     },
     {
-      q: 'Can precast elements be customized for specific projects?',
-      a: 'Yes, our engineering team works closely with architects and contractors to design and manufacture custom precast solutions tailored to exact project specifications and aesthetic requirements.',
+      q: 'Can you cast custom pipe knockouts and internal baffle walls?',
+      a: 'Yes. We factory-cast or core-drill pipe penetrations with Kor-N-Seal rubber boots, install internal weir walls, oil/grit baffle plates, and custom ladder rungs prior to delivery so the unit is 100% ready to install.',
     },
     {
-      q: 'What is your typical delivery and installation timeframe?',
-      a: 'Timelines vary based on project scale and complexity. However, precast manufacturing often occurs concurrently with site preparation, significantly compressing overall project schedules.',
+      q: 'Why choose precast concrete over traditional cast-in-place?',
+      a: 'Precast structures cure in our climate-controlled factory while site excavation takes place. Once delivered, they set in minutes with a single crane pick and can be immediately backfilled—saving up to 60% in jobsite labor and eliminating 28-day concrete curing delays.',
     },
   ];
 
   return (
-    <>
-      <section className="section-faq padding-global" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
-        <div className="container-large">
-          <div className="faq-split" style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '4rem' }}>
-            <div>
-              <h2 className="heading-style-h3 text-color-primary">Frequently Asked Questions</h2>
-              <p style={{ color: '#0055b3', marginBottom: '1.5rem' }}>Got questions? We've got answers. If you can't find what you're looking for, feel free to reach out to our team.</p>
-              <a href="#contact" className="button-blue">GET IN TOUCH <ArrowRight size={14} /></a>
+    <section className="section-faq padding-global" id="faq" style={{ backgroundColor: '#f8fafc', paddingTop: '3.5rem', paddingBottom: '3.5rem', borderTop: '1px solid #e2e8f0' }}>
+      <div className="container-large">
+        <div className="faq-split" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr', gap: '3rem', alignItems: 'flex-start' }}>
+          <div>
+            <div className="h-flex-tiny" style={{ marginBottom: '0.5rem' }}>
+              <div className="chip_box"></div>
+              <span className="chip">COMMON QUESTIONS</span>
             </div>
-            <div className="faq-list" style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-              {faqs.map((faq, index) => (
-                <div
-                  key={index}
-                  className={`faq-item ${activeFaq === index ? 'is-active' : ''}`}
-                  onClick={() => setActiveFaq(index)}
-                  style={{ border: '1px solid #e2e8f0', borderRadius: '8px', padding: '1.5rem', cursor: 'pointer', transition: 'all 0.3s ease', background: activeFaq === index ? '#f8fafc' : '#fff' }}
-                >
-                  <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#002868' }}>
-                    {faq.q}
-                    <div style={{ color: 'var(--color-primary)' }}>
-                      {activeFaq === index ? <Minus size={20} /> : <Plus size={20} />}
-                    </div>
+            <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.75rem' }}>
+              Frequently Asked Questions
+            </h2>
+            <p style={{ color: '#5a6e8c', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+              Have questions about sizing, certifications, submittals, or delivery timing? Our engineering staff is ready to assist.
+            </p>
+            <a href="#contact" className="button_hero_primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.7rem 1.3rem', fontSize: '0.9rem' }}>
+              <span>Ask an Engineer</span>
+              <ArrowRight size={14} />
+            </a>
+          </div>
+
+          <div className="faq-list" style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+                className={`faq-item ${activeFaq === index ? 'is-active' : ''}`}
+                onClick={() => setActiveFaq(activeFaq === index ? -1 : index)}
+                style={{ 
+                  border: '1px solid #e2e8f0', 
+                  borderRadius: '8px', 
+                  padding: '1.25rem 1.5rem', 
+                  cursor: 'pointer', 
+                  transition: 'all 0.2s ease', 
+                  background: activeFaq === index ? '#ffffff' : '#ffffff',
+                  boxShadow: activeFaq === index ? '0 4px 12px rgba(0, 71, 186, 0.08)' : '0 1px 3px rgba(0,0,0,0.02)'
+                }}
+              >
+                <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#002868', fontSize: '0.98rem' }}>
+                  <span>{faq.q}</span>
+                  <div style={{ color: 'var(--color-primary, #0047ba)', flexShrink: 0, marginLeft: '1rem' }}>
+                    {activeFaq === index ? <Minus size={18} /> : <Plus size={18} />}
                   </div>
-                  {activeFaq === index && (
-                    <div className="faq-a" style={{ marginTop: '1rem', color: '#004099', fontSize: '0.95rem', lineHeight: 1.6 }}>
-                      {faq.a}
-                    </div>
-                  )}
                 </div>
-              ))}
-            </div>
+                {activeFaq === index && (
+                  <div className="faq-a" style={{ marginTop: '0.85rem', color: '#475569', fontSize: '0.92rem', lineHeight: 1.6, borderTop: '1px solid #f1f5f9', paddingTop: '0.75rem' }}>
+                    {faq.a}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
-      </section>
-      <div className="divider-line"></div>
-    </>
+      </div>
+    </section>
   );
 };
 
