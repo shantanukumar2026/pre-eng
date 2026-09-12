@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const CAPABILITIES = [
   {
-    image: '/assets/media/structural_engineering_bim.jpg',
+    image: '/assets/media/engineering_design_bg_1787569503505.jpg',
     tag: 'STRUCTURAL DESIGN',
     title: 'Structural Precast Engineering',
     desc: 'In-house licensed civil and structural engineers providing stamped PE calculations, 3D BIM coordination, and submittals.',
@@ -15,38 +15,38 @@ const CAPABILITIES = [
     link: '#contact'
   },
   {
-    image: '/assets/media/precast_manufacturing_bg_178756952380612122.jpg',
-    tag: 'PLANT FABRICATION',
-    title: 'Precision Precast Manufacturing',
-    desc: 'Automated batching and heavy-duty steel formwork producing high-strength, dimensionally consistent concrete systems.',
+    image: '/assets/media/precast_manufacturing_bg_1787569523806.jpg',
+    tag: 'INFRASTRUCTURE',
+    title: 'Infrastructure Solutions',
+    desc: 'Heavy civil precast systems engineered for storm drainage, highway conduits, and subterranean utility infrastructure.',
     points: [
-      'Automated SCC Concrete Batching',
-      'Custom Steel Tooling & Molds',
-      'Steam-Cured Production Beds'
+      'AASHTO & ASTM Certified Structures',
+      'High-Capacity Water & Drainage Vaults',
+      'Standard & Custom Sized Units'
     ],
     link: '#products'
   },
   {
-    image: '/assets/media/quality_control_bg_17875695638200.jpg',
-    tag: 'QA / QC TESTING',
-    title: 'Quality Assurance & Lab Testing',
-    desc: 'Certified laboratory testing and inspection protocols verifying compressive strength and ASTM standard compliance.',
+    image: '/assets/media/quality_control_bg_1787569563820.jpg',
+    tag: 'CUSTOM CASTING',
+    title: 'Custom Precast Casting',
+    desc: 'Specialized modular formwork and custom mold tooling engineered for complex geometric and architectural precast designs.',
     points: [
-      'ASTM & AASHTO Quality Testing',
-      'Daily Compressive Break Records',
-      'Certified Material Traceability'
+      'Custom Steel Mold Fabrication',
+      'Precision Knockouts & Boot Inserts',
+      'Engineered Concrete Mixes'
     ],
     link: '#contact'
   },
   {
-    image: '/assets/media/heavy_logistics_bg_1787569548808122.jpg',
-    tag: 'JOB SITE LOGISTICS',
-    title: 'Heavy Transport & Logistics',
-    desc: 'Dedicated flatbed transport fleet synchronized directly with contractor excavation and crane pick schedules to prevent delays.',
+    image: '/assets/media/heavy_logistics_bg_1787569548808.jpg',
+    tag: 'PROJECT LOGISTICS',
+    title: 'Project Logistics & Rigging',
+    desc: 'Dedicated transport fleet synchronized directly with contractor excavation and crane pick schedules to eliminate site downtime.',
     points: [
-      'Dedicated Flatbed Fleet Dispatch',
-      'Direct Crane Pick Coordination',
-      'Permitted Regional Route Planning'
+      'Flatbed & Heavy-Haul Transport',
+      'Direct Jobsite Crane Coordination',
+      'Permitted Regional Route Delivery'
     ],
     link: '#contact'
   }
