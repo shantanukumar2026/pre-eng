@@ -3,7 +3,7 @@ import { MapPin, Phone } from 'lucide-react';
 
 const Locations = () => {
   return (
-    <section className="section-locations padding-global" style={{ backgroundColor: '#f1f5f9', paddingTop: '5rem', paddingBottom: '5rem' }}>
+    <section className="section-locations padding-global" style={{ backgroundColor: '#f1f5f9', paddingTop: '2rem', paddingBottom: '5rem' }}>
       <div className="container-large">
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
           <h2 className="heading-style-h3 text-color-primary">Our Global Nodes</h2>

@@ -55,6 +55,16 @@ const Navbar = () => {
                 <div className="navbar_submenu_grid">
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
+                      <img src="/assets/media/Box Culvert/11.jpeg" alt="Drainage Inlets & Catch Basins" className="submenu_card_img" />
+                    </div>
+                    <div className="submenu_arrow_square">
+                      <ArrowUpRight size={18} />
+                    </div>
+                    <div className="submenu_card_title">Drainage Inlets &amp; Catch Basins</div>
+                  </a>
+
+                  <a href="#products" className="navbar_submenu_card">
+                    <div className="submenu_card_img_wrap">
                       <img src="/assets/media/Box Culvert/11.jpeg" alt="Box Culverts" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
@@ -75,22 +85,12 @@ const Navbar = () => {
 
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Doghouse Manholes" className="submenu_card_img" />
+                      <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Utility Manholes" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
                     </div>
-                    <div className="submenu_card_title">Doghouse Manholes</div>
-                  </a>
-
-                  <a href="#products" className="navbar_submenu_card">
-                    <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Architectural Panels" className="submenu_card_img" />
-                    </div>
-                    <div className="submenu_arrow_square">
-                      <ArrowUpRight size={18} />
-                    </div>
-                    <div className="submenu_card_title">Architectural Panels</div>
+                    <div className="submenu_card_title">Utility Manholes</div>
                   </a>
                 </div>
               </div>

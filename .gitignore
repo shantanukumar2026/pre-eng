@@ -28,3 +28,11 @@ dist-ssr
 *.penpot
 *.rar
 *.app
+*.zip
+*.7z
+*.tar.gz
+
+# Backups
+backup*/
+*backup*/
+*.bak

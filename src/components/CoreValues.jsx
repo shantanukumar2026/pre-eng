@@ -4,7 +4,7 @@ import { Heart, Lightbulb, Target, Users } from 'lucide-react';
 const CoreValues = () => {
   return (
     <>
-      <section className="section-values padding-global" style={{ backgroundColor: '#f8fafc', paddingTop: '5rem', paddingBottom: '5rem' }}>
+      <section className="section-values padding-global" style={{ backgroundColor: '#f8fafc', paddingTop: '2rem', paddingBottom: '5rem' }}>
         <div className="container-large">
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
             <h2 className="heading-style-h3 text-color-primary">Our Core Values</h2>

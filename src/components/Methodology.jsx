@@ -46,7 +46,6 @@ const Methodology = () => {
           </div>
         </div>
       </section>
-      <div className="divider-line"></div>
     </>
   );
 };

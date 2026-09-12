@@ -20,7 +20,7 @@ const CapabilitiesBento = () => {
             {/* Item 1: Large Horizontal */}
             <a href="#contact" className="bento_card is-large">
               <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Structural Precast" className="bento_card_bg" />
-              <div className="bento_card_overlay"></div>
+              <div className=""></div>
               <div className="bento_card_content">
                 <div className="bento_icon_wrapper">
                   <Building2 />
@@ -33,7 +33,7 @@ const CapabilitiesBento = () => {
             {/* Item 2: Tall Vertical */}
             <a href="#contact" className="bento_card is-tall">
               <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Infrastructure Solutions" className="bento_card_bg" />
-              <div className="bento_card_overlay"></div>
+              <div className=""></div>
               <div className="bento_card_content">
                 <div className="bento_icon_wrapper">
                   <Factory />
@@ -46,7 +46,7 @@ const CapabilitiesBento = () => {
             {/* Item 3: Small Square */}
             <a href="#contact" className="bento_card">
               <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Custom Casting" className="bento_card_bg" />
-              <div className="bento_card_overlay"></div>
+              <div className=""></div>
               <div className="bento_card_content">
                 <div className="bento_icon_wrapper">
                   <Layers />
@@ -59,7 +59,7 @@ const CapabilitiesBento = () => {
             {/* Item 4: Small Square */}
             <a href="#contact" className="bento_card">
               <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Project Logistics" className="bento_card_bg" />
-              <div className="bento_card_overlay"></div>
+              <div className=""></div>
               <div className="bento_card_content">
                 <div className="bento_icon_wrapper">
                   <Truck />
@@ -71,6 +71,68 @@ const CapabilitiesBento = () => {
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </section>
   );
 };

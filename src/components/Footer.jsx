@@ -57,7 +57,7 @@ const Footer = () => {
             <h4 style={{ color: 'var(--color-primary)', fontSize: '0.8rem', letterSpacing: '1px', marginBottom: '1rem' }}>PRODUCTS</h4>
             <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Box Culverts</a>
             <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Bridge Girders</a>
-            <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Doghouse Manholes</a>
+            <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Precast Utility Manholes</a>
             <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Architectural Panels</a>
             <a href="#" style={{ display: 'block', color: '#004099', marginBottom: '0.5rem', textDecoration: 'none' }}>Custom Solutions</a>
           </div>
