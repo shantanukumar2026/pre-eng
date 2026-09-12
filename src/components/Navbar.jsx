@@ -75,12 +75,12 @@ const Navbar = () => {
 
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/bridge_girder_real.jpg" alt="Bridge Girders" className="submenu_card_img" />
+                      <img src="/assets/media/Box Culvert/14.jpeg" alt="Bridge Girders" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
                     </div>
-                    <div className="submenu_card_title">Bridge Girders</div>
+                    <div className="submenu_card_title">Bridge Girders &amp; Decks</div>
                   </a>
 
                   <a href="#products" className="navbar_submenu_card">

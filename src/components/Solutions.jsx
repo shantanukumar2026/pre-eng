@@ -15,10 +15,10 @@ const SOLUTIONS_DATA = [
   {
     id: 'bridge-girders',
     category: 'engineering',
-    categoryLabel: 'Highway Structural',
+    categoryLabel: 'Highway & Bridge Structural',
     title: 'Pre-stressed Bridge Girders',
     description: 'High-strength AASHTO spans for highway overpasses and rail crossings.',
-    image: '/assets/media/bridge_girder_real.jpg',
+    image: '/assets/media/Box Culvert/14.jpeg',
     link: '#products'
   },
   {
@@ -31,12 +31,12 @@ const SOLUTIONS_DATA = [
     link: '#products'
   },
   {
-    id: 'architectural-panels',
+    id: 'headwalls-wingwalls',
     category: 'engineering',
-    categoryLabel: 'Commercial Facades',
-    title: 'Architectural Wall Panels',
-    description: 'Insulated composite facade panels for commercial building envelopes.',
-    image: '/assets/media/architectural_panels_real.jpg',
+    categoryLabel: 'Highway Bridge & Drainage',
+    title: 'Precast Headwalls & Wingwalls',
+    description: 'Erosion control and bridge abutment outfall structures for highway culverts.',
+    image: '/assets/media/Box Culvert/12.jpeg',
     link: '#products'
   },
   {

@@ -126,8 +126,7 @@ const Footer = () => {
                 <li><a href="#products">Precast Box Culverts</a></li>
                 <li><a href="#products">Pre-stressed Bridge Girders</a></li>
                 <li><a href="#products">Utility Manholes &amp; Vaults</a></li>
-                <li><a href="#products">Drainage Inlets &amp; Catch Basins</a></li>
-                <li><a href="#products">Architectural Wall Panels</a></li>
+                <li><a href="#products">Precast Headwalls &amp; Wingwalls</a></li>
                 <li><a href="#products">Pre-Trench Drainage Channels</a></li>
                 <li><a href="#products">Custom Steel Tooling &amp; Molds</a></li>
               </ul>
