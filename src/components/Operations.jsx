@@ -13,9 +13,9 @@ const Operations = () => {
               <a href="#tour" className="operations-link" style={{ fontSize: '0.85rem', fontWeight: 600 }}>TAKE A TOUR <ArrowRight size={14} /></a>
             </div>
             <div className="operations-grid">
-              <div className="ops-img-wrap"><img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Ops 1" className="ops-img" /></div>
-              <div className="ops-img-wrap"><img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Ops 2" className="ops-img" /></div>
-              <div className="ops-img-wrap"><img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="Ops 3" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/operations_1_real.jpg" alt="Automated Manufacturing" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/operations_2_real.jpg" alt="Robotic Casting Cell" className="ops-img" /></div>
+              <div className="ops-img-wrap"><img src="/assets/media/operations_3_real.jpg" alt="Plant Operations" className="ops-img" /></div>
             </div>
           </div>
         </div>

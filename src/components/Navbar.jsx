@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className="navbar_submenu_grid">
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/Box Culvert/11.jpeg" alt="Drainage Inlets & Catch Basins" className="submenu_card_img" />
+                      <img src="/assets/media/catch_basin_real.jpg" alt="Drainage Inlets & Catch Basins" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -65,7 +65,7 @@ const Navbar = () => {
 
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/Box Culvert/11.jpeg" alt="Box Culverts" className="submenu_card_img" />
+                      <img src="/assets/media/box_culvert_real.jpg" alt="Box Culverts" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -75,7 +75,7 @@ const Navbar = () => {
 
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/gettyimages-961684452-1024x1024.jpg" alt="Bridge Girders" className="submenu_card_img" />
+                      <img src="/assets/media/bridge_girder_real.jpg" alt="Bridge Girders" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -85,7 +85,7 @@ const Navbar = () => {
 
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/quality_control_bg_1787569563820.jpg" alt="Utility Manholes" className="submenu_card_img" />
+                      <img src="/assets/media/utility_manhole_real.jpg" alt="Utility Manholes" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -106,7 +106,7 @@ const Navbar = () => {
                 <div className="navbar_submenu_grid is-2">
                   <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="Manufacturing" className="submenu_card_img" />
+                      <img src="/assets/media/automated_batching_real.jpg" alt="Manufacturing" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -116,7 +116,7 @@ const Navbar = () => {
 
                   <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="R&D" className="submenu_card_img" />
+                      <img src="/assets/media/engineering_design_real.jpg" alt="R&D" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />

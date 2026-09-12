@@ -9,7 +9,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Civil Conduits',
     title: 'Precast Box Culverts',
     description: 'Heavy-duty monolithic & split precast conduits engineered for high-volume storm drainage and heavy highway loads.',
-    image: '/assets/media/Box Culvert/11.jpeg',
+    image: '/assets/media/box_culvert_real.jpg',
     link: '#products'
   },
   {
@@ -18,7 +18,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Highway Structural',
     title: 'Pre-stressed Bridge Girders',
     description: 'AASHTO & Bulb-Tee high-tensioned structural beams engineered for highway overpasses, river crossings, and rail bridges.',
-    image: '/assets/media/gettyimages-961684452-1024x1024.jpg',
+    image: '/assets/media/bridge_girder_real.jpg',
     link: '#products'
   },
   {
@@ -27,7 +27,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Municipal Utilities',
     title: 'Precast Utility Manholes',
     description: 'Heavy-duty cylindrical and square precast structures engineered for municipal sanitary, storm, and utility access.',
-    image: '/assets/media/quality_control_bg_1787569563820.jpg',
+    image: '/assets/media/utility_manhole_real.jpg',
     link: '#products'
   },
   {
@@ -36,7 +36,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Commercial Facades',
     title: 'Architectural Wall Panels',
     description: 'High-density composite precast panels providing architectural finishes, continuous thermal insulation, and rapid erection.',
-    image: '/assets/media/heavy_logistics_bg_1787569548808.jpg',
+    image: '/assets/media/architectural_panels_real.jpg',
     link: '#products'
   },
   {
@@ -54,7 +54,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Roadway Runoff',
     title: 'Drainage Inlets & Catch Basins',
     description: 'Heavy-duty sediment collection sumps, curb inlet hoods, and traffic-rated catch basins for roadways and commercial plazas.',
-    image: '/assets/media/culvert.jpg',
+    image: '/assets/media/catch_basin_real.jpg',
     link: '#products'
   },
 
@@ -65,7 +65,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Tooling & Fabrication',
     title: 'Custom Steel Mold Tooling',
     description: 'Advanced CNC-machined steel formwork and custom modular molds fabricated for complex precast structural geometries.',
-    image: '/assets/media/engineering_design_bg_1787569503505.jpg',
+    image: '/assets/media/custom_tooling_real.jpg',
     link: '#contact'
   },
   {
@@ -74,7 +74,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Advanced Manufacturing',
     title: 'Automated Batching & Casting',
     description: 'Computerized batch plants with real-time moisture monitoring and accelerated steam curing beds for high early strength.',
-    image: '/assets/media/precast_manufacturing_bg_1787569523806.jpg',
+    image: '/assets/media/automated_batching_real.jpg',
     link: '#contact'
   },
   {
@@ -83,7 +83,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Engineering Tech',
     title: '3D BIM & Structural Modeling',
     description: 'Comprehensive Revit & Tekla 3D BIM coordination, shop drawing generation, rebar detailing, and certified PE calculations.',
-    image: '/assets/media/videoframe_7136.png',
+    image: '/assets/media/engineering_design_real.jpg',
     link: '#contact'
   },
   {
@@ -92,7 +92,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Logistics & Rigging',
     title: 'Heavy-Haul Logistics & Rigging',
     description: 'Dedicated heavy-haul transport fleet and synchronized jobsite crane delivery aligned directly to contractor pick plans.',
-    image: '/assets/media/heavy_logistics_bg_1787569548808122.jpg',
+    image: '/assets/media/heavy_logistics_real.jpg',
     link: '#contact'
   },
   {

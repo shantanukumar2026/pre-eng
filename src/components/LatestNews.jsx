@@ -14,17 +14,17 @@ const LatestNews = () => {
             </div>
             <div className="news-grid">
               <div className="news-card">
-                <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="News 1" />
+                <img src="/assets/media/news_1_real.jpg" alt="Future of Precast" />
                 <div className="news-date">MAY 15, 2026</div>
                 <div className="news-title">The Future of Precast Construction in 2026</div>
               </div>
               <div className="news-card">
-                <img src="/assets/media/precast_manufacturing_bg_1787569523806.jpg" alt="News 2" />
+                <img src="/assets/media/news_2_real.jpg" alt="Manufacturing Tech" />
                 <div className="news-date">APR 22, 2026</div>
                 <div className="news-title">New Technology in Manufacturing</div>
               </div>
               <div className="news-card">
-                <img src="/assets/media/engineering_design_bg_1787569503505.jpg" alt="News 3" />
+                <img src="/assets/media/news_3_real.jpg" alt="Sustainable Concrete" />
                 <div className="news-date">MAR 10, 2026</div>
                 <div className="news-title">Sustainability in Precast Concrete Production</div>
               </div>
