@@ -3205,4 +3205,183 @@ a {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+/* ==========================================================================
+   ENTERPRISE SCROLL REVEAL & MICRO-ANIMATION SUITE
+   ========================================================================== */
+
+/* 1. High-Tech Top Scroll Progress Bar */
+.scroll-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0047ba 0%, #38bdf8 50%, #60a5fa 100%);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.7);
+  z-index: 10000;
+  transition: width 0.1s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+/* 2. Floating Back-to-Top Button */
+.btn-scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #0047ba;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(0, 71, 186, 0.45);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(16px);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 999;
+}
+
+.btn-scroll-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.btn-scroll-top:hover {
+  background: #2563eb;
+  transform: translateY(-4px) scale(1.06);
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.6);
+}
+
+/* 3. Intersection Observer Scroll Reveal System */
+.reveal-init {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-init.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered entry for grid items */
+.reveal-init:nth-child(2) { transition-delay: 0.08s; }
+.reveal-init:nth-child(3) { transition-delay: 0.16s; }
+.reveal-init:nth-child(4) { transition-delay: 0.24s; }
+.reveal-init:nth-child(5) { transition-delay: 0.32s; }
+.reveal-init:nth-child(6) { transition-delay: 0.40s; }
+
+/* 4. Directional Reveal Helpers */
+.reveal-fade-left.reveal-init {
+  transform: translateX(-35px);
+}
+.reveal-fade-left.reveal-init.is-revealed {
+  transform: translateX(0);
+}
+
+.reveal-fade-right.reveal-init {
+  transform: translateX(35px);
+}
+.reveal-fade-right.reveal-init.is-revealed {
+  transform: translateX(0);
+}
+
+.reveal-zoom.reveal-init {
+  transform: scale(0.94);
+}
+.reveal-zoom.reveal-init.is-revealed {
+  transform: scale(1);
+}
+
+/* 5. Shimmer Effects for Buttons & Highlights */
+.button_hero_primary,
+.button-blue,
+.btn-nav-contact,
+.btn-ribbon-quote {
+  position: relative;
+  overflow: hidden;
+}
+
+.button_hero_primary::after,
+.button-blue::after,
+.btn-nav-contact::after,
+.btn-ribbon-quote::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 40%;
+  height: 200%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(25deg);
+  pointer-events: none;
+  transition: none;
+}
+
+.button_hero_primary:hover::after,
+.button-blue:hover::after,
+.btn-nav-contact:hover::after,
+.btn-ribbon-quote:hover::after {
+  animation: buttonLightPass 0.85s ease-in-out forwards;
+}
+
+@keyframes buttonLightPass {
+  0% {
+    left: -60%;
+  }
+  100% {
+    left: 140%;
+  }
+}
+
+/* 6. Card Hover Depth Enhancements */
+.bento_card,
+.solution_card,
+.method-step-card,
+.why-item,
+.location-card,
+.value-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.bento_card:hover,
+.solution_card:hover,
+.method-step-card:hover,
+.location-card:hover,
+.value-card:hover {
+  transform: translateY(-6px);
+}
+
+.why-item:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 10px 24px rgba(0, 71, 186, 0.12);
+}
+
+/* 7. Pulsing Status Indicator */
+.hero_pill_dot,
+.live-status-dot {
+  animation: dotGlowPulse 2.2s infinite ease-in-out;
+}
+
+@keyframes dotGlowPulse {
+  0%, 100% {
+    box-shadow: 0 0 4px #38bdf8;
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 12px #38bdf8, 0 0 20px rgba(56, 189, 248, 0.4);
+    transform: scale(1.15);
+  }
 }
