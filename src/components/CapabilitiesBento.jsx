@@ -6,48 +6,36 @@ const CAPABILITIES = [
     image: '/assets/media/videoframe_7136.png',
     tag: 'STRUCTURAL DESIGN',
     title: 'Structural Precast Engineering',
-    desc: 'In-house licensed civil and structural engineers providing stamped PE calculations, 3D BIM coordination, and submittals.',
-    points: [
-      '50-State PE Stamped Calculations',
-      'Revit & 3D BIM Detailing',
-      'Buoyancy & Hydraulic Sizing'
-    ],
+    what: 'Licensed PE stamped structural calculations and 3D Revit BIM models for civil infrastructure.',
+    why: 'Secures fast municipal & DOT permit approvals and eliminates costly jobsite fitting mistakes.',
+    how: 'In-house civil engineers calculate site loads, size structures, and provide sealed submittals.',
     link: '#contact'
   },
   {
     image: '/assets/media/Box Culvert/13.jpeg',
     tag: 'INFRASTRUCTURE',
     title: 'Heavy Civil Box Culverts',
-    desc: 'Heavy civil precast culverts engineered for storm drainage, highway conduits, and subterranean utility corridors.',
-    points: [
-      'AASHTO & ASTM C1577 Compliant',
-      'High-Capacity Water Retention',
-      'Standard & Custom Spans'
-    ],
+    what: 'Heavy-duty reinforced concrete rectangular conduits for stormwater conveyance and stream crossings.',
+    why: 'Withstands heavy highway traffic loads and high water flow volumes without risk of road washout.',
+    how: 'Cast monolithic to ASTM C1577 standards and delivered ready for fast crane installation.',
     link: '#products'
   },
   {
     image: '/assets/media/trench-forms-01-5001.JPG',
     tag: 'PRECISION CASTING',
     title: 'Plant Manufacturing & Tooling',
-    desc: 'Heavy-duty precision steel mold tooling, formwork fabrication, and controlled casting beds for structural precast.',
-    points: [
-      'CNC-Machined Steel Form Fabrication',
-      'High-Strength Monolithic Casting',
-      'Precision Knockouts & Core Tooling'
-    ],
+    what: 'Custom heavy steel mold tooling and computerized high-strength concrete batch casting.',
+    why: 'Guarantees exact millimeter dimensions, high compressive strength, and decades of durability.',
+    how: 'Fabricated in controlled indoor plant beds with computerized batching and steam curing.',
     link: '#contact'
   },
   {
     image: '/assets/media/Box Culvert/15.jpeg',
     tag: 'PROJECT LOGISTICS',
     title: 'Jobsite Logistics & Rigging',
-    desc: 'Heavy-haul transport and jobsite staging synchronized directly with contractor excavation and crane pick schedules.',
-    points: [
-      'Heavy-Haul Flatbed Staging',
-      'Direct Jobsite Crane Offloading',
-      'Sequenced Delivery Schedules'
-    ],
+    what: 'Coordinated heavy-haul flatbed transport synchronized directly with excavation crews.',
+    why: 'Prevents expensive crane standby downtime and keeps your civil project strictly on schedule.',
+    how: 'Units arrive sequenced on flatbeds to be hoisted directly from truck into the prepared trench.',
     link: '#contact'
   }
 ];
@@ -58,21 +46,21 @@ const CapabilitiesBento = () => {
       <div className="container-large">
         
         {/* Section Header */}
-        <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+        <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
           <div className="h-flex-tiny is-center" style={{ marginBottom: '0.5rem' }}>
             <div className="chip_box"></div>
             <span className="chip">ENGINEERING SERVICES</span>
           </div>
           <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.6rem' }}>
-            Comprehensive Precast &amp; Engineering Solutions
+            Precast Engineering &amp; Capabilities Breakdown
           </h2>
           <p style={{ color: '#5a6e8c', maxWidth: '680px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6 }}>
-            From initial structural engineering and PE stamped submittals to precision plant fabrication and coordinated jobsite delivery.
+            A straightforward explanation of what we provide, why it is needed for civil projects, and how we deliver it on site.
           </p>
         </div>
 
-        {/* 4-Card Clean Corporate Image Grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(270px, 1fr))', gap: '1.5rem' }}>
+        {/* 4-Card Clean Structured Grid */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.75rem' }}>
           {CAPABILITIES.map((cap, idx) => (
             <div 
               key={idx} 
@@ -80,16 +68,16 @@ const CapabilitiesBento = () => {
               style={{
                 background: '#ffffff',
                 border: '1px solid #e2e8f0',
-                borderRadius: '10px',
+                borderRadius: '12px',
                 overflow: 'hidden',
                 display: 'flex',
                 flexDirection: 'column',
-                boxShadow: '0 4px 14px rgba(0, 34, 89, 0.04)',
+                boxShadow: '0 4px 16px rgba(0, 34, 89, 0.05)',
                 transition: 'all 0.3s ease'
               }}
             >
               {/* Top Image Container */}
-              <div style={{ height: '185px', width: '100%', position: 'relative', overflow: 'hidden', backgroundColor: '#002868' }}>
+              <div style={{ height: '190px', width: '100%', position: 'relative', overflow: 'hidden', backgroundColor: '#002868' }}>
                 <img 
                   src={cap.image} 
                   alt={cap.title} 
@@ -105,7 +93,7 @@ const CapabilitiesBento = () => {
                 <div style={{
                   position: 'absolute',
                   inset: 0,
-                  background: 'linear-gradient(180deg, rgba(0, 20, 50, 0.2) 0%, rgba(0, 20, 50, 0.55) 100%)'
+                  background: 'linear-gradient(180deg, rgba(0, 20, 50, 0.15) 0%, rgba(0, 20, 50, 0.55) 100%)'
                 }}></div>
                 <span style={{ 
                   position: 'absolute',
@@ -115,7 +103,7 @@ const CapabilitiesBento = () => {
                   fontWeight: 800, 
                   letterSpacing: '0.08em', 
                   color: '#ffffff',
-                  background: 'rgba(0, 40, 104, 0.85)',
+                  background: 'rgba(0, 40, 104, 0.88)',
                   backdropFilter: 'blur(6px)',
                   WebkitBackdropFilter: 'blur(6px)',
                   padding: '4px 10px',
@@ -126,25 +114,47 @@ const CapabilitiesBento = () => {
                 </span>
               </div>
 
-              {/* Card Body */}
+              {/* Card Body with WHAT / WHY / HOW */}
               <div style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
                 <div>
-                  <h3 style={{ fontSize: '1.12rem', fontWeight: 800, color: '#002868', marginBottom: '0.5rem', lineHeight: 1.35 }}>
+                  <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#002868', marginBottom: '1.25rem', lineHeight: 1.3 }}>
                     {cap.title}
                   </h3>
-                  <p style={{ fontSize: '0.86rem', color: '#475569', lineHeight: 1.55, marginBottom: '1.15rem' }}>
-                    {cap.desc}
-                  </p>
 
-                  {/* Bullet Points */}
-                  <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1.25rem 0', display: 'flex', flexDirection: 'column', gap: '0.45rem' }}>
-                    {cap.points.map((pt, pIdx) => (
-                      <li key={pIdx} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.82rem', color: '#334155' }}>
-                        <CheckCircle2 size={13} style={{ color: '#0047ba', flexShrink: 0 }} />
-                        <span>{pt}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  {/* Structured 3-Point Breakdown */}
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem', marginBottom: '1.5rem' }}>
+                    
+                    {/* WHAT IT IS */}
+                    <div style={{ background: '#f8fafc', padding: '10px 12px', borderRadius: '6px', borderLeft: '3px solid #0047ba' }}>
+                      <div style={{ fontSize: '0.72rem', fontWeight: 800, color: '#0047ba', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: '3px' }}>
+                        What it is
+                      </div>
+                      <p style={{ fontSize: '0.86rem', color: '#334155', lineHeight: 1.5, margin: 0 }}>
+                        {cap.what}
+                      </p>
+                    </div>
+
+                    {/* WHY YOU NEED IT */}
+                    <div style={{ background: '#f8fafc', padding: '10px 12px', borderRadius: '6px', borderLeft: '3px solid #0284c7' }}>
+                      <div style={{ fontSize: '0.72rem', fontWeight: 800, color: '#0284c7', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: '3px' }}>
+                        Why you need it
+                      </div>
+                      <p style={{ fontSize: '0.86rem', color: '#334155', lineHeight: 1.5, margin: 0 }}>
+                        {cap.why}
+                      </p>
+                    </div>
+
+                    {/* HOW IT WORKS */}
+                    <div style={{ background: '#f8fafc', padding: '10px 12px', borderRadius: '6px', borderLeft: '3px solid #10b981' }}>
+                      <div style={{ fontSize: '0.72rem', fontWeight: 800, color: '#059669', letterSpacing: '0.06em', textTransform: 'uppercase', marginBottom: '3px' }}>
+                        How we deliver
+                      </div>
+                      <p style={{ fontSize: '0.86rem', color: '#334155', lineHeight: 1.5, margin: 0 }}>
+                        {cap.how}
+                      </p>
+                    </div>
+
+                  </div>
                 </div>
 
                 {/* Card Action Link */}
@@ -154,17 +164,17 @@ const CapabilitiesBento = () => {
                     display: 'inline-flex', 
                     alignItems: 'center', 
                     gap: '6px', 
-                    color: 'var(--color-primary, #0047ba)', 
-                    fontSize: '0.84rem', 
+                    color: '#0047ba', 
+                    fontSize: '0.85rem', 
                     fontWeight: 700, 
                     textDecoration: 'none',
-                    borderTop: '1px solid #f1f5f9',
+                    borderTop: '1px solid #e2e8f0',
                     paddingTop: '0.85rem',
                     transition: 'gap 0.2s ease'
                   }}
                   className="cap-card-link"
                 >
-                  <span>Learn More</span>
+                  <span>Request Engineering Review</span>
                   <ArrowRight size={14} />
                 </a>
               </div>
