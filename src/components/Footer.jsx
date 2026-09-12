@@ -207,10 +207,6 @@ const Footer = () => {
           <div className="footer-bottom-flex">
             <div className="footer-bottom-left">
               <span>© {new Date().getFullYear()} Precast Engineering Group. All rights reserved.</span>
-              <span className="footer-dot-sep">•</span>
-              <span>NPCA Plant #10492</span>
-              <span className="footer-dot-sep">•</span>
-              <span>50-State Licensed Professional Engineering Corporation</span>
             </div>
 
             <div className="footer-bottom-links">
