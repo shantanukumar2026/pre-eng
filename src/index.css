@@ -55,10 +55,10 @@ a {
   text-decoration: none;
 }
 
-/* Global Utilities - 100% Full Width & Compact Section Spacing */
+/* Global Utilities - 90% Section Width (5% Left & Right Spacing) */
 .padding-global {
-  padding-left: 3.5%;
-  padding-right: 3.5%;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 100%;
 }
 
@@ -2699,13 +2699,11 @@ a {
   width: 100%;
 }
 
-/* Footer Container - Contained width (Not 100% stretched) */
+/* Footer Container - Clean 90% Width Alignment */
 .corporate-footer .container-large {
-  max-width: 82rem !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  max-width: 100% !important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
 }
 
 /* Top Callout Ribbon */
