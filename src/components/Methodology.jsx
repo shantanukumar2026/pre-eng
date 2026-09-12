@@ -10,7 +10,7 @@ const Methodology = () => {
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/precast_structural_plan.jpg" alt="Consultation" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/1050.2 - Copy.png" alt="Consultation" style={{ width: '100%', height: '100%', objectFit: 'contain', background: '#fff' }} />
               </div>
               <h4 className="method-title">Consultation</h4>
               <p className="method-desc">We collaborate with your engineering team to review project blueprints and civil specifications.</p>
@@ -28,7 +28,7 @@ const Methodology = () => {
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/precast_factory_floor.jpg" alt="Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/trench-forms-01-5001.JPG" alt="Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Plant Manufacturing</h4>
               <p className="method-desc">Precision casting using heavy steel formwork, automated SCC batching, and steam curing beds.</p>
@@ -37,7 +37,7 @@ const Methodology = () => {
 
             <div className="method-step">
               <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
-                <img src="/assets/media/precast_transport_fleet.jpg" alt="Delivery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/assets/media/Box Culvert/15.jpeg" alt="Delivery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Logistics &amp; Delivery</h4>
               <p className="method-desc">Heavy-haul transport synchronized directly with contractor crane pick schedules on site.</p>

@@ -74,7 +74,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Advanced Manufacturing',
     title: 'Automated Batching & Casting',
     description: 'Computerized SCC batch plants and accelerated steam curing beds.',
-    image: '/assets/media/precast_factory_floor.jpg',
+    image: '/assets/media/Box Culvert/11.jpeg',
     link: '#contact'
   },
   {
@@ -92,7 +92,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Logistics & Rigging',
     title: 'Heavy-Haul Logistics & Rigging',
     description: 'Dedicated transport fleet synchronized directly with crane pick windows.',
-    image: '/assets/media/precast_transport_fleet.jpg',
+    image: '/assets/media/Box Culvert/15.jpeg',
     link: '#contact'
   },
   {

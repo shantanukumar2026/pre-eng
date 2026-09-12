@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const CAPABILITIES = [
   {
-    image: '/assets/media/precast_structural_plan.jpg',
+    image: '/assets/media/videoframe_7136.png',
     tag: 'STRUCTURAL DESIGN',
     title: 'Structural Precast Engineering',
     desc: 'In-house licensed civil and structural engineers providing stamped PE calculations, 3D BIM coordination, and submittals.',
@@ -27,26 +27,26 @@ const CAPABILITIES = [
     link: '#products'
   },
   {
-    image: '/assets/media/precast_factory_floor.jpg',
+    image: '/assets/media/trench-forms-01-5001.JPG',
     tag: 'PRECISION CASTING',
     title: 'Plant Manufacturing & Tooling',
-    desc: 'Precision heavy steel formwork, automated SCC batching, and controlled steam curing for high-durability precast.',
+    desc: 'Heavy-duty precision steel mold tooling, formwork fabrication, and controlled casting beds for structural precast.',
     points: [
-      'Custom Steel Form Fabrication',
-      'High-Strength Self-Consolidating Concrete',
-      'Monolithic Quality Assurance'
+      'CNC-Machined Steel Form Fabrication',
+      'High-Strength Monolithic Casting',
+      'Precision Knockouts & Core Tooling'
     ],
     link: '#contact'
   },
   {
-    image: '/assets/media/precast_transport_fleet.jpg',
+    image: '/assets/media/Box Culvert/15.jpeg',
     tag: 'PROJECT LOGISTICS',
     title: 'Jobsite Logistics & Rigging',
-    desc: 'Heavy-haul flatbed transport synchronized directly with contractor excavation and crane pick schedules.',
+    desc: 'Heavy-haul transport and jobsite staging synchronized directly with contractor excavation and crane pick schedules.',
     points: [
-      'Permitted Heavy-Haul Flatbeds',
+      'Heavy-Haul Flatbed Staging',
       'Direct Jobsite Crane Offloading',
-      'Sequenced Site Deliveries'
+      'Sequenced Delivery Schedules'
     ],
     link: '#contact'
   }
