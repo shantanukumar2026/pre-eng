@@ -8,7 +8,7 @@ const SOLUTIONS_DATA = [
     category: 'engineering',
     categoryLabel: 'Civil Conduits',
     title: 'Precast Box Culverts',
-    description: 'Heavy-duty monolithic & split precast conduits engineered for high-volume storm drainage and heavy highway loads.',
+    description: 'Engineered for high-volume stormwater conveyance and heavy highway loading.',
     image: '/assets/media/box_culvert_real.jpg',
     link: '#products'
   },
@@ -17,7 +17,7 @@ const SOLUTIONS_DATA = [
     category: 'engineering',
     categoryLabel: 'Highway Structural',
     title: 'Pre-stressed Bridge Girders',
-    description: 'AASHTO & Bulb-Tee high-tensioned structural beams engineered for highway overpasses, river crossings, and rail bridges.',
+    description: 'High-strength AASHTO spans for highway overpasses and rail crossings.',
     image: '/assets/media/bridge_girder_real.jpg',
     link: '#products'
   },
@@ -26,7 +26,7 @@ const SOLUTIONS_DATA = [
     category: 'engineering',
     categoryLabel: 'Municipal Utilities',
     title: 'Precast Utility Manholes',
-    description: 'Heavy-duty cylindrical and square precast structures engineered for municipal sanitary, storm, and utility access.',
+    description: 'Modular precast structures for sanitary, storm, and utility junction access.',
     image: '/assets/media/utility_manhole_real.jpg',
     link: '#products'
   },
@@ -35,7 +35,7 @@ const SOLUTIONS_DATA = [
     category: 'engineering',
     categoryLabel: 'Commercial Facades',
     title: 'Architectural Wall Panels',
-    description: 'High-density composite precast panels providing architectural finishes, continuous thermal insulation, and rapid erection.',
+    description: 'Insulated composite facade panels for commercial building envelopes.',
     image: '/assets/media/architectural_panels_real.jpg',
     link: '#products'
   },
@@ -43,8 +43,8 @@ const SOLUTIONS_DATA = [
     id: 'pre-trench',
     category: 'engineering',
     categoryLabel: 'Stormwater Infrastructure',
-    title: 'Pre-Trench Drainage Channels',
-    description: 'Engineered continuous linear drainage trench channels with heavy-duty cast iron traffic grates and precision sloped invert.',
+    title: 'Pre-Trench Channels',
+    description: 'Continuous linear trench drainage channels with heavy traffic grates.',
     image: '/assets/media/pre-trench/pre-trench-01.JPG',
     link: '#products'
   },
@@ -52,9 +52,9 @@ const SOLUTIONS_DATA = [
     id: 'catch-basins',
     category: 'engineering',
     categoryLabel: 'Roadway Runoff',
-    title: 'Drainage Inlets & Catch Basins',
-    description: 'Heavy-duty sediment collection sumps, curb inlet hoods, and traffic-rated catch basins for roadways and commercial plazas.',
-    image: '/assets/media/catch_basin_real.jpg',
+    title: 'Drainage Catch Basins',
+    description: 'Heavy-duty sediment collection sumps and curb inlet structures.',
+    image: '/assets/media/culvert.jpg',
     link: '#products'
   },
 
@@ -64,8 +64,8 @@ const SOLUTIONS_DATA = [
     category: 'technologies',
     categoryLabel: 'Tooling & Fabrication',
     title: 'Custom Steel Mold Tooling',
-    description: 'Advanced CNC-machined steel formwork and custom modular molds fabricated for complex precast structural geometries.',
-    image: '/assets/media/custom_tooling_real.jpg',
+    description: 'CNC-machined heavy steel formwork for complex precast geometries.',
+    image: '/assets/media/trench-forms-01-5001.JPG',
     link: '#contact'
   },
   {
@@ -73,8 +73,8 @@ const SOLUTIONS_DATA = [
     category: 'technologies',
     categoryLabel: 'Advanced Manufacturing',
     title: 'Automated Batching & Casting',
-    description: 'Computerized batch plants with real-time moisture monitoring and accelerated steam curing beds for high early strength.',
-    image: '/assets/media/automated_batching_real.jpg',
+    description: 'Computerized SCC batch plants and accelerated steam curing beds.',
+    image: '/assets/media/precast_manufacturing_bg_178756952380612122.jpg',
     link: '#contact'
   },
   {
@@ -82,8 +82,8 @@ const SOLUTIONS_DATA = [
     category: 'technologies',
     categoryLabel: 'Engineering Tech',
     title: '3D BIM & Structural Modeling',
-    description: 'Comprehensive Revit & Tekla 3D BIM coordination, shop drawing generation, rebar detailing, and certified PE calculations.',
-    image: '/assets/media/engineering_design_real.jpg',
+    description: 'Revit BIM coordination, rebar detailing, and signed PE calculations.',
+    image: '/assets/media/videoframe_7136.png',
     link: '#contact'
   },
   {
@@ -91,16 +91,16 @@ const SOLUTIONS_DATA = [
     category: 'technologies',
     categoryLabel: 'Logistics & Rigging',
     title: 'Heavy-Haul Logistics & Rigging',
-    description: 'Dedicated heavy-haul transport fleet and synchronized jobsite crane delivery aligned directly to contractor pick plans.',
-    image: '/assets/media/heavy_logistics_real.jpg',
+    description: 'Dedicated transport fleet synchronized directly with crane pick windows.',
+    image: '/assets/media/heavy_logistics_bg_1787569548808122.jpg',
     link: '#contact'
   },
   {
     id: 'internal-drop-structures',
     category: 'technologies',
     categoryLabel: 'Advanced Hydraulics',
-    title: 'Internal Drop Manhole Systems',
-    description: 'Energy-dissipating internal drop piping systems engineered to prevent hydraulic turbulence and structural chamber degradation.',
+    title: 'Internal Drop Manholes',
+    description: 'Energy-dissipating drop piping preventing hydraulic turbulence.',
     image: '/assets/media/72 precast manhole Double Internal Drop.657.png',
     link: '#products'
   },
@@ -109,7 +109,7 @@ const SOLUTIONS_DATA = [
     category: 'technologies',
     categoryLabel: 'Structural Vaults',
     title: 'Heavy-Duty Low Dome Slabs',
-    description: 'H-20 & HS-25 heavy highway traffic-rated low dome covers and custom access lids engineered for subterranean utility vaults.',
+    description: 'H-20 & HS-25 traffic covers engineered for subterranean vaults.',
     image: '/assets/media/10 FT LOW DOME.117.png',
     link: '#products'
   }
