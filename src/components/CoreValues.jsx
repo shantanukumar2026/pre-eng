@@ -5,7 +5,7 @@ const VALUES_DATA = [
   {
     icon: Users,
     title: 'Contractor-First Support',
-    desc: 'We align directly with your construction schedule, site conditions, and project budget to keep your job moving on time.'
+    desc: 'We align directly with your construction schedule, site conditions, and project budget to keep your project moving forward smoothly.'
   },
   {
     icon: Factory,
@@ -20,7 +20,7 @@ const VALUES_DATA = [
   {
     icon: Clock,
     title: 'Reliable Delivery Schedules',
-    desc: 'Guaranteed flatbed jobsite delivery synchronized directly with contractor crane pick windows to eliminate trench downtime.'
+    desc: 'Coordinated flatbed jobsite delivery synchronized directly with contractor crane pick schedules to minimize trench downtime.'
   }
 ];
 

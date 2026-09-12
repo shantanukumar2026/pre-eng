@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
               </div>
               <div className="why-item">
                 <Clock size={28} className="text-color-primary" />
-                <div className="why-text">On-Time<br />Delivery</div>
+                <div className="why-text">Scheduled<br />Logistics</div>
               </div>
               <div className="why-item">
                 <CheckCircle2 size={28} className="text-color-primary" />

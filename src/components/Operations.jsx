@@ -9,7 +9,7 @@ const Operations = () => {
           <div className="operations-header">
             <div className="ops-header-text">
               <h2 className="heading-style-h4 text-color-primary">State-of-the-Art<br />Manufacturing</h2>
-              <p className="operations-sub">Our advanced facilities and skilled teams ensure unmatched quality and consistency.</p>
+              <p className="operations-sub">Our advanced facilities and skilled production teams provide high quality and dimensional consistency.</p>
               <a href="#tour" className="operations-link" style={{ fontSize: '0.85rem', fontWeight: 600 }}>TAKE A TOUR <ArrowRight size={14} /></a>
             </div>
             <div className="operations-grid">

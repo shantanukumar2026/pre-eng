@@ -6,8 +6,8 @@ const FAQ = () => {
 
   const faqs = [
     {
-      q: 'How fast can you deliver standard precast products to jobsites?',
-      a: 'Standard drainage inlets, catch basins, utility manholes, and box culverts are maintained in plant inventory for same-day or next-day flatbed dispatch. Custom cored or special dimension structures are fabricated and shipped in 3 to 5 business days.',
+      q: 'How are standard and custom precast products scheduled for delivery?',
+      a: 'Standard drainage inlets, catch basins, utility manholes, and common box culvert sizes are stocked for prompt flatbed dispatch. Custom-cored or project-specific structures are manufactured according to approved submittals and coordinated project schedules.',
     },
     {
       q: 'Do your drawings include 50-state PE stamps for state DOT approval?',
@@ -15,11 +15,11 @@ const FAQ = () => {
     },
     {
       q: 'Can you cast custom pipe knockouts and internal baffle walls?',
-      a: 'Yes. We factory-cast or core-drill pipe penetrations with Kor-N-Seal rubber boots, install internal weir walls, oil/grit baffle plates, and custom ladder rungs prior to delivery so the unit is 100% ready to install.',
+      a: 'Yes. We factory-cast or core-drill pipe penetrations with Kor-N-Seal rubber boots, install internal weir walls, oil/grit baffle plates, and custom ladder rungs prior to delivery so the unit arrives jobsite-ready.',
     },
     {
       q: 'Why choose precast concrete over traditional cast-in-place?',
-      a: 'Precast structures cure in our climate-controlled factory while site excavation takes place. Once delivered, they set in minutes with a single crane pick and can be immediately backfilled—saving up to 60% in jobsite labor and eliminating 28-day concrete curing delays.',
+      a: 'Precast structures cure in our climate-controlled factory while site excavation takes place. Once delivered, they set in place with crane picks and can be promptly backfilled—reducing on-site labor and eliminating extended jobsite wet-curing delays.',
     },
   ];
 

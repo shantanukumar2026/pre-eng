@@ -40,7 +40,7 @@ const Methodology = () => {
                 <img src="/assets/media/heavy_logistics_bg_1787569548808.jpg" alt="Delivery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Delivery &amp; Logistics</h4>
-              <p className="method-desc">Coordinated, just-in-time delivery to your job site to keep projects on schedule.</p>
+              <p className="method-desc">Coordinated jobsite delivery synchronized with contractor staging to maintain project progress.</p>
             </div>
 
           </div>

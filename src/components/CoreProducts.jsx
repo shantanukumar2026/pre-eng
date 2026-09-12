@@ -25,7 +25,7 @@ const PRODUCTS_DATA = [
     sizes: 'Standard square and rectangular footprints: 24"×24", 30"×30", 36"×36", 48"×48", 48"×72". Depths from 3 ft up to 15 ft with modular riser sections. Custom depths available.',
     customOptions: 'Core-drilled or cast-in knockouts with rubber boots, internal weir walls, baffle plates for oil/grit separation, high-early-strength mixes, H-20 & HS-25 heavy highway traffic rating.',
     accessories: 'Heavy-duty cast iron grates (vaned, bicycle-safe, ADA compliant), curb inlet hoods, sediment filter baskets, galvanized ladder rungs, grade adjustment rings, and cast-in pipe seals.',
-    availability: 'High-volume standard inventory kept in stock for same-day/next-day dispatch; custom-engineered units fabricated and delivered in 3 to 5 business days.'
+    availability: 'Standard inventory maintained in stock for rapid dispatch; custom-engineered units fabricated per project specifications and delivery schedule.'
   },
   {
     id: 'box-culverts',
@@ -40,7 +40,7 @@ const PRODUCTS_DATA = [
     sizes: 'Spans from 3 ft to 24 ft; Rises from 2 ft to 14 ft; Standard laying lengths of 6 ft, 8 ft, and 10 ft; Custom multi-cell configurations.',
     customOptions: 'Skewed ends, toe walls, cast-in headwalls, wingwalls, internal baffle chutes, energy dissipators, and specialty waterproofing membrane coatings.',
     accessories: 'Preformed joint gaskets, mastic sealant tapes, lifting anchors, pulling irons, and precast parapet walls.',
-    availability: 'Standard sizes in continuous production cycle; Custom span/rise configurations manufactured in 7 to 14 business days.'
+    availability: 'Standard sizes available for scheduled delivery; custom span and rise configurations manufactured per project plans.'
   },
   {
     id: 'bridge-girders',
@@ -70,7 +70,7 @@ const PRODUCTS_DATA = [
     sizes: 'Diameters: 48", 60", 72", 84", 96", 120"; Wall thicknesses: 5" to 10"; Depths customized to site grade with standard riser sections.',
     customOptions: 'Monolithic base casting, factory-cored pipe entries, Kor-N-Seal boots, internal drop connections, acid-resistant epoxy lining.',
     accessories: 'Cast iron frames and covers (traffic rated, watertight, vented), eccentric or concentric cones, flat top slabs, and poly-coated safety steps.',
-    availability: 'Standard diameters in stock for immediate yard pickup or jobsite delivery; Custom cored units ready in 48 to 72 hours.'
+    availability: 'Standard diameters maintained in stock for yard pickup or scheduled delivery; custom-cored units fabricated upon submittal approval.'
   },
   {
     id: 'architectural-panels',
@@ -79,7 +79,7 @@ const PRODUCTS_DATA = [
     tagline: 'Architectural wall panels are custom-finished, composite precast concrete facades combining exterior aesthetics, structural load bearing, and thermal insulation.',
     image: '/assets/media/heavy_logistics_bg_1787569548808.jpg',
     whatItIs: 'High-density sandwich panels featuring exterior face concrete, continuous rigid insulation, and interior structural wythe.',
-    whatItDoes: 'Closes the building envelope rapidly, delivers superior thermal barrier (R-value), provides 4-hour fire resistance, and provides high-end architectural facades.',
+    whatItDoes: 'Closes the building envelope rapidly, delivers continuous thermal insulation (R-value), provides high fire resistance ratings, and delivers custom architectural facades.',
     whereUsed: 'Commercial office towers, data centers, industrial distribution warehouses, educational institutions, and luxury residential buildings.',
     whoUses: 'General commercial builders, architectural design firms, building envelope consultants, and institutional developers.',
     sizes: 'Heights up to 45 ft in single panels; Widths from 8 ft to 14 ft; Thicknesses from 6" to 14" depending on structural requirements.',
@@ -327,7 +327,7 @@ const CoreProducts = () => {
                     Need Shop Drawings or a Project Quote for {activeProduct.name}?
                   </div>
                   <div style={{ fontSize: '0.85rem', color: '#1E40AF' }}>
-                    Our licensed engineering department provides instant takeoff reviews and shop submittals.
+                    Our licensed engineering department provides responsive takeoff reviews and project shop submittals.
                   </div>
                 </div>
 

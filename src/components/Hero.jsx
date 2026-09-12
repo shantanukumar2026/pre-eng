@@ -28,7 +28,7 @@ const Hero = () => {
         </h1>
 
         <p className="hero_subtitle">
-          We engineer, design, and manufacture high-performance precast concrete systems, delivering certified structural precision, advanced technologies, and on-time project delivery.
+          We engineer, design, and manufacture high-performance precast concrete systems, delivering structural precision, advanced technologies, and coordinated project delivery.
         </p>
 
         <div className="hero_cta_group">
@@ -74,8 +74,8 @@ const Hero = () => {
               <HardHat size={18} />
             </div>
             <div>
-              <div className="trust_text_main">Fast Turnaround</div>
-              <div className="trust_text_sub">&amp; Delivery</div>
+              <div className="trust_text_main">Responsive</div>
+              <div className="trust_text_sub">Support</div>
             </div>
           </div>
 
