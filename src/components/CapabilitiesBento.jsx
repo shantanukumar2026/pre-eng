@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const CAPABILITIES = [
   {
-    image: '/assets/media/engineering_design_real.jpg',
+    image: '/assets/media/videoframe_7136.png',
     tag: 'STRUCTURAL DESIGN',
     title: 'Structural Precast Engineering',
     desc: 'In-house licensed civil and structural engineers providing stamped PE calculations, 3D BIM coordination, and submittals.',
@@ -15,7 +15,7 @@ const CAPABILITIES = [
     link: '#contact'
   },
   {
-    image: '/assets/media/automated_batching_real.jpg',
+    image: '/assets/media/box_culvert_real.jpg',
     tag: 'INFRASTRUCTURE',
     title: 'Infrastructure Solutions',
     desc: 'Heavy civil precast systems engineered for storm drainage, highway conduits, and subterranean utility infrastructure.',
@@ -27,7 +27,7 @@ const CAPABILITIES = [
     link: '#products'
   },
   {
-    image: '/assets/media/custom_tooling_real.jpg',
+    image: '/assets/media/quality_control_bg_17875695638200.jpg',
     tag: 'CUSTOM CASTING',
     title: 'Custom Precast Casting',
     desc: 'Specialized modular formwork and custom mold tooling engineered for complex geometric and architectural precast designs.',
@@ -39,7 +39,7 @@ const CAPABILITIES = [
     link: '#contact'
   },
   {
-    image: '/assets/media/heavy_logistics_real.jpg',
+    image: '/assets/media/heavy_logistics_bg_1787569548808122.jpg',
     tag: 'PROJECT LOGISTICS',
     title: 'Project Logistics & Rigging',
     desc: 'Dedicated transport fleet synchronized directly with contractor excavation and crane pick schedules to eliminate site downtime.',

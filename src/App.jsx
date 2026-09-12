@@ -7,14 +7,9 @@ import Methodology from './components/Methodology';
 import CTABanner from './components/CTABanner';
 import CoreProducts from './components/CoreProducts';
 import WhyChooseUs from './components/WhyChooseUs';
-import Operations from './components/Operations';
 import Certifications from './components/Certifications';
-import LatestNews from './components/LatestNews';
-import ResourceCenter from './components/ResourceCenter';
-import CoreValues from './components/CoreValues';
 import FAQ from './components/FAQ';
 import Locations from './components/Locations';
-import Sustainability from './components/Sustainability';
 import Consultation from './components/Consultation';
 import Footer from './components/Footer';
 import { ChevronUp } from 'lucide-react';
@@ -41,7 +36,6 @@ function App() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('is-revealed');
-          // Optional: unobserve once revealed for performance
           observer.unobserve(entry.target);
         }
       });
@@ -55,7 +49,7 @@ function App() {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
     const revealElements = document.querySelectorAll(
-      '.reveal-fade-up, .reveal-fade-left, .reveal-fade-right, .reveal-zoom, .bento_card, .solution_card, .method-step-card, .why-item, .location-card, .value-card, .news-card, .resource-item, .faq-item'
+      '.reveal-fade-up, .capability-corporate-card, .solution-card-item, .method-step, .why-item, .location-card, .faq-item'
     );
 
     revealElements.forEach((el) => {
@@ -89,14 +83,9 @@ function App() {
       <CTABanner />
       <CoreProducts />
       <WhyChooseUs />
-      <Operations />
       <Certifications />
-      <LatestNews />
-      <ResourceCenter />
-      <CoreValues />
       <FAQ />
       <Locations />
-      <Sustainability />
       <Consultation />
       <Footer />
 
