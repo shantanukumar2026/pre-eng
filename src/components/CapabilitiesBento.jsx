@@ -3,50 +3,50 @@ import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 const CAPABILITIES = [
   {
-    image: '/assets/media/videoframe_7136.png',
+    image: '/assets/media/precast_structural_plan.jpg',
     tag: 'STRUCTURAL DESIGN',
     title: 'Structural Precast Engineering',
     desc: 'In-house licensed civil and structural engineers providing stamped PE calculations, 3D BIM coordination, and submittals.',
     points: [
       '50-State PE Stamped Calculations',
-      'Revit & 3D BIM Coordination',
+      'Revit & 3D BIM Detailing',
       'Buoyancy & Hydraulic Sizing'
     ],
     link: '#contact'
   },
   {
-    image: '/assets/media/box_culvert_real.jpg',
+    image: '/assets/media/Box Culvert/13.jpeg',
     tag: 'INFRASTRUCTURE',
-    title: 'Infrastructure Solutions',
-    desc: 'Heavy civil precast systems engineered for storm drainage, highway conduits, and subterranean utility infrastructure.',
+    title: 'Heavy Civil Box Culverts',
+    desc: 'Heavy civil precast culverts engineered for storm drainage, highway conduits, and subterranean utility corridors.',
     points: [
-      'AASHTO & ASTM Certified Structures',
-      'High-Capacity Water & Drainage Vaults',
-      'Standard & Custom Sized Units'
+      'AASHTO & ASTM C1577 Compliant',
+      'High-Capacity Water Retention',
+      'Standard & Custom Spans'
     ],
     link: '#products'
   },
   {
-    image: '/assets/media/quality_control_bg_17875695638200.jpg',
-    tag: 'CUSTOM CASTING',
-    title: 'Custom Precast Casting',
-    desc: 'Specialized modular formwork and custom mold tooling engineered for complex geometric and architectural precast designs.',
+    image: '/assets/media/precast_factory_floor.jpg',
+    tag: 'PRECISION CASTING',
+    title: 'Plant Manufacturing & Tooling',
+    desc: 'Precision heavy steel formwork, automated SCC batching, and controlled steam curing for high-durability precast.',
     points: [
-      'Custom Steel Mold Fabrication',
-      'Precision Knockouts & Boot Inserts',
-      'Engineered Concrete Mixes'
+      'Custom Steel Form Fabrication',
+      'High-Strength Self-Consolidating Concrete',
+      'Monolithic Quality Assurance'
     ],
     link: '#contact'
   },
   {
-    image: '/assets/media/heavy_logistics_bg_1787569548808122.jpg',
+    image: '/assets/media/precast_transport_fleet.jpg',
     tag: 'PROJECT LOGISTICS',
-    title: 'Project Logistics & Rigging',
-    desc: 'Dedicated transport fleet synchronized directly with contractor excavation and crane pick schedules to eliminate site downtime.',
+    title: 'Jobsite Logistics & Rigging',
+    desc: 'Heavy-haul flatbed transport synchronized directly with contractor excavation and crane pick schedules.',
     points: [
-      'Flatbed & Heavy-Haul Transport',
-      'Direct Jobsite Crane Coordination',
-      'Permitted Regional Route Delivery'
+      'Permitted Heavy-Haul Flatbeds',
+      'Direct Jobsite Crane Offloading',
+      'Sequenced Site Deliveries'
     ],
     link: '#contact'
   }
@@ -54,7 +54,7 @@ const CAPABILITIES = [
 
 const CapabilitiesBento = () => {
   return (
-    <section className="section-capabilities padding-global" id="capabilities" style={{ backgroundColor: '#f8fafc', paddingTop: '3.5rem', paddingBottom: '3.5rem', borderBottom: '1px solid #e2e8f0' }}>
+    <section className="section-capabilities padding-global" id="capabilities" style={{ backgroundColor: '#f8fafc', paddingTop: '5rem', paddingBottom: '5rem', borderBottom: '1px solid #e2e8f0' }}>
       <div className="container-large">
         
         {/* Section Header */}

@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className="navbar_submenu_grid">
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/catch_basin_real.jpg" alt="Drainage Inlets & Catch Basins" className="submenu_card_img" />
+                      <img src="/assets/media/culvert.jpg" alt="Drainage Inlets & Catch Basins" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -65,7 +65,7 @@ const Navbar = () => {
 
                   <a href="#products" className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/box_culvert_real.jpg" alt="Box Culverts" className="submenu_card_img" />
+                      <img src="/assets/media/Box Culvert/13.jpeg" alt="Box Culverts" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -104,9 +104,9 @@ const Navbar = () => {
               </div>
               <div className="navbar_dropdown-list">
                 <div className="navbar_submenu_grid is-2">
-                  <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
+                  <a href="#capabilities" className="navbar_submenu_card" style={{ height: '200px' }}>
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/automated_batching_real.jpg" alt="Manufacturing" className="submenu_card_img" />
+                      <img src="/assets/media/precast_factory_floor.jpg" alt="Manufacturing" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
@@ -114,9 +114,9 @@ const Navbar = () => {
                     <div className="submenu_card_title">Manufacturing Plants</div>
                   </a>
 
-                  <a href="#manufacturing" className="navbar_submenu_card" style={{ height: '200px' }}>
+                  <a href="#capabilities" className="navbar_submenu_card" style={{ height: '200px' }}>
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/engineering_design_real.jpg" alt="R&D" className="submenu_card_img" />
+                      <img src="/assets/media/precast_structural_plan.jpg" alt="R&D" className="submenu_card_img" />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />

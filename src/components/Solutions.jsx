@@ -8,8 +8,8 @@ const SOLUTIONS_DATA = [
     category: 'engineering',
     categoryLabel: 'Civil Conduits',
     title: 'Precast Box Culverts',
-    description: 'Engineered for high-volume stormwater conveyance and heavy highway loading.',
-    image: '/assets/media/box_culvert_real.jpg',
+    description: 'Engineered for heavy drainage conveyance and highway traffic loading.',
+    image: '/assets/media/Box Culvert/13.jpeg',
     link: '#products'
   },
   {
@@ -74,7 +74,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Advanced Manufacturing',
     title: 'Automated Batching & Casting',
     description: 'Computerized SCC batch plants and accelerated steam curing beds.',
-    image: '/assets/media/precast_manufacturing_bg_178756952380612122.jpg',
+    image: '/assets/media/precast_factory_floor.jpg',
     link: '#contact'
   },
   {
@@ -92,7 +92,7 @@ const SOLUTIONS_DATA = [
     categoryLabel: 'Logistics & Rigging',
     title: 'Heavy-Haul Logistics & Rigging',
     description: 'Dedicated transport fleet synchronized directly with crane pick windows.',
-    image: '/assets/media/heavy_logistics_bg_1787569548808122.jpg',
+    image: '/assets/media/precast_transport_fleet.jpg',
     link: '#contact'
   },
   {

@@ -17,7 +17,7 @@ const PRODUCTS_DATA = [
     name: 'Drainage Inlets and Catch Basins',
     shortCategory: 'Stormwater Infrastructure',
     tagline: 'Catch basins and inlets are precast concrete drainage structures designed to capture surface runoff, collect debris, and redirect stormwater safely into underground piping networks.',
-    image: '/assets/media/catch_basin_real.jpg',
+    image: '/assets/media/culvert.jpg',
     whatItIs: 'A reinforced precast concrete box installed flush with ground or pavement level, equipped with a surface grate, a bottom sediment sump, and connection ports for storm drain pipes.',
     whatItDoes: 'Intercepts sheet stormwater runoff, prevents roadway ponding and flooding, traps heavy sediment, leaves, and grit in a subterranean sump, and directs cleaner overflow water downstream into the storm sewer system.',
     whereUsed: 'Roadway curbs and gutters, parking lots, highway medians, airport runways, residential subdivisions, commercial plazas, and industrial parks.',
@@ -32,7 +32,7 @@ const PRODUCTS_DATA = [
     name: 'Precast Box Culverts',
     shortCategory: 'Civil Conduits',
     tagline: 'Box culverts are heavy-duty, rectangular precast concrete conduits engineered for large-volume storm drainage, stream crossings, and subterranean utility corridors.',
-    image: '/assets/media/box_culvert_real.jpg',
+    image: '/assets/media/Box Culvert/13.jpeg',
     whatItIs: 'A monolithic or two-piece rigid rectangular concrete culvert built to withstand extreme earth, hydraulic, and heavy vehicular highway loads.',
     whatItDoes: 'Conveys high-volume stormwater under highways and railways, prevents road washouts, accommodates natural water flows, and provides dry utility tunnels.',
     whereUsed: 'Highway underpasses, stream crossings, railway corridors, retention/detention vaults, storm sewer trunk lines, and pedestrian passages.',
@@ -343,30 +343,6 @@ const CoreProducts = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Quick Visual Grid Cards */}
-          <div style={{ marginBottom: '1.5rem' }}>
-            <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#003380', marginBottom: '1rem' }}>
-              All Precast Structural Categories
-            </h4>
-          </div>
-
-          <div className="products-grid">
-            {PRODUCTS_DATA.map((prod) => (
-              <div 
-                key={prod.id} 
-                className="product-card"
-                onClick={() => {
-                  setActiveProductId(prod.id);
-                  document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
-                }}
-                style={{ cursor: 'pointer', border: activeProductId === prod.id ? '2px solid var(--color-primary)' : undefined }}
-              >
-                <img src={prod.image} alt={prod.name} />
-                <div className="product-label">{prod.name}</div>
-              </div>
-            ))}
           </div>
 
         </div>
