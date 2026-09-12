@@ -89,15 +89,15 @@ const Footer = () => {
               {/* Accreditations Chips */}
               <div className="corp-footer-badges">
                 <span className="corp-badge-item">
-                  <Award size={13} className="text-blue-accent" />
+                  <Award size={13} style={{ color: 'var(--color-primary, #0047ba)' }} />
                   NPCA Plant Certified
                 </span>
                 <span className="corp-badge-item">
-                  <ShieldCheck size={13} className="text-blue-accent" />
+                  <ShieldCheck size={13} style={{ color: 'var(--color-primary, #0047ba)' }} />
                   ASTM C1577 / C478
                 </span>
                 <span className="corp-badge-item">
-                  <CheckCircle2 size={13} className="text-blue-accent" />
+                  <CheckCircle2 size={13} style={{ color: 'var(--color-primary, #0047ba)' }} />
                   AASHTO HL-93 Rated
                 </span>
               </div>
@@ -167,7 +167,7 @@ const Footer = () => {
               
               <div className="corp-hub-item">
                 <div className="corp-hub-title">
-                  <MapPin size={14} className="text-blue-accent" />
+                  <MapPin size={14} style={{ color: 'var(--color-primary, #0047ba)' }} />
                   <strong>Northeast Node (HQ)</strong>
                 </div>
                 <p>105 Maxess Road, Melville, NY 11747</p>
@@ -176,7 +176,7 @@ const Footer = () => {
 
               <div className="corp-hub-item">
                 <div className="corp-hub-title">
-                  <MapPin size={14} className="text-blue-accent" />
+                  <MapPin size={14} style={{ color: 'var(--color-primary, #0047ba)' }} />
                   <strong>Southeast Node</strong>
                 </div>
                 <p>850 NW Federal Hwy, Stuart, FL 34994</p>
@@ -185,7 +185,7 @@ const Footer = () => {
 
               <div className="corp-hub-item">
                 <div className="corp-hub-title">
-                  <MapPin size={14} className="text-blue-accent" />
+                  <MapPin size={14} style={{ color: 'var(--color-primary, #0047ba)' }} />
                   <strong>Midwest Node</strong>
                 </div>
                 <p>2200 Hunt Street, Detroit, MI 48207</p>
@@ -193,7 +193,7 @@ const Footer = () => {
               </div>
 
               <div className="corp-hub-email">
-                <Mail size={14} className="text-blue-accent" />
+                <Mail size={14} style={{ color: 'var(--color-primary, #0047ba)' }} />
                 <a href="mailto:info@precasteng.com">info@precasteng.com</a>
               </div>
             </div>
