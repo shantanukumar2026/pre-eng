@@ -3241,7 +3241,8 @@ a {
    CLEAN CORPORATE LOCATIONS SECTION WITH BACKGROUND SHAPES
    ========================================================================== */
 .section-locations {
-  padding: 2.25rem 0 2.25rem 0;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
   background-color: #f8fafc;
   border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
