@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CapabilitiesBento from './components/CapabilitiesBento';
+import CivilApplications from './components/CivilApplications';
 import Solutions from './components/Solutions';
 import Methodology from './components/Methodology';
-import CTABanner from './components/CTABanner';
 import CoreProducts from './components/CoreProducts';
+import QualityAssurance from './components/QualityAssurance';
 import WhyChooseUs from './components/WhyChooseUs';
 import Certifications from './components/Certifications';
-import FAQ from './components/FAQ';
 import Locations from './components/Locations';
 import Consultation from './components/Consultation';
 import Footer from './components/Footer';
@@ -49,7 +49,7 @@ function App() {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
     const revealElements = document.querySelectorAll(
-      '.reveal-fade-up, .capability-corporate-card, .solution-card-item, .method-step, .why-item, .location-card, .faq-item'
+      '.reveal-fade-up, .capability-corporate-card, .solution-card-item, .method-step, .why-item, .location-card'
     );
 
     revealElements.forEach((el) => {
@@ -78,13 +78,13 @@ function App() {
       <Navbar />
       <Hero />
       <CapabilitiesBento />
+      <CivilApplications />
       <Solutions />
       <Methodology />
-      <CTABanner />
       <CoreProducts />
+      <QualityAssurance />
       <WhyChooseUs />
       <Certifications />
-      <FAQ />
       <Locations />
       <Consultation />
       <Footer />
