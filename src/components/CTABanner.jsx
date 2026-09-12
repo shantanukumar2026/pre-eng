@@ -3,7 +3,7 @@ import { CheckCircle2, ArrowRight } from 'lucide-react';
 
 const CTABanner = () => {
   return (
-    <section className="section-cta padding-global" style={{ paddingBottom: '4rem' }}>
+    <section className="section-cta padding-global" style={{ paddingTop: '1.25rem', paddingBottom: '1.25rem' }}>
       <div className="container-large">
         <div className="cta-banner">
           <div className="cta-icon-bg">

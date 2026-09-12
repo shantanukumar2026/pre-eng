@@ -4,7 +4,7 @@ import { Clock, ArrowRight, Compass, CheckCircle2, TrendingUp, ShieldCheck, File
 const Consultation = () => {
   return (
     <>
-      <section className="section-consultation padding-global" style={{ paddingTop: '3.5rem', paddingBottom: '3.5rem', backgroundColor: '#ffffff', borderTop: '1px solid #e2e8f0' }} id="contact">
+      <section className="section-consultation padding-global" style={{ paddingTop: '2.25rem', paddingBottom: '2.25rem', backgroundColor: '#ffffff', borderTop: '1px solid #e2e8f0' }} id="contact">
         <div className="container-large">
           <div className="consult-wrapper" style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '12px', padding: '2.5rem' }}>
             <div className="consult-left">

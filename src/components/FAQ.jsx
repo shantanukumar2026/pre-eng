@@ -24,7 +24,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="section-faq padding-global" id="faq" style={{ backgroundColor: '#f8fafc', paddingTop: '3.5rem', paddingBottom: '3.5rem', borderTop: '1px solid #e2e8f0' }}>
+    <section className="section-faq padding-global" id="faq" style={{ backgroundColor: '#f8fafc', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderTop: '1px solid #e2e8f0' }}>
       <div className="container-large">
         <div className="faq-split" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr', gap: '3rem', alignItems: 'flex-start' }}>
           <div>

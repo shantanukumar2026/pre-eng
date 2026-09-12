@@ -34,7 +34,7 @@ const CAPABILITIES = [
 
 const CapabilitiesBento = () => {
   return (
-    <section className="section-capabilities padding-global" id="capabilities" style={{ backgroundColor: '#f8fafc', paddingTop: '4.5rem', paddingBottom: '4.5rem', borderBottom: '1px solid #e2e8f0' }}>
+    <section className="section-capabilities padding-global" id="capabilities" style={{ backgroundColor: '#f8fafc', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderBottom: '1px solid #e2e8f0' }}>
       <div className="container-large">
         
         {/* Section Header */}

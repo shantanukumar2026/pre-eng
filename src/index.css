@@ -55,27 +55,28 @@ a {
   text-decoration: none;
 }
 
-/* Global Utilities */
+/* Global Utilities - 100% Full Width & Compact Section Spacing */
 .padding-global {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  width: 100%;
 }
 
 .container-large {
-  max-width: 84rem;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
 .padding-section-large {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .padding-section-medium {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .background-color-light-blue {
@@ -1419,8 +1420,8 @@ a {
 
 /* SECTION 2: SOLUTIONS */
 .section-solutions {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
   background-color: #f1f5f9;
   border-bottom: 1px solid #e2e8f0;
 }
@@ -1429,9 +1430,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .solutions-header-left {
@@ -1670,8 +1671,8 @@ a {
 
 /* SECTION 4: METHODOLOGY */
 .section-methodology {
-  padding-top: 3.5rem;
-  padding-bottom: 4rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
   background-color: #ffffff;
   background-image: radial-gradient(rgba(0, 71, 186, 0.07) 1px, transparent 1px);
   background-size: 24px 24px;
@@ -1975,8 +1976,8 @@ a {
 
 /* SECTION 10: PRODUCTS */
 .section-products {
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
   background-color: #f8fafc;
 }
 
@@ -1984,7 +1985,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .products-sub {
@@ -2695,6 +2696,16 @@ a {
   border-top: 2px solid #e2e8f0;
   position: relative;
   font-family: var(--font-family, inherit);
+  width: 100%;
+}
+
+/* Footer Container - Contained width (Not 100% stretched) */
+.corporate-footer .container-large {
+  max-width: 82rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
 }
 
 /* Top Callout Ribbon */
@@ -3232,7 +3243,7 @@ a {
    CLEAN CORPORATE LOCATIONS SECTION WITH BACKGROUND SHAPES
    ========================================================================== */
 .section-locations {
-  padding: 3.5rem 0 4rem 0;
+  padding: 2.25rem 0 2.25rem 0;
   background-color: #f8fafc;
   border-top: 1px solid #e2e8f0;
   border-bottom: 1px solid #e2e8f0;
