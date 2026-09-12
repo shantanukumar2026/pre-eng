@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, ArrowRight, ExternalLink } from 'lucide-react';
+import { MapPin, Phone, Clock, ExternalLink } from 'lucide-react';
 
 const LOCATIONS_LIST = [
   {
@@ -34,14 +34,25 @@ const LOCATIONS_LIST = [
 const Locations = () => {
   return (
     <section className="section-locations" id="locations">
-      <div className="container-large">
+      {/* Background Architectural Geometry & Ambient Glow Shapes */}
+      <div className="locations-bg-shapes"></div>
+      <div className="locations-ambient-glow-1"></div>
+      <div className="locations-ambient-glow-2"></div>
+
+      <div className="container-large" style={{ position: 'relative', zIndex: 2 }}>
+        {/* Centered Header with Pill Badge */}
         <div className="locations-header text-center">
+          <div className="h-flex-tiny is-center">
+            <div className="chip_box"></div>
+            <span className="chip">STRATEGIC FOOTPRINT</span>
+          </div>
           <h2 className="locations-title">Our Locations</h2>
           <p className="locations-desc">
             Strategic manufacturing facilities and regional offices serving infrastructure projects across North America.
           </p>
         </div>
 
+        {/* 3-Column Cards */}
         <div className="locations-grid">
           {LOCATIONS_LIST.map((loc, idx) => (
             <div key={idx} className="location-card">
