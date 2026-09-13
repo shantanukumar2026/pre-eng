@@ -34,7 +34,7 @@ const CAPABILITIES = [
 
 const CapabilitiesBento = () => {
   return (
-    <section className="section-capabilities padding-global" id="capabilities" style={{ backgroundColor: '#f8fafc', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderBottom: '1px solid #e2e8f0' }}>
+    <section className="section-capabilities padding-global" id="capabilities" style={{ backgroundColor: '#f0f5ff', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderBottom: '1px solid #bfdbfe' }}>
       <div className="container-large">
         
         {/* Section Header */}
@@ -46,7 +46,7 @@ const CapabilitiesBento = () => {
           <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.6rem' }}>
             Core Precast Capabilities
           </h2>
-          <p style={{ color: '#5a6e8c', maxWidth: '600px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6 }}>
+          <p style={{ color: '#003380', maxWidth: '600px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6 }}>
             Reliable precast engineering, plant manufacturing, and jobsite delivery for civil projects.
           </p>
         </div>
@@ -59,12 +59,12 @@ const CapabilitiesBento = () => {
               className="capability-corporate-card"
               style={{
                 background: '#ffffff',
-                border: '1px solid #e2e8f0',
+                border: '1px solid #bfdbfe',
                 borderRadius: '10px',
                 overflow: 'hidden',
                 display: 'flex',
                 flexDirection: 'column',
-                boxShadow: '0 4px 14px rgba(0, 34, 89, 0.04)',
+                boxShadow: '0 4px 14px rgba(0, 71, 186, 0.05)',
                 transition: 'all 0.3s ease'
               }}
             >
@@ -112,7 +112,7 @@ const CapabilitiesBento = () => {
                   <h3 style={{ fontSize: '1.12rem', fontWeight: 800, color: '#002868', marginBottom: '0.6rem', lineHeight: 1.35 }}>
                     {cap.title}
                   </h3>
-                  <p style={{ fontSize: '0.9rem', color: '#475569', lineHeight: 1.6, margin: '0 0 1.25rem 0' }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6, margin: '0 0 1.25rem 0' }}>
                     {cap.desc}
                   </p>
                 </div>
@@ -128,7 +128,7 @@ const CapabilitiesBento = () => {
                     fontSize: '0.86rem', 
                     fontWeight: 700, 
                     textDecoration: 'none',
-                    borderTop: '1px solid #f1f5f9',
+                    borderTop: '1px solid #f0f5ff',
                     paddingTop: '0.85rem',
                     transition: 'gap 0.2s ease'
                   }}

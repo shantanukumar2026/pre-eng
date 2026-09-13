@@ -30,7 +30,7 @@ const SECTORS = [
 
 const CivilApplications = () => {
   return (
-    <section className="section-civil-applications padding-global" id="applications" style={{ backgroundColor: '#ffffff', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderBottom: '1px solid #e2e8f0' }}>
+    <section className="section-civil-applications padding-global" id="applications" style={{ backgroundColor: '#ffffff', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderBottom: '1px solid #bfdbfe' }}>
       <div className="container-large">
         
         {/* Section Header */}
@@ -42,7 +42,7 @@ const CivilApplications = () => {
           <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.5rem' }}>
             Heavy Civil &amp; Infrastructure Applications
           </h2>
-          <p style={{ color: '#5a6e8c', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6 }}>
+          <p style={{ color: '#003380', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6 }}>
             Our certified precast systems are deployed across critical public transportation, highway, and municipal utility corridors.
           </p>
         </div>
@@ -53,13 +53,13 @@ const CivilApplications = () => {
             <div 
               key={idx}
               style={{
-                background: '#f8fafc',
-                border: '1px solid #e2e8f0',
+                background: '#f0f5ff',
+                border: '1px solid #bfdbfe',
                 borderRadius: '10px',
                 overflow: 'hidden',
                 display: 'flex',
                 flexDirection: 'column',
-                boxShadow: '0 4px 14px rgba(0, 34, 89, 0.04)',
+                boxShadow: '0 4px 14px rgba(0, 71, 186, 0.05)',
                 transition: 'all 0.3s ease'
               }}
             >
@@ -77,13 +77,13 @@ const CivilApplications = () => {
                   <h3 style={{ fontSize: '1.08rem', fontWeight: 800, color: '#002868', marginBottom: '0.5rem', lineHeight: 1.35 }}>
                     {sec.title}
                   </h3>
-                  <p style={{ fontSize: '0.86rem', color: '#475569', lineHeight: 1.55, marginBottom: '1rem' }}>
+                  <p style={{ fontSize: '0.86rem', color: '#003380', lineHeight: 1.55, marginBottom: '1rem' }}>
                     {sec.desc}
                   </p>
 
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '1.25rem' }}>
                     {sec.specs.map((sp, sIdx) => (
-                      <div key={sIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#334155', fontWeight: 600 }}>
+                      <div key={sIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#003380', fontWeight: 600 }}>
                         <ShieldCheck size={14} style={{ color: '#0047ba', flexShrink: 0 }} />
                         <span>{sp}</span>
                       </div>
@@ -101,7 +101,7 @@ const CivilApplications = () => {
                     fontSize: '0.84rem', 
                     fontWeight: 700, 
                     textDecoration: 'none',
-                    borderTop: '1px solid #e2e8f0',
+                    borderTop: '1px solid #bfdbfe',
                     paddingTop: '0.75rem'
                   }}
                 >

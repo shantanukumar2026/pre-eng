@@ -194,7 +194,7 @@ const CoreProducts = () => {
             </div>
 
             {/* 8 Explanatory Points Grid */}
-            <div style={{ padding: '2.5rem', backgroundColor: '#F8FAFC' }}>
+            <div style={{ padding: '2.5rem', backgroundColor: '#F0F5FF' }}>
               <div 
                 style={{ 
                   display: 'grid', 
@@ -204,105 +204,105 @@ const CoreProducts = () => {
                 }}
               >
                 {/* 1. What it is */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #0047BA' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <HelpCircle size={18} style={{ color: 'var(--color-primary)' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       What the Product Is
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.whatItIs}
                   </p>
                 </div>
 
                 {/* 2. What it does */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #3E80F9' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
-                    <Activity size={18} style={{ color: '#3E80F9' }} />
+                    <Activity size={18} style={{ color: '#0047BA' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       What It Does
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.whatItDoes}
                   </p>
                 </div>
 
                 {/* 3. Where it is used */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #0047BA' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <MapPin size={18} style={{ color: 'var(--color-primary)' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Where It Is Used
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.whereUsed}
                   </p>
                 </div>
 
                 {/* 4. Who uses it */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #3E80F9' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
-                    <Users size={18} style={{ color: '#3E80F9' }} />
+                    <Users size={18} style={{ color: '#0047BA' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Who Uses It
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.whoUses}
                   </p>
                 </div>
 
                 {/* 5. Available sizes */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #0047BA' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Maximize2 size={18} style={{ color: 'var(--color-primary)' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Available Sizes
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.sizes}
                   </p>
                 </div>
 
                 {/* 6. Custom options */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #3E80F9' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
-                    <Sliders size={18} style={{ color: '#3E80F9' }} />
+                    <Sliders size={18} style={{ color: '#0047BA' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Custom Options
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.customOptions}
                   </p>
                 </div>
 
                 {/* 7. Accessories */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #0047BA' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Wrench size={18} style={{ color: 'var(--color-primary)' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Accessories
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.accessories}
                   </p>
                 </div>
 
                 {/* 8. Availability */}
-                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #E2E8F0', borderLeft: '4px solid #10B981' }}>
+                <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
-                    <Truck size={18} style={{ color: '#10B981' }} />
+                    <Truck size={18} style={{ color: '#0047BA' }} />
                     <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Availability
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#334155', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
                     {activeProduct.availability}
                   </p>
                 </div>

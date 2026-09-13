@@ -24,7 +24,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="section-faq padding-global" id="faq" style={{ backgroundColor: '#f8fafc', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderTop: '1px solid #e2e8f0' }}>
+    <section className="section-faq padding-global" id="faq" style={{ backgroundColor: '#f0f5ff', paddingTop: '2.25rem', paddingBottom: '2.25rem', borderTop: '1px solid #bfdbfe' }}>
       <div className="container-large">
         <div className="faq-split" style={{ display: 'grid', gridTemplateColumns: '1fr 1.6fr', gap: '3rem', alignItems: 'flex-start' }}>
           <div>
@@ -35,7 +35,7 @@ const FAQ = () => {
             <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.75rem' }}>
               Frequently Asked Questions
             </h2>
-            <p style={{ color: '#5a6e8c', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+            <p style={{ color: '#003380', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: '1.5rem' }}>
               Have questions about sizing, certifications, submittals, or delivery timing? Our engineering staff is ready to assist.
             </p>
             <a href="#contact" className="button_hero_primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.7rem 1.3rem', fontSize: '0.9rem' }}>
@@ -51,13 +51,13 @@ const FAQ = () => {
                 className={`faq-item ${activeFaq === index ? 'is-active' : ''}`}
                 onClick={() => setActiveFaq(activeFaq === index ? -1 : index)}
                 style={{ 
-                  border: '1px solid #e2e8f0', 
+                  border: '1px solid #bfdbfe', 
                   borderRadius: '8px', 
                   padding: '1.25rem 1.5rem', 
                   cursor: 'pointer', 
                   transition: 'all 0.2s ease', 
                   background: activeFaq === index ? '#ffffff' : '#ffffff',
-                  boxShadow: activeFaq === index ? '0 4px 12px rgba(0, 71, 186, 0.08)' : '0 1px 3px rgba(0,0,0,0.02)'
+                  boxShadow: activeFaq === index ? '0 4px 12px rgba(0, 71, 186, 0.08)' : '0 1px 3px rgba(0, 71, 186, 0.04)'
                 }}
               >
                 <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#002868', fontSize: '0.98rem' }}>
@@ -67,7 +67,7 @@ const FAQ = () => {
                   </div>
                 </div>
                 {activeFaq === index && (
-                  <div className="faq-a" style={{ marginTop: '0.85rem', color: '#475569', fontSize: '0.92rem', lineHeight: 1.6, borderTop: '1px solid #f1f5f9', paddingTop: '0.75rem' }}>
+                  <div className="faq-a" style={{ marginTop: '0.85rem', color: '#003380', fontSize: '0.92rem', lineHeight: 1.6, borderTop: '1px solid #e0e7ff', paddingTop: '0.75rem' }}>
                     {faq.a}
                   </div>
                 )}
