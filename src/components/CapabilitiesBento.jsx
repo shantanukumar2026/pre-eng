@@ -43,10 +43,10 @@ const CapabilitiesBento = () => {
             <div className="chip_box"></div>
             <span className="chip">ENGINEERING SERVICES</span>
           </div>
-          <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.6rem' }}>
+          <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.6rem' }}>
             Core Precast Capabilities
           </h2>
-          <p style={{ color: '#003380', maxWidth: '600px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6 }}>
+          <p style={{ color: '#0052cc', maxWidth: '600px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6, fontWeight: 500 }}>
             Reliable precast engineering, plant manufacturing, and jobsite delivery for civil projects.
           </p>
         </div>
@@ -69,7 +69,7 @@ const CapabilitiesBento = () => {
               }}
             >
               {/* Top Image Container */}
-              <div style={{ height: '180px', width: '100%', position: 'relative', overflow: 'hidden', backgroundColor: '#002868' }}>
+              <div style={{ height: '180px', width: '100%', position: 'relative', overflow: 'hidden', backgroundColor: '#0047ba' }}>
                 <img 
                   src={cap.image} 
                   alt={cap.title} 
@@ -109,10 +109,10 @@ const CapabilitiesBento = () => {
               {/* Card Body */}
               <div style={{ padding: '1.4rem', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
                 <div>
-                  <h3 style={{ fontSize: '1.12rem', fontWeight: 800, color: '#002868', marginBottom: '0.6rem', lineHeight: 1.35 }}>
+                  <h3 style={{ fontSize: '1.12rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.6rem', lineHeight: 1.35 }}>
                     {cap.title}
                   </h3>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6, margin: '0 0 1.25rem 0' }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6, margin: '0 0 1.25rem 0' }}>
                     {cap.desc}
                   </p>
                 </div>

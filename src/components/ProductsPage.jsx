@@ -54,12 +54,12 @@ const ProductsPage = () => {
   const filtered = productList.filter(p => activeCategory === 'all' || p.cat === activeCategory);
 
   return (
-    <div className="products-page" style={{ backgroundColor: '#ffffff', color: '#003380', fontFamily: "'Manrope', sans-serif" }}>
+    <div className="products-page" style={{ backgroundColor: '#ffffff', color: '#0047ba', fontFamily: "'Manrope', sans-serif" }}>
       
       {/* 1. Header Banner */}
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
-        color: '#ffffff',
+        color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
         overflow: 'hidden'
@@ -72,10 +72,10 @@ const ProductsPage = () => {
         }} />
 
         <div style={{ maxWidth: '1280px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#93c5fd', marginBottom: '0.75rem' }}>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
             <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
-            <span style={{ color: '#ffffff', fontWeight: 600 }}>Engineered Products</span>
+            <span style={{ color: '#ffffff', fontWeight: 700 }}>Engineered Products</span>
           </nav>
 
           <h1 style={{ fontSize: 'clamp(2.2rem, 4.2vw, 3.2rem)', fontWeight: 800, letterSpacing: '-0.02em', marginBottom: '0.6rem', lineHeight: 1.15, color: '#ffffff' }}>
@@ -103,7 +103,7 @@ const ProductsPage = () => {
                 fontWeight: 700,
                 cursor: 'pointer',
                 backgroundColor: activeCategory === c.id ? '#0047BA' : '#ffffff',
-                color: activeCategory === c.id ? '#ffffff' : '#003380',
+                color: activeCategory === c.id ? '#ffffff' : '#0052cc',
                 boxShadow: activeCategory === c.id ? '0 2px 8px rgba(0, 71, 186, 0.25)' : 'none',
                 transition: 'all 0.2s ease'
               }}
@@ -143,7 +143,7 @@ const ProductsPage = () => {
                   <span>{p.spec}</span>
                 </div>
 
-                <h2 style={{ fontSize: '1.45rem', fontWeight: 800, color: '#003380', marginBottom: '0.5rem', lineHeight: 1.25 }}>
+                <h2 style={{ fontSize: '1.45rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.5rem', lineHeight: 1.25 }}>
                   {p.title}
                 </h2>
 
@@ -151,7 +151,7 @@ const ProductsPage = () => {
                   {p.spans}
                 </div>
 
-                <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+                <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6, marginBottom: '1.5rem' }}>
                   {p.desc}
                 </p>
 

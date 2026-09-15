@@ -15,12 +15,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page" style={{ backgroundColor: '#ffffff', color: '#003380', fontFamily: "'Manrope', sans-serif" }}>
+    <div className="contact-page" style={{ backgroundColor: '#ffffff', color: '#0047ba', fontFamily: "'Manrope', sans-serif" }}>
       
       {/* 1. Header Banner */}
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
-        color: '#ffffff',
+        color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
         overflow: 'hidden'
@@ -33,7 +33,7 @@ const Contact = () => {
         }} />
 
         <div style={{ maxWidth: '1280px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#93c5fd', marginBottom: '0.75rem' }}>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
             <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
             <span style={{ color: '#ffffff', fontWeight: 600 }}>Contact &amp; Engineering Submittals</span>
@@ -61,10 +61,10 @@ const Contact = () => {
             boxShadow: '0 4px 20px rgba(0, 71, 186, 0.06)',
             padding: '2rem'
           }}>
-            <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#003380', marginBottom: '0.35rem' }}>
+            <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.35rem' }}>
               Request Direct Project Takeoff
             </h2>
-            <p style={{ fontSize: '0.85rem', color: '#003380', marginBottom: '1.5rem' }}>
+            <p style={{ fontSize: '0.85rem', color: '#0052cc', marginBottom: '1.5rem' }}>
               Upload details or send drawing packages for guaranteed same-day submittal reviews.
             </p>
 
@@ -77,7 +77,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                   <div>
-                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#003380', display: 'block', marginBottom: '4px' }}>Full Name *</label>
+                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0052cc', display: 'block', marginBottom: '4px' }}>Full Name *</label>
                     <input 
                       type="text" 
                       required
@@ -88,7 +88,7 @@ const Contact = () => {
                     />
                   </div>
                   <div>
-                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#003380', display: 'block', marginBottom: '4px' }}>Work Email *</label>
+                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0052cc', display: 'block', marginBottom: '4px' }}>Work Email *</label>
                     <input 
                       type="email" 
                       required
@@ -102,7 +102,7 @@ const Contact = () => {
 
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                   <div>
-                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#003380', display: 'block', marginBottom: '4px' }}>Phone Number *</label>
+                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0052cc', display: 'block', marginBottom: '4px' }}>Phone Number *</label>
                     <input 
                       type="tel" 
                       required
@@ -113,7 +113,7 @@ const Contact = () => {
                     />
                   </div>
                   <div>
-                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#003380', display: 'block', marginBottom: '4px' }}>Company / Agency</label>
+                    <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0052cc', display: 'block', marginBottom: '4px' }}>Company / Agency</label>
                     <input 
                       type="text" 
                       value={formData.company}
@@ -125,11 +125,11 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#003380', display: 'block', marginBottom: '4px' }}>Product Category</label>
+                  <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0052cc', display: 'block', marginBottom: '4px' }}>Product Category</label>
                   <select 
                     value={formData.projectType}
                     onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
-                    style={{ width: '100%', padding: '8px 12px', borderRadius: '6px', border: '1px solid #bfdbfe', fontSize: '0.85rem', backgroundColor: '#ffffff', color: '#003380' }}
+                    style={{ width: '100%', padding: '8px 12px', borderRadius: '6px', border: '1px solid #bfdbfe', fontSize: '0.85rem', backgroundColor: '#ffffff', color: '#0052cc' }}
                   >
                     <option value="Box Culvert">Precast Box Culverts (ASTM C1577)</option>
                     <option value="Bridge Girder">Pre-Stressed Bridge Girders &amp; Decks</option>
@@ -140,7 +140,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#003380', display: 'block', marginBottom: '4px' }}>Project Notes / Submittal Specs</label>
+                  <label style={{ fontSize: '0.78rem', fontWeight: 700, color: '#0052cc', display: 'block', marginBottom: '4px' }}>Project Notes / Submittal Specs</label>
                   <textarea 
                     rows={4}
                     value={formData.message}
@@ -164,7 +164,7 @@ const Contact = () => {
                     boxShadow: '0 4px 12px rgba(0, 71, 186, 0.25)',
                     transition: 'all 0.2s ease'
                   }}
-                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#003380'}
+                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0052cc'}
                   onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#0047BA'}
                 >
                   Submit Project Submittal
@@ -182,10 +182,10 @@ const Contact = () => {
                 <MapPin size={14} />
                 <span>NORTHEAST CASTING NODE (HQ)</span>
               </div>
-              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#003380', marginBottom: '0.25rem' }}>
+              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.25rem' }}>
                 New York Engineering Headquarters
               </h3>
-              <p style={{ fontSize: '0.85rem', color: '#003380', marginBottom: '0.75rem' }}>
+              <p style={{ fontSize: '0.85rem', color: '#0052cc', marginBottom: '0.75rem' }}>
                 105 Maxess Road, Suite S124, Melville, NY 11747
               </p>
               <div style={{ display: 'flex', gap: '1.25rem', fontSize: '0.82rem' }}>
@@ -200,10 +200,10 @@ const Contact = () => {
                 <MapPin size={14} />
                 <span>SOUTHEAST CASTING NODE</span>
               </div>
-              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#003380', marginBottom: '0.25rem' }}>
+              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.25rem' }}>
                 Florida Regional Dispatch
               </h3>
-              <p style={{ fontSize: '0.85rem', color: '#003380', marginBottom: '0.75rem' }}>
+              <p style={{ fontSize: '0.85rem', color: '#0052cc', marginBottom: '0.75rem' }}>
                 850 NW Federal Hwy, Suite 108, Stuart, FL 34994
               </p>
               <div style={{ display: 'flex', gap: '1.25rem', fontSize: '0.82rem' }}>
@@ -218,10 +218,10 @@ const Contact = () => {
                 <MapPin size={14} />
                 <span>MIDWEST CASTING NODE</span>
               </div>
-              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#003380', marginBottom: '0.25rem' }}>
+              <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.25rem' }}>
                 Detroit Logistics Facility
               </h3>
-              <p style={{ fontSize: '0.85rem', color: '#003380', marginBottom: '0.75rem' }}>
+              <p style={{ fontSize: '0.85rem', color: '#0052cc', marginBottom: '0.75rem' }}>
                 2200 Hunt Street, Detroit, MI 48207
               </p>
               <div style={{ display: 'flex', gap: '1.25rem', fontSize: '0.82rem' }}>

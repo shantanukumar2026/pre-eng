@@ -159,7 +159,7 @@ const CoreProducts = () => {
             {/* Top Definition Banner */}
             <div 
               style={{
-                background: 'linear-gradient(135deg, #003380 0%, #0047BA 100%)',
+                background: 'linear-gradient(135deg, #0052cc 0%, #0047BA 100%)',
                 color: '#ffffff',
                 padding: '2.5rem 2.5rem 2rem 2.5rem',
                 borderBottom: '4px solid #3E80F9'
@@ -207,11 +207,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <HelpCircle size={18} style={{ color: 'var(--color-primary)' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       What the Product Is
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.whatItIs}
                   </p>
                 </div>
@@ -220,11 +220,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Activity size={18} style={{ color: '#0047BA' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       What It Does
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.whatItDoes}
                   </p>
                 </div>
@@ -233,11 +233,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <MapPin size={18} style={{ color: 'var(--color-primary)' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Where It Is Used
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.whereUsed}
                   </p>
                 </div>
@@ -246,11 +246,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Users size={18} style={{ color: '#0047BA' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Who Uses It
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.whoUses}
                   </p>
                 </div>
@@ -259,11 +259,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Maximize2 size={18} style={{ color: 'var(--color-primary)' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Available Sizes
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.sizes}
                   </p>
                 </div>
@@ -272,11 +272,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Sliders size={18} style={{ color: '#0047BA' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Custom Options
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.customOptions}
                   </p>
                 </div>
@@ -285,11 +285,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Wrench size={18} style={{ color: 'var(--color-primary)' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Accessories
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.accessories}
                   </p>
                 </div>
@@ -298,11 +298,11 @@ const CoreProducts = () => {
                 <div className="clarity-block" style={{ background: '#fff', padding: '1.5rem', borderRadius: '8px', border: '1px solid #BFDBFE', borderLeft: '4px solid #0047BA' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '0.6rem' }}>
                     <Truck size={18} style={{ color: '#0047BA' }} />
-                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#002868', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
+                    <h4 style={{ fontSize: '0.95rem', fontWeight: 800, color: '#0047ba', textTransform: 'uppercase', letterSpacing: '0.03em' }}>
                       Availability
                     </h4>
                   </div>
-                  <p style={{ fontSize: '0.9rem', color: '#003380', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6 }}>
                     {activeProduct.availability}
                   </p>
                 </div>
@@ -323,10 +323,10 @@ const CoreProducts = () => {
                 }}
               >
                 <div>
-                  <div style={{ fontWeight: 800, color: '#002868', fontSize: '1rem' }}>
+                  <div style={{ fontWeight: 800, color: '#0047ba', fontSize: '1rem' }}>
                     Need Shop Drawings or a Project Quote for {activeProduct.name}?
                   </div>
-                  <div style={{ fontSize: '0.85rem', color: '#1E40AF' }}>
+                  <div style={{ fontSize: '0.85rem', color: '#0047ba' }}>
                     Our licensed engineering department provides responsive takeoff reviews and project shop submittals.
                   </div>
                 </div>

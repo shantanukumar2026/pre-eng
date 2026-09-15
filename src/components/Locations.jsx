@@ -43,10 +43,10 @@ const Locations = () => {
             <div className="chip_box"></div>
             <span className="chip">STRATEGIC FOOTPRINT</span>
           </div>
-          <h2 className="locations-title" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.5rem' }}>
+          <h2 className="locations-title" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem' }}>
             Our Regional Locations
           </h2>
-          <p className="locations-desc" style={{ color: '#003380', maxWidth: '600px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6 }}>
+          <p className="locations-desc" style={{ color: '#0052cc', maxWidth: '600px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6, fontWeight: 500 }}>
             Regional offices and facilities supporting civil precast projects.
           </p>
         </div>
@@ -60,22 +60,22 @@ const Locations = () => {
                   <span style={{ fontSize: '0.7rem', fontWeight: 800, color: '#0047ba', background: '#eff6ff', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em', border: '1px solid #bfdbfe' }}>{loc.tag}</span>
                   <span style={{ fontSize: '0.85rem', fontWeight: 700, color: '#0047ba' }}>{loc.city}</span>
                 </div>
-                <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#002868', marginBottom: '1.25rem' }}>{loc.name}</h3>
+                <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#0047ba', marginBottom: '1.25rem' }}>{loc.name}</h3>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.25rem' }}>
-                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: '#003380' }}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: '#0052cc' }}>
                     <MapPin size={16} style={{ color: '#0047ba', flexShrink: 0, marginTop: '3px' }} />
                     <span>{loc.address}</span>
                   </div>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#003380' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#0052cc' }}>
                     <Phone size={16} style={{ color: '#0047ba', flexShrink: 0 }} />
-                    <a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`} style={{ color: '#002868', fontWeight: 700, textDecoration: 'none' }}>
+                    <a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`} style={{ color: '#0047ba', fontWeight: 700, textDecoration: 'none' }}>
                       {loc.phone}
                     </a>
                   </div>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#003380' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#0052cc' }}>
                     <Clock size={16} style={{ color: '#0047ba', flexShrink: 0 }} />
                     <span>{loc.hours}</span>
                   </div>

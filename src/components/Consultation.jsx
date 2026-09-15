@@ -12,10 +12,10 @@ const Consultation = () => {
                 <Clock size={32} />
               </div>
               <div>
-                <h3 className="consult-title" style={{ fontSize: '1.45rem', color: '#002868', fontWeight: 800, marginBottom: '0.4rem' }}>
+                <h3 className="consult-title" style={{ fontSize: '1.45rem', color: '#0047ba', fontWeight: 800, marginBottom: '0.4rem' }}>
                   Request a Project Quote &amp; Engineering Submittal
                 </h3>
-                <p className="consult-desc" style={{ fontSize: '0.95rem', color: '#003380', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                <p className="consult-desc" style={{ fontSize: '0.95rem', color: '#0052cc', marginBottom: '1.5rem', lineHeight: 1.6 }}>
                   Speak directly with our licensed precast engineers for detailed plan takeoffs, DOT-approved submittal packages, and dispatch schedules.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
@@ -23,7 +23,7 @@ const Consultation = () => {
                     <span>Call (631) 452-1111</span>
                     <ArrowRight size={14} />
                   </a>
-                  <a href="mailto:info@precasteng.com" className="btn-solid-blue" style={{ background: '#ffffff', border: '1px solid #bfdbfe', color: '#002868', padding: '0.75rem 1.4rem', fontSize: '0.9rem', boxShadow: 'none' }}>
+                  <a href="mailto:info@precasteng.com" className="btn-solid-blue" style={{ background: '#ffffff', border: '1px solid #bfdbfe', color: '#0047ba', padding: '0.75rem 1.4rem', fontSize: '0.9rem', boxShadow: 'none' }}>
                     <span>Email Blueprints</span>
                   </a>
                 </div>
@@ -34,24 +34,24 @@ const Consultation = () => {
               <div className="consult-feature" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1.25rem' }}>
                 <div style={{ color: 'var(--color-primary, #0047ba)' }}><ShieldCheck size={24} /></div>
                 <div>
-                  <strong style={{ display: 'block', color: '#002868', fontSize: '0.95rem' }}>50-State PE Certified</strong>
-                  <span style={{ fontSize: '0.85rem', color: '#003380' }}>Stamped drawings &amp; buoyancy calculations</span>
+                  <strong style={{ display: 'block', color: '#0047ba', fontSize: '0.95rem' }}>50-State PE Certified</strong>
+                  <span style={{ fontSize: '0.85rem', color: '#0052cc' }}>Stamped drawings &amp; buoyancy calculations</span>
                 </div>
               </div>
 
               <div className="consult-feature" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1.25rem' }}>
                 <div style={{ color: 'var(--color-primary, #0047ba)' }}><Clock size={24} /></div>
                 <div>
-                  <strong style={{ display: 'block', color: '#002868', fontSize: '0.95rem' }}>Responsive Submittals</strong>
-                  <span style={{ fontSize: '0.85rem', color: '#003380' }}>Fast turnaround for contractor bid deadlines</span>
+                  <strong style={{ display: 'block', color: '#0047ba', fontSize: '0.95rem' }}>Responsive Submittals</strong>
+                  <span style={{ fontSize: '0.85rem', color: '#0052cc' }}>Fast turnaround for contractor bid deadlines</span>
                 </div>
               </div>
 
               <div className="consult-feature" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                 <div style={{ color: 'var(--color-primary, #0047ba)' }}><FileSpreadsheet size={24} /></div>
                 <div>
-                  <strong style={{ display: 'block', color: '#002868', fontSize: '0.95rem' }}>Full Takeoffs Included</strong>
-                  <span style={{ fontSize: '0.85rem', color: '#003380' }}>Detailed material quantities &amp; transparent project pricing</span>
+                  <strong style={{ display: 'block', color: '#0047ba', fontSize: '0.95rem' }}>Full Takeoffs Included</strong>
+                  <span style={{ fontSize: '0.85rem', color: '#0052cc' }}>Detailed material quantities &amp; transparent project pricing</span>
                 </div>
               </div>
             </div>

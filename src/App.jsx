@@ -9,9 +9,9 @@ import CoreProducts from './components/CoreProducts';
 import QualityAssurance from './components/QualityAssurance';
 import WhyChooseUs from './components/WhyChooseUs';
 import Certifications from './components/Certifications';
-import Locations from './components/Locations';
 import Consultation from './components/Consultation';
 import Footer from './components/Footer';
+import OfficeLocations from './components/OfficeLocations';
 
 // Sub-pages
 import CompanyProfile from './components/CompanyProfile';
@@ -213,7 +213,7 @@ function App() {
             <QualityAssurance />
             <WhyChooseUs />
             <Certifications />
-            <Locations />
+            <OfficeLocations />
             <Consultation />
             <Footer />
           </>
@@ -224,8 +224,8 @@ function App() {
   return (
     <div className="page-wrapper">
       {/* High-Tech Scroll Progress Bar */}
-      <div 
-        className="scroll-progress-bar" 
+      <div
+        className="scroll-progress-bar"
         style={{ width: `${scrollProgress}%` }}
       />
 
@@ -234,7 +234,7 @@ function App() {
       {renderCurrentView()}
 
       {/* Floating Back to Top Button */}
-      <button 
+      <button
         className={`btn-scroll-top ${showScrollTop ? 'is-visible' : ''}`}
         onClick={scrollToTop}
         aria-label="Scroll back to top"

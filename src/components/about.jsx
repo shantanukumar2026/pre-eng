@@ -3,12 +3,12 @@ import { ChevronRight, ShieldCheck, Target, Award, ArrowRight, Layers } from 'lu
 
 const About = () => {
   return (
-    <div className="about-page" style={{ backgroundColor: '#ffffff', color: '#003380', fontFamily: "'Manrope', sans-serif" }}>
+    <div className="about-page" style={{ backgroundColor: '#ffffff', color: '#0047ba', fontFamily: "'Manrope', sans-serif" }}>
       
       {/* 1. Header Banner */}
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
-        color: '#ffffff',
+        color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
         overflow: 'hidden'
@@ -21,7 +21,7 @@ const About = () => {
         }} />
 
         <div style={{ maxWidth: '1280px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#93c5fd', marginBottom: '0.75rem' }}>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
             <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
             <span style={{ color: '#ffffff', fontWeight: 600 }}>About PETG</span>
@@ -60,15 +60,15 @@ const About = () => {
               <span>OUR PROFILE</span>
             </div>
 
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#003380', lineHeight: 1.25, marginBottom: '1rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', lineHeight: 1.25, marginBottom: '1rem' }}>
               Precision Engineering for Resilient Infrastructure
             </h2>
 
-            <p style={{ fontSize: '0.95rem', color: '#003380', lineHeight: 1.65, marginBottom: '1.25rem' }}>
+            <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.25rem' }}>
               Precast Engineering Group (PETG) manufactures high-tolerance precast components for transportation departments, utility authorities, and heavy civil contractors.
             </p>
 
-            <p style={{ fontSize: '0.95rem', color: '#003380', lineHeight: 1.65, marginBottom: '1.75rem' }}>
+            <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.75rem' }}>
               With dedicated manufacturing hubs in the Northeast, Southeast, and Midwest, we combine rapid delivery cycles with in-house ASTM testing and full PE structural stamps.
             </p>
 

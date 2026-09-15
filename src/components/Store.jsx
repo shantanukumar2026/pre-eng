@@ -85,12 +85,12 @@ const Store = () => {
   };
 
   return (
-    <div className="store-page" style={{ backgroundColor: '#ffffff', color: '#003380', fontFamily: "'Manrope', sans-serif" }}>
+    <div className="store-page" style={{ backgroundColor: '#ffffff', color: '#0047ba', fontFamily: "'Manrope', sans-serif" }}>
       
       {/* 1. Header Banner with generous top padding for fixed navbar */}
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
-        color: '#ffffff',
+        color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
         overflow: 'hidden'
@@ -103,7 +103,7 @@ const Store = () => {
         }} />
 
         <div style={{ maxWidth: '1280px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#93c5fd', marginBottom: '0.75rem' }}>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
             <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
             <span style={{ color: '#ffffff', fontWeight: 600 }}>eStore Products</span>
@@ -137,7 +137,7 @@ const Store = () => {
                   fontWeight: 700,
                   cursor: 'pointer',
                   backgroundColor: selectedCategory === cat.id ? '#0047BA' : '#ffffff',
-                  color: selectedCategory === cat.id ? '#ffffff' : '#003380',
+                  color: selectedCategory === cat.id ? '#ffffff' : '#0052cc',
                   boxShadow: selectedCategory === cat.id ? '0 2px 8px rgba(0, 71, 186, 0.25)' : '0 1px 3px rgba(0, 71, 186, 0.08)',
                   border: selectedCategory === cat.id ? '1px solid #0047BA' : '1px solid #bfdbfe',
                   transition: 'all 0.2s ease'
@@ -163,7 +163,7 @@ const Store = () => {
                 border: '1px solid #bfdbfe',
                 backgroundColor: '#ffffff',
                 fontSize: '0.84rem',
-                color: '#003380',
+                color: '#0052cc',
                 outline: 'none'
               }}
             />
@@ -233,7 +233,7 @@ const Store = () => {
                   <h3 style={{
                     fontSize: '1.15rem',
                     fontWeight: 800,
-                    color: '#003380',
+                    color: '#0052cc',
                     lineHeight: 1.35,
                     margin: 0
                   }}>
@@ -261,7 +261,7 @@ const Store = () => {
                       marginTop: 'auto'
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = '#002868';
+                      e.currentTarget.style.backgroundColor = '#0047ba';
                       e.currentTarget.style.transform = 'translateX(2px)';
                     }}
                     onMouseLeave={(e) => {

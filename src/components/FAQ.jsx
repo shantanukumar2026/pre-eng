@@ -32,10 +32,10 @@ const FAQ = () => {
               <div className="chip_box"></div>
               <span className="chip">COMMON QUESTIONS</span>
             </div>
-            <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.75rem' }}>
+            <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.75rem' }}>
               Frequently Asked Questions
             </h2>
-            <p style={{ color: '#003380', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: '1.5rem' }}>
+            <p style={{ color: '#0052cc', fontSize: '0.95rem', lineHeight: 1.6, marginBottom: '1.5rem' }}>
               Have questions about sizing, certifications, submittals, or delivery timing? Our engineering staff is ready to assist.
             </p>
             <a href="#contact" className="button_hero_primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '0.7rem 1.3rem', fontSize: '0.9rem' }}>
@@ -60,14 +60,14 @@ const FAQ = () => {
                   boxShadow: activeFaq === index ? '0 4px 12px rgba(0, 71, 186, 0.08)' : '0 1px 3px rgba(0, 71, 186, 0.04)'
                 }}
               >
-                <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#002868', fontSize: '0.98rem' }}>
+                <div className="faq-q" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontWeight: 'bold', color: '#0047ba', fontSize: '0.98rem' }}>
                   <span>{faq.q}</span>
                   <div style={{ color: 'var(--color-primary, #0047ba)', flexShrink: 0, marginLeft: '1rem' }}>
                     {activeFaq === index ? <Minus size={18} /> : <Plus size={18} />}
                   </div>
                 </div>
                 {activeFaq === index && (
-                  <div className="faq-a" style={{ marginTop: '0.85rem', color: '#003380', fontSize: '0.92rem', lineHeight: 1.6, borderTop: '1px solid #e0e7ff', paddingTop: '0.75rem' }}>
+                  <div className="faq-a" style={{ marginTop: '0.85rem', color: '#0052cc', fontSize: '0.92rem', lineHeight: 1.6, borderTop: '1px solid #e0e7ff', paddingTop: '0.75rem' }}>
                     {faq.a}
                   </div>
                 )}

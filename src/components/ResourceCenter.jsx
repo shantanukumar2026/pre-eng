@@ -12,36 +12,36 @@ const ResourceCenter = () => {
                 <div className="chip_box"></div>
                 <span className="chip" style={{ fontSize: '0.72rem' }}>LIBRARY</span>
               </div>
-              <h2 className="heading-style-h4 text-color-primary" style={{ fontSize: '1.4rem', color: '#002868' }}>Resource Center</h2>
+              <h2 className="heading-style-h4 text-color-primary" style={{ fontSize: '1.4rem', color: '#0047ba' }}>Resource Center</h2>
             </div>
 
             <div className="resources-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(110px, 1fr))', gap: '1rem', flexGrow: 1 }}>
               <a href="#resources" className="resource-item" style={{ background: '#ffffff', padding: '1rem', borderRadius: '8px', border: '1px solid #bfdbfe', textAlign: 'center', textDecoration: 'none', transition: 'transform 0.2s, box-shadow 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <FileCheck2 size={22} className="text-color-primary" style={{ marginBottom: '0.4rem', color: '#0047ba' }} />
-                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#002868' }}>Case Studies</span>
+                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#0047ba' }}>Case Studies</span>
               </a>
               <a href="#resources" className="resource-item" style={{ background: '#ffffff', padding: '1rem', borderRadius: '8px', border: '1px solid #bfdbfe', textAlign: 'center', textDecoration: 'none', transition: 'transform 0.2s, box-shadow 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <FileCheck2 size={22} className="text-color-primary" style={{ marginBottom: '0.4rem', color: '#0047ba' }} />
-                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#002868' }}>White Papers</span>
+                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#0047ba' }}>White Papers</span>
               </a>
               <a href="#resources" className="resource-item" style={{ background: '#ffffff', padding: '1rem', borderRadius: '8px', border: '1px solid #bfdbfe', textAlign: 'center', textDecoration: 'none', transition: 'transform 0.2s, box-shadow 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <FileCheck2 size={22} className="text-color-primary" style={{ marginBottom: '0.4rem', color: '#0047ba' }} />
-                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#002868' }}>Technical Docs</span>
+                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#0047ba' }}>Technical Docs</span>
               </a>
               <a href="#resources" className="resource-item" style={{ background: '#ffffff', padding: '1rem', borderRadius: '8px', border: '1px solid #bfdbfe', textAlign: 'center', textDecoration: 'none', transition: 'transform 0.2s, box-shadow 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <FileCheck2 size={22} className="text-color-primary" style={{ marginBottom: '0.4rem', color: '#0047ba' }} />
-                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#002868' }}>Product Catalogs</span>
+                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#0047ba' }}>Product Catalogs</span>
               </a>
               <a href="#faq" className="resource-item" style={{ background: '#ffffff', padding: '1rem', borderRadius: '8px', border: '1px solid #bfdbfe', textAlign: 'center', textDecoration: 'none', transition: 'transform 0.2s, box-shadow 0.2s', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <FileCheck2 size={22} className="text-color-primary" style={{ marginBottom: '0.4rem', color: '#0047ba' }} />
-                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#002868' }}>Contractor FAQs</span>
+                <span style={{ fontSize: '0.82rem', fontWeight: 700, color: '#0047ba' }}>Contractor FAQs</span>
               </a>
             </div>
 
             <div className="need-help-box" style={{ background: '#ffffff', border: '1px solid #bfdbfe', borderRadius: '8px', padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
               <div style={{ flex: 1 }}>
-                <h4 style={{ marginBottom: '0.2rem', fontSize: '0.95rem', fontWeight: 800, color: '#002868' }}>Need Help?</h4>
-                <p style={{ fontSize: '0.82rem', color: '#003380', marginBottom: '0.75rem' }}>Our engineering team is ready to assist you.</p>
+                <h4 style={{ marginBottom: '0.2rem', fontSize: '0.95rem', fontWeight: 800, color: '#0047ba' }}>Need Help?</h4>
+                <p style={{ fontSize: '0.82rem', color: '#0052cc', marginBottom: '0.75rem' }}>Our engineering team is ready to assist you.</p>
                 <a href="#contact" className="button_hero_primary" style={{ padding: '0.45rem 0.9rem', fontSize: '0.78rem', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
                   <span>Contact Us</span>
                   <ArrowRight size={11} />

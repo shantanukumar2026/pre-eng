@@ -33,10 +33,10 @@ const CoreValues = () => {
             <div className="chip_box"></div>
             <span className="chip">HOW WE OPERATE</span>
           </div>
-          <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.5rem' }}>
+          <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem' }}>
             Our Operating Principles
           </h2>
-          <p style={{ color: '#003380', maxWidth: '650px', margin: '0 auto', fontSize: '1rem' }}>
+          <p style={{ color: '#0052cc', maxWidth: '650px', margin: '0 auto', fontSize: '1rem' }}>
             Practical commitments that ensure high-quality precast structures, accurate submittals, and dependable jobsite execution.
           </p>
         </div>
@@ -60,10 +60,10 @@ const CoreValues = () => {
                 <div style={{ width: '42px', height: '42px', borderRadius: '8px', background: '#eff6ff', color: 'var(--color-primary, #0047ba)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '1.25rem', border: '1px solid #bfdbfe' }}>
                   <Icon size={22} />
                 </div>
-                <h4 style={{ fontSize: '1.1rem', fontWeight: 800, marginBottom: '0.5rem', color: '#002868' }}>
+                <h4 style={{ fontSize: '1.1rem', fontWeight: 800, marginBottom: '0.5rem', color: '#0047ba' }}>
                   {val.title}
                 </h4>
-                <p style={{ fontSize: '0.88rem', color: '#003380', lineHeight: 1.55 }}>
+                <p style={{ fontSize: '0.88rem', color: '#0052cc', lineHeight: 1.55 }}>
                   {val.desc}
                 </p>
               </div>

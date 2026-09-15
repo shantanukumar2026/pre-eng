@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, CheckCircle2, ShieldCheck, Microscope, Cpu, Layers } from 'lucide-react';
+import { ShieldCheck, Microscope, Cpu, Layers } from 'lucide-react';
 
 const QC_PILLARS = [
   {
@@ -26,19 +26,19 @@ const QC_PILLARS = [
 
 const QualityAssurance = () => {
   return (
-    <section className="section-qc padding-global" id="quality" style={{ backgroundColor: '#002868', color: '#ffffff', paddingTop: '2.5rem', paddingBottom: '2.5rem', borderBottom: '1px solid rgba(255, 255, 255, 0.1)' }}>
+    <section className="section-qc padding-global" id="quality" style={{ backgroundColor: '#ffffff', color: '#0047ba', paddingTop: '2.5rem', paddingBottom: '2.5rem', borderBottom: '1px solid #bfdbfe' }}>
       <div className="container-large">
         
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
           <div className="h-flex-tiny is-center" style={{ marginBottom: '0.4rem' }}>
-            <div className="chip_box" style={{ background: '#60a5fa' }}></div>
-            <span className="chip" style={{ color: '#93c5fd' }}>PLANT PRACTICES</span>
+            <div className="chip_box" style={{ background: '#0047ba' }}></div>
+            <span className="chip" style={{ color: '#0047ba' }}>PLANT PRACTICES</span>
           </div>
-          <h2 className="heading-style-h3" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#ffffff', marginBottom: '0.5rem' }}>
+          <h2 className="heading-style-h3" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem', fontWeight: 800 }}>
             Quality Control &amp; Testing Standards
           </h2>
-          <p style={{ color: '#bfdbfe', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6 }}>
+          <p style={{ color: '#0052cc', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6, fontWeight: 500 }}>
             Quality control procedures applied during precast concrete fabrication.
           </p>
         </div>
@@ -51,23 +51,24 @@ const QualityAssurance = () => {
               <div 
                 key={idx}
                 style={{
-                  background: 'rgba(255, 255, 255, 0.06)',
-                  border: '1px solid rgba(255, 255, 255, 0.12)',
+                  background: '#f0f5ff',
+                  border: '1px solid #bfdbfe',
                   borderRadius: '10px',
                   padding: '1.4rem',
                   display: 'flex',
                   flexDirection: 'column',
                   gap: '0.75rem',
+                  boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)',
                   transition: 'all 0.25s ease'
                 }}
               >
-                <div style={{ width: '42px', height: '42px', borderRadius: '8px', background: 'rgba(59, 130, 246, 0.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#93c5fd' }}>
+                <div style={{ width: '42px', height: '42px', borderRadius: '8px', background: '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                   <Icon size={22} />
                 </div>
-                <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#ffffff', margin: 0, lineHeight: 1.3 }}>
+                <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#0047ba', margin: 0, lineHeight: 1.3 }}>
                   {item.title}
                 </h3>
-                <p style={{ fontSize: '0.86rem', color: '#bfdbfe', lineHeight: 1.55, margin: 0 }}>
+                <p style={{ fontSize: '0.86rem', color: '#0052cc', lineHeight: 1.55, margin: 0 }}>
                   {item.desc}
                 </p>
               </div>

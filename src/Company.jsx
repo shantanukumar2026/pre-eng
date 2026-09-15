@@ -4,7 +4,7 @@ import { Layers, Gauge, ShieldCheck, Clock, CheckCircle2, Factory } from 'lucide
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="section-why-us padding-global" style={{ backgroundColor: '#002868', color: '#ffffff', paddingTop: '2.25rem', paddingBottom: '2.25rem' }}>
+      <section className="section-why-us padding-global" style={{ backgroundColor: '#0047ba', color: '#ffffff', paddingTop: '2.25rem', paddingBottom: '2.25rem' }}>
         <div className="container-large">
           <div className="why-us-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '3.5rem', flexWrap: 'wrap' }}>
             <div style={{ maxWidth: '280px' }}>

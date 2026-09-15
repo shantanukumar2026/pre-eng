@@ -39,10 +39,10 @@ const CivilApplications = () => {
             <div className="chip_box"></div>
             <span className="chip">PROJECT SECTORS</span>
           </div>
-          <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#002868', marginBottom: '0.5rem' }}>
+          <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem' }}>
             Heavy Civil &amp; Infrastructure Applications
           </h2>
-          <p style={{ color: '#003380', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6 }}>
+          <p style={{ color: '#0052cc', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6 }}>
             Our certified precast systems are deployed across critical public transportation, highway, and municipal utility corridors.
           </p>
         </div>
@@ -63,7 +63,7 @@ const CivilApplications = () => {
                 transition: 'all 0.3s ease'
               }}
             >
-              <div style={{ height: '170px', width: '100%', position: 'relative', overflow: 'hidden', backgroundColor: '#002868' }}>
+              <div style={{ height: '170px', width: '100%', position: 'relative', overflow: 'hidden', backgroundColor: '#0047ba' }}>
                 <img 
                   src={sec.image} 
                   alt={sec.title} 
@@ -74,16 +74,16 @@ const CivilApplications = () => {
 
               <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
                 <div>
-                  <h3 style={{ fontSize: '1.08rem', fontWeight: 800, color: '#002868', marginBottom: '0.5rem', lineHeight: 1.35 }}>
+                  <h3 style={{ fontSize: '1.08rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.5rem', lineHeight: 1.35 }}>
                     {sec.title}
                   </h3>
-                  <p style={{ fontSize: '0.86rem', color: '#003380', lineHeight: 1.55, marginBottom: '1rem' }}>
+                  <p style={{ fontSize: '0.86rem', color: '#0052cc', lineHeight: 1.55, marginBottom: '1rem' }}>
                     {sec.desc}
                   </p>
 
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', marginBottom: '1.25rem' }}>
                     {sec.specs.map((sp, sIdx) => (
-                      <div key={sIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#003380', fontWeight: 600 }}>
+                      <div key={sIdx} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.8rem', color: '#0052cc', fontWeight: 600 }}>
                         <ShieldCheck size={14} style={{ color: '#0047ba', flexShrink: 0 }} />
                         <span>{sp}</span>
                       </div>

@@ -30,12 +30,12 @@ const Membership = () => {
   ];
 
   return (
-    <div className="membership-page" style={{ backgroundColor: '#ffffff', color: '#003380', fontFamily: "'Manrope', sans-serif" }}>
+    <div className="membership-page" style={{ backgroundColor: '#ffffff', color: '#0047ba', fontFamily: "'Manrope', sans-serif" }}>
       
       {/* 1. Header Banner */}
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
-        color: '#ffffff',
+        color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
         overflow: 'hidden'
@@ -48,7 +48,7 @@ const Membership = () => {
         }} />
 
         <div style={{ maxWidth: '1280px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#93c5fd', marginBottom: '0.75rem' }}>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
             <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
             <a href="#company" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Company</a>
@@ -111,7 +111,7 @@ const Membership = () => {
                   {assoc.acronym}
                 </div>
 
-                <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#003380', marginBottom: '0.35rem' }}>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.35rem' }}>
                   {assoc.name}
                 </h3>
 
@@ -119,7 +119,7 @@ const Membership = () => {
                   {assoc.type}
                 </div>
 
-                <p style={{ fontSize: '0.88rem', color: '#003380', lineHeight: 1.6, flexGrow: 1 }}>
+                <p style={{ fontSize: '0.88rem', color: '#0052cc', lineHeight: 1.6, flexGrow: 1 }}>
                   {assoc.details}
                 </p>
               </div>
