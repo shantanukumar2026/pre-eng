@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { 
-  MapPin, 
-  Phone, 
-  Mail, 
-  Clock, 
-  ArrowRight, 
-  Check 
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  ArrowRight,
+  Check
 } from 'lucide-react';
 
 const IconLinkedin = ({ size = 18 }) => (
@@ -18,7 +18,7 @@ const IconLinkedin = ({ size = 18 }) => (
 
 const IconX = ({ size = 16 }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
   </svg>
 );
 
@@ -93,7 +93,7 @@ const Footer = () => {
     <footer className="modern-blue-footer" id="contact">
       <div className="modern-footer-container">
         <div className="modern-footer-grid">
-          
+
           {/* Brand and Contact */}
           <div className="mf-col mf-brand-col">
             <div className="mf-brand-header">
@@ -106,9 +106,9 @@ const Footer = () => {
             </div>
 
             <div className="mf-contact-list">
-              <a 
-                href="https://www.google.com/maps/search/?api=1&query=105+Maxess+Road,+Melville,+NY+11747" 
-                target="_blank" 
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=105+Maxess+Road,+Melville,+NY+11747"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="mf-contact-item"
               >
@@ -234,16 +234,16 @@ const Footer = () => {
 
               <form onSubmit={handleSubscribe} className="mf-newsletter-form">
                 <div className="mf-input-wrapper">
-                  <input 
-                    type="email" 
-                    placeholder="your@email.com" 
+                  <input
+                    type="email"
+                    placeholder="your@email.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     className="mf-email-input"
                   />
-                  <button 
-                    type="submit" 
+                  <button
+                    type="submit"
                     className={`mf-newsletter-submit-btn ${subscribed ? 'is-subscribed' : ''}`}
                     aria-label="Subscribe to newsletter"
                   >
