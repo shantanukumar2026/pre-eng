@@ -34,39 +34,39 @@ const ManufacturingRnD = () => {
       
       {/* 1. Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
-        color: '#0047BA',
-        padding: '6.5rem 5% 3.25rem',
+        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+        color: '#ffffff',
+        padding: '6.5rem 5% 3.5rem',
         position: 'relative',
         overflow: 'hidden'
       }}>
         <div style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: 'radial-gradient(circle at 80% 30%, rgba(74, 136, 255, 0.25) 0%, transparent 60%)',
+          backgroundImage: 'radial-gradient(circle at 80% 30%, rgba(74, 136, 255, 0.3) 0%, transparent 60%)',
           pointerEvents: 'none'
         }} />
 
-        <div style={{ maxWidth: '1280px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
+        <div style={{ maxWidth: '1600px', margin: '0 auto', position: 'relative', zIndex: 2 }}>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
             <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
-            <span style={{ color: '#ffffff', fontWeight: 600 }}>Manufacturing &amp; R&amp;D</span>
+            <span style={{ color: '#ffffff', fontWeight: 700 }}>Manufacturing &amp; R&amp;D Facilities</span>
           </nav>
 
           <h1 style={{ fontSize: 'clamp(2.2rem, 4.2vw, 3.2rem)', fontWeight: 800, letterSpacing: '-0.02em', marginBottom: '0.6rem', lineHeight: 1.15, color: '#ffffff' }}>
-            Advanced Precast Manufacturing &amp; R&amp;D
+            Advanced Precast Manufacturing &amp; Testing
           </h1>
 
-          <p style={{ fontSize: '1rem', color: '#bfdbfe', maxWidth: '720px', lineHeight: 1.55 }}>
-            State-of-the-art production plants, automated SCC batching, and certified ASTM testing laboratories engineered for zero-defect precast production.
+          <p style={{ fontSize: '1.05rem', color: '#bfdbfe', maxWidth: '780px', lineHeight: 1.6 }}>
+            Our precision batching plants and in-house ASTM quality assurance laboratories engineer high-density, low-permeability precast infrastructure.
           </p>
         </div>
       </section>
 
       {/* 2. Capabilities Grid */}
-      <section style={{ padding: '3.5rem 5%', backgroundColor: '#ffffff' }}>
-        <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
+      <section style={{ padding: '4rem 5% 6rem', backgroundColor: '#f4f8ff' }}>
+        <div style={{ maxWidth: '1600px', margin: '0 auto' }}>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
             {capabilities.map((cap, idx) => {

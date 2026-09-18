@@ -244,12 +244,11 @@ const CompanyProfile = () => {
         className="cp-hero-banner"
         style={{
           position: 'relative',
-          minHeight: '320px',
-          background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
+          background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
           color: '#ffffff',
           display: 'flex',
           alignItems: 'center',
-          padding: '6.5rem 5% 3.25rem',
+          padding: '6.5rem 5% 3.5rem',
           overflow: 'hidden'
         }}
       >
@@ -257,56 +256,27 @@ const CompanyProfile = () => {
           style={{
             position: 'absolute',
             inset: 0,
-            backgroundImage: 'radial-gradient(circle at 80% 40%, rgba(74, 136, 255, 0.22) 0%, transparent 60%)',
+            backgroundImage: 'radial-gradient(circle at 80% 40%, rgba(74, 136, 255, 0.3) 0%, transparent 60%)',
             pointerEvents: 'none'
           }}
         />
 
-        <div 
-          style={{
-            position: 'absolute',
-            right: '5%',
-            bottom: 0,
-            width: '38%',
-            maxWidth: '460px',
-            height: '75%',
-            opacity: 0.14,
-            borderLeft: '2px dashed rgba(255,255,255,0.4)',
-            borderTop: '2px dashed rgba(255,255,255,0.4)',
-            pointerEvents: 'none',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '1.15rem',
-            letterSpacing: '0.18em',
-            textTransform: 'uppercase',
-            fontWeight: 800,
-            color: '#ffffff'
-          }}
-        >
-          PRECISION PRECAST
-        </div>
-
-        <div className="container-large" style={{ position: 'relative', zIndex: 2, maxWidth: '1280px', margin: '0 auto' }}>
+        <div className="container-large" style={{ position: 'relative', zIndex: 2, maxWidth: '1600px', margin: '0 auto', width: '100%' }}>
           {/* Breadcrumbs */}
-          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem' }}>
-            <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none', transition: 'color 0.2s' }}>Home</a>
+          <nav aria-label="Breadcrumb" style={{ display: 'flex', alignItems: 'center', gap: '0.45rem', fontSize: '0.82rem', color: '#bfdbfe', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
+            <a href="#home" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Home</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
-            <a href="#company" style={{ color: '#bfdbfe', textDecoration: 'none', transition: 'color 0.2s' }}>Company</a>
+            <a href="#company-profile" style={{ color: '#bfdbfe', textDecoration: 'none' }}>Company</a>
             <ChevronRight size={13} style={{ opacity: 0.7 }} />
-            <span style={{ color: '#ffffff', fontWeight: 600 }}>Company Profile</span>
+            <span style={{ color: '#ffffff', fontWeight: 700 }}>Company Profile</span>
           </nav>
 
           <h1 style={{ fontSize: 'clamp(2.2rem, 4.2vw, 3.2rem)', fontWeight: 800, letterSpacing: '-0.02em', marginBottom: '0.6rem', lineHeight: 1.15, color: '#ffffff' }}>
             Company Profile
           </h1>
 
-          <p style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)', fontWeight: 600, color: '#e0e7ff', marginBottom: '0.45rem', maxWidth: '850px' }}>
-            Building a Stronger, Smarter and More Sustainable Tomorrow
-          </p>
-
-          <p style={{ fontSize: '0.92rem', color: '#bfdbfe', maxWidth: '750px', lineHeight: 1.55 }}>
-            At PETG, we are committed to delivering innovative precast solutions that shape better infrastructure and stronger communities.
+          <p style={{ fontSize: '1.05rem', color: '#bfdbfe', maxWidth: '780px', lineHeight: 1.6 }}>
+            At PEG (Precast Engineering &amp; Technologies), we are committed to delivering innovative precast concrete infrastructure systems that shape stronger communities and heavy civil networks.
           </p>
         </div>
       </section>

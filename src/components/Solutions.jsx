@@ -6,10 +6,10 @@ const SOLUTIONS_DATA = [
   {
     id: 'box-culverts',
     category: 'engineering',
-    categoryLabel: 'Civil Conduits',
-    title: 'Precast Box Culverts',
-    description: 'Engineered for heavy drainage conveyance and highway traffic loading.',
-    image: '/assets/media/Box Culvert/13.jpeg',
+    categoryLabel: 'Catch Basin',
+    title: '4*4 Catch Basin',
+    description: 'catch basin is an underground drainage box with a slotted grate. It collects stormwater runoff and traps debris like leaves and mud in a lower sump to prevent sewer clogs.',
+    image: '/peg/products/4_4catchbasin.png',
     link: '#products'
   },
   {
@@ -126,7 +126,7 @@ const Solutions = () => {
     <>
       <section className="section-solutions padding-global" id="solutions">
         <div className="container-large">
-          
+
           {/* Header */}
           <div className="solutions-header-container">
             <div className="solutions-header-left">
@@ -150,19 +150,19 @@ const Solutions = () => {
 
           {/* Filter Tabs */}
           <div className="solutions-tabs-bar">
-            <button 
+            <button
               className={`solutions-tab-btn ${activeFilter === 'all' ? 'is-active' : ''}`}
               onClick={() => setActiveFilter('all')}
             >
               All Solutions ({SOLUTIONS_DATA.length})
             </button>
-            <button 
+            <button
               className={`solutions-tab-btn ${activeFilter === 'engineering' ? 'is-active' : ''}`}
               onClick={() => setActiveFilter('engineering')}
             >
               Precast Engineering ({SOLUTIONS_DATA.filter(s => s.category === 'engineering').length})
             </button>
-            <button 
+            <button
               className={`solutions-tab-btn ${activeFilter === 'technologies' ? 'is-active' : ''}`}
               onClick={() => setActiveFilter('technologies')}
             >

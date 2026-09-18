@@ -16,9 +16,9 @@ const Navbar = ({ currentView = 'home', onNavigate }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleNavClick = (view, hash) => (e) => {
+  const handleNavClick = (view, hash, category = 'all') => (e) => {
     if (onNavigate) {
-      onNavigate(view);
+      onNavigate(view, category);
     }
     if (window.location.hash !== hash) {
       window.location.hash = hash;
@@ -111,44 +111,44 @@ const Navbar = ({ currentView = 'home', onNavigate }) => {
               </div>
               <div className="navbar_dropdown-list">
                 <div className="navbar_submenu_grid">
-                  <a href="#products" onClick={handleNavClick('products', '#products')} className="navbar_submenu_card">
+                  <a href="#products?category=catch-basins" onClick={handleNavClick('products', '#products?category=catch-basins', 'catch-basins')} className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/culvert.jpg" alt="Drainage Inlets & Catch Basins" className="submenu_card_img" />
+                      <img src="/products/astro/catch-basins_p5.png" alt="Catch Basins & Inlets" className="submenu_card_img" style={{ objectFit: 'contain', padding: '6px' }} />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
                     </div>
-                    <div className="submenu_card_title">Drainage Inlets &amp; Catch Basins</div>
+                    <div className="submenu_card_title">Catch Basins &amp; Inlets (14)</div>
                   </a>
 
-                  <a href="#products" onClick={handleNavClick('products', '#products')} className="navbar_submenu_card">
+                  <a href="#products?category=septic-tanks" onClick={handleNavClick('products', '#products?category=septic-tanks', 'septic-tanks')} className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/Box Culvert/13.jpeg" alt="Box Culverts" className="submenu_card_img" />
+                      <img src="/products/astro/septic-tanks_p21.png" alt="Septic Holding Tanks" className="submenu_card_img" style={{ objectFit: 'contain', padding: '6px' }} />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
                     </div>
-                    <div className="submenu_card_title">Box Culverts</div>
+                    <div className="submenu_card_title">Septic Holding Tanks (14)</div>
                   </a>
 
-                  <a href="#products" onClick={handleNavClick('products', '#products')} className="navbar_submenu_card">
+                  <a href="#products?category=grease-traps" onClick={handleNavClick('products', '#products?category=grease-traps', 'grease-traps')} className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/Box Culvert/14.jpeg" alt="Bridge Girders" className="submenu_card_img" />
+                      <img src="/products/astro/grease-traps_p33.png" alt="Grease Traps & Interceptors" className="submenu_card_img" style={{ objectFit: 'contain', padding: '6px' }} />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
                     </div>
-                    <div className="submenu_card_title">Bridge Girders &amp; Decks</div>
+                    <div className="submenu_card_title">Grease Traps &amp; Interceptors (12)</div>
                   </a>
 
-                  <a href="#products" onClick={handleNavClick('products', '#products')} className="navbar_submenu_card">
+                  <a href="#products?category=high-domes" onClick={handleNavClick('products', '#products?category=high-domes', 'high-domes')} className="navbar_submenu_card">
                     <div className="submenu_card_img_wrap">
-                      <img src="/assets/media/utility_manhole_real.jpg" alt="Utility Manholes" className="submenu_card_img" />
+                      <img src="/products/astro/high-domes_p57.png" alt="High Domes & Cones" className="submenu_card_img" style={{ objectFit: 'contain', padding: '6px' }} />
                     </div>
                     <div className="submenu_arrow_square">
                       <ArrowUpRight size={18} />
                     </div>
-                    <div className="submenu_card_title">Utility Manholes</div>
+                    <div className="submenu_card_title">High Domes &amp; Top Cones (6)</div>
                   </a>
                 </div>
               </div>
