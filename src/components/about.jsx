@@ -7,7 +7,7 @@ const About = () => {
       
       {/* 1. Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
+        background: 'linear-gradient(135deg, #001f4d 0%, #002f7a 50%, #0047BA 100%)',
         color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
@@ -60,15 +60,15 @@ const About = () => {
               <span>OUR PROFILE</span>
             </div>
 
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', lineHeight: 1.25, marginBottom: '1rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', lineHeight: 1.25, marginBottom: '1rem' }}>
               Precision Engineering for Resilient Infrastructure
             </h2>
 
-            <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.25rem' }}>
+            <p style={{ fontSize: '0.95rem', color: '#006def', lineHeight: 1.65, marginBottom: '1.25rem' }}>
               Precast Engineering Group (PETG) manufactures high-tolerance precast components for transportation departments, utility authorities, and heavy civil contractors.
             </p>
 
-            <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.75rem' }}>
+            <p style={{ fontSize: '0.95rem', color: '#006def', lineHeight: 1.65, marginBottom: '1.75rem' }}>
               With dedicated manufacturing hubs in the Northeast, Southeast, and Midwest, we combine rapid delivery cycles with in-house ASTM testing and full PE structural stamps.
             </p>
 
@@ -113,7 +113,7 @@ const About = () => {
             </div>
           </div>
 
-          <div style={{ borderRadius: '16px', overflow: 'hidden', border: '1px solid #bfdbfe', boxShadow: '0 4px 18px rgba(0, 71, 186, 0.08)' }}>
+          <div style={{ borderRadius: '16px', overflow: 'hidden', border: '1px solid #bfdbfe', boxShadow: '0 4px 18px rgba(0, 109, 239, 0.08)' }}>
             <img src="/assets/media/culvert.jpg" alt="Precast Infrastructure Facility" style={{ width: '100%', height: '320px', objectFit: 'cover' }} />
           </div>
         </div>

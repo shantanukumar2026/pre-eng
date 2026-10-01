@@ -9,7 +9,7 @@ const Methodology = () => {
           <div className="methodology-grid">
 
             <div className="method-step">
-              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 47, 122,0.1)' }}>
                 <img src="/assets/media/1050.2 - Copy.png" alt="Consultation" style={{ width: '100%', height: '100%', objectFit: 'contain', background: '#fff' }} />
               </div>
               <h4 className="method-title">Consultation</h4>
@@ -18,7 +18,7 @@ const Methodology = () => {
             <div className="method-line"></div>
 
             <div className="method-step">
-              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 47, 122,0.1)' }}>
                 <img src="/assets/media/videoframe_7136.png" alt="Engineering" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Engineering &amp; BIM</h4>
@@ -27,7 +27,7 @@ const Methodology = () => {
             <div className="method-line"></div>
 
             <div className="method-step">
-              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 47, 122,0.1)' }}>
                 <img src="/assets/media/trench-forms-01-5001.JPG" alt="Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Plant Manufacturing</h4>
@@ -36,7 +36,7 @@ const Methodology = () => {
             <div className="method-line"></div>
 
             <div className="method-step">
-              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 34, 89,0.1)' }}>
+              <div style={{ width: '80px', height: '80px', borderRadius: '50%', overflow: 'hidden', marginBottom: '1.5rem', border: '3px solid #fff', boxShadow: '0 4px 10px rgba(0, 47, 122,0.1)' }}>
                 <img src="/assets/media/Box Culvert/15.jpeg" alt="Delivery" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h4 className="method-title">Logistics &amp; Delivery</h4>

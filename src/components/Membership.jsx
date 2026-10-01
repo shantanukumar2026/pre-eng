@@ -34,7 +34,7 @@ const Membership = () => {
       
       {/* 1. Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
         color: '#ffffff',
         padding: '6.5rem 5% 3.5rem',
         position: 'relative',
@@ -79,19 +79,19 @@ const Membership = () => {
                   borderRadius: '14px',
                   padding: '2rem 1.75rem',
                   border: '1px solid #bfdbfe',
-                  boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                  boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                   display: 'flex',
                   flexDirection: 'column',
                   transition: 'all 0.25s ease'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = 'translateY(-4px)';
-                  e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.12)';
+                  e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.12)';
                   e.currentTarget.style.borderColor = '#0047BA';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                  e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                   e.currentTarget.style.borderColor = '#bfdbfe';
                 }}
               >
@@ -111,7 +111,7 @@ const Membership = () => {
                   {assoc.acronym}
                 </div>
 
-                <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.35rem' }}>
+                <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#006def', marginBottom: '0.35rem' }}>
                   {assoc.name}
                 </h3>
 
@@ -119,7 +119,7 @@ const Membership = () => {
                   {assoc.type}
                 </div>
 
-                <p style={{ fontSize: '0.88rem', color: '#0052cc', lineHeight: 1.6, flexGrow: 1 }}>
+                <p style={{ fontSize: '0.88rem', color: '#006def', lineHeight: 1.6, flexGrow: 1 }}>
                   {assoc.details}
                 </p>
               </div>

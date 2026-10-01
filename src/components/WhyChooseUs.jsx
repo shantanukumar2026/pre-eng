@@ -26,42 +26,42 @@ const WhyChooseUs = () => {
           </div>
 
           <div className="why-us-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1.25rem', flexGrow: 1 }}>
-            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)' }}>
+            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)' }}>
               <div style={{ width: '42px', height: '42px', margin: '0 auto 0.75rem', borderRadius: '50%', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                 <Layers size={22} />
               </div>
               <div className="why-text" style={{ color: '#0047ba', fontWeight: 700, fontSize: '0.82rem' }}>Advanced<br />Tooling</div>
             </div>
 
-            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)' }}>
+            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)' }}>
               <div style={{ width: '42px', height: '42px', margin: '0 auto 0.75rem', borderRadius: '50%', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                 <Gauge size={22} />
               </div>
               <div className="why-text" style={{ color: '#0047ba', fontWeight: 700, fontSize: '0.82rem' }}>Precision<br />Engineering</div>
             </div>
 
-            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)' }}>
+            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)' }}>
               <div style={{ width: '42px', height: '42px', margin: '0 auto 0.75rem', borderRadius: '50%', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                 <ShieldCheck size={22} />
               </div>
               <div className="why-text" style={{ color: '#0047ba', fontWeight: 700, fontSize: '0.82rem' }}>ASTM &amp; DOT<br />Compliance</div>
             </div>
 
-            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)' }}>
+            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)' }}>
               <div style={{ width: '42px', height: '42px', margin: '0 auto 0.75rem', borderRadius: '50%', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                 <Clock size={22} />
               </div>
               <div className="why-text" style={{ color: '#0047ba', fontWeight: 700, fontSize: '0.82rem' }}>Scheduled<br />Logistics</div>
             </div>
 
-            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)' }}>
+            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)' }}>
               <div style={{ width: '42px', height: '42px', margin: '0 auto 0.75rem', borderRadius: '50%', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                 <CheckCircle2 size={22} />
               </div>
               <div className="why-text" style={{ color: '#0047ba', fontWeight: 700, fontSize: '0.82rem' }}>Contractor<br />Support</div>
             </div>
 
-            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)' }}>
+            <div className="why-item" style={{ background: '#ffffff', padding: '1.25rem 0.75rem', borderRadius: '10px', border: '1px solid #bfdbfe', textAlign: 'center', boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)' }}>
               <div style={{ width: '42px', height: '42px', margin: '0 auto 0.75rem', borderRadius: '50%', background: '#eff6ff', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0047ba', border: '1px solid #bfdbfe' }}>
                 <Factory size={22} />
               </div>

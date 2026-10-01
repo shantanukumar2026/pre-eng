@@ -83,7 +83,7 @@ const Contact = () => {
       
       {/* 1. Universal Uniform Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
         color: '#ffffff',
         padding: '6.5rem 5% 3.5rem',
         position: 'relative',
@@ -133,19 +133,19 @@ const Contact = () => {
             <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.35rem' }}>
               Request Project Takeoff &amp; CAD Package
             </h2>
-            <p style={{ fontSize: '0.92rem', color: '#1e2ede', marginBottom: '1.75rem', fontWeight: 600 }}>
+            <p style={{ fontSize: '0.92rem', color: '#006def', marginBottom: '1.75rem', fontWeight: 600 }}>
               Upload drawing files or project specifications for guaranteed same-day submittal reviews.
             </p>
 
             {submitted ? (
-              <div style={{ backgroundColor: '#eff6ff', border: '1.5px solid #1e2ede', color: '#0047ba', padding: '2rem', borderRadius: '12px', textAlign: 'center' }}>
+              <div style={{ backgroundColor: '#eff6ff', border: '1.5px solid #006def', color: '#0047ba', padding: '2rem', borderRadius: '12px', textAlign: 'center' }}>
                 <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: '#dbeafe', color: '#0047ba', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem' }}>
                   <ShieldCheck size={28} />
                 </div>
                 <div style={{ fontWeight: 800, fontSize: '1.25rem', marginBottom: '0.4rem', color: '#0047ba' }}>
                   Takeoff Package Received!
                 </div>
-                <div style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.6, fontWeight: 600 }}>
+                <div style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.6, fontWeight: 600 }}>
                   Our licensed precast engineering team has received your project specifications and attached drawings. A dedicated takeoff engineer will respond within 4 business hours.
                 </div>
               </div>
@@ -282,10 +282,10 @@ const Contact = () => {
                       <span style={{ fontWeight: 800, color: '#0047ba', fontSize: '0.95rem' }}>
                         Click to Browse
                       </span>
-                      <span style={{ color: '#1e2ede', fontSize: '0.92rem', fontWeight: 600 }}> or drag and drop plan sheets here</span>
+                      <span style={{ color: '#006def', fontSize: '0.92rem', fontWeight: 600 }}> or drag and drop plan sheets here</span>
                     </div>
 
-                    <p style={{ fontSize: '0.78rem', color: '#1e2ede', fontWeight: 600, margin: 0 }}>
+                    <p style={{ fontSize: '0.78rem', color: '#006def', fontWeight: 600, margin: 0 }}>
                       Supports AutoCAD (DWG, DXF), Civil PDF Blueprint Sets, Takeoff Spreadsheets &amp; ZIP files
                     </p>
                   </div>
@@ -300,14 +300,14 @@ const Contact = () => {
                             <span style={{ fontWeight: 700, color: '#0047ba', textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap' }}>
                               {file.name}
                             </span>
-                            <span style={{ color: '#1e2ede', fontSize: '0.74rem' }}>
+                            <span style={{ color: '#006def', fontSize: '0.74rem' }}>
                               ({(file.size / 1024 / 1024).toFixed(2)} MB)
                             </span>
                           </div>
                           <button 
                             type="button" 
                             onClick={(e) => { e.stopPropagation(); removeFile(idx); }}
-                            style={{ background: 'transparent', border: 'none', color: '#1e2ede', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
+                            style={{ background: 'transparent', border: 'none', color: '#006def', cursor: 'pointer', display: 'flex', alignItems: 'center' }}
                           >
                             <X size={15} />
                           </button>
@@ -334,7 +334,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   style={{
-                    backgroundColor: '#1e2ede',
+                    backgroundColor: '#006def',
                     color: '#ffffff',
                     border: 'none',
                     padding: '13px 24px',
@@ -350,7 +350,7 @@ const Contact = () => {
                     gap: '8px'
                   }}
                   onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0047ba'}
-                  onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1e2ede'}
+                  onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#006def'}
                 >
                   <span>Submit Plans for Guaranteed Same-Day Takeoff</span>
                   <ArrowRight size={16} />
@@ -364,14 +364,14 @@ const Contact = () => {
             
             {/* Northeast HQ */}
             <div style={{ backgroundColor: '#ffffff', borderRadius: '14px', border: '1.5px solid #bfdbfe', padding: '1.75rem', boxShadow: '0 6px 20px rgba(30, 46, 222, 0.05)' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#1e2ede', fontWeight: 800, fontSize: '0.78rem', textTransform: 'uppercase', marginBottom: '0.45rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#006def', fontWeight: 800, fontSize: '0.78rem', textTransform: 'uppercase', marginBottom: '0.45rem' }}>
                 <MapPin size={15} />
                 <span>NORTHEAST CASTING NODE (HQ)</span>
               </div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.35rem' }}>
                 New York Engineering Headquarters
               </h3>
-              <p style={{ fontSize: '0.9rem', color: '#1e2ede', marginBottom: '0.85rem', fontWeight: 600 }}>
+              <p style={{ fontSize: '0.9rem', color: '#006def', marginBottom: '0.85rem', fontWeight: 600 }}>
                 105 Maxess Road, Suite S124, Melville, NY 11747
               </p>
               <div style={{ display: 'flex', gap: '1.25rem', fontSize: '0.86rem', flexWrap: 'wrap' }}>
@@ -382,14 +382,14 @@ const Contact = () => {
 
             {/* Southeast Node */}
             <div style={{ backgroundColor: '#ffffff', borderRadius: '14px', border: '1.5px solid #bfdbfe', padding: '1.75rem', boxShadow: '0 6px 20px rgba(30, 46, 222, 0.05)' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#1e2ede', fontWeight: 800, fontSize: '0.78rem', textTransform: 'uppercase', marginBottom: '0.45rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#006def', fontWeight: 800, fontSize: '0.78rem', textTransform: 'uppercase', marginBottom: '0.45rem' }}>
                 <MapPin size={15} />
                 <span>SOUTHEAST CASTING NODE</span>
               </div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.35rem' }}>
                 Florida Regional Dispatch
               </h3>
-              <p style={{ fontSize: '0.9rem', color: '#1e2ede', marginBottom: '0.85rem', fontWeight: 600 }}>
+              <p style={{ fontSize: '0.9rem', color: '#006def', marginBottom: '0.85rem', fontWeight: 600 }}>
                 850 NW Federal Hwy, Suite 108, Stuart, FL 34994
               </p>
               <div style={{ display: 'flex', gap: '1.25rem', fontSize: '0.86rem', flexWrap: 'wrap' }}>
@@ -400,14 +400,14 @@ const Contact = () => {
 
             {/* Midwest Node */}
             <div style={{ backgroundColor: '#ffffff', borderRadius: '14px', border: '1.5px solid #bfdbfe', padding: '1.75rem', boxShadow: '0 6px 20px rgba(30, 46, 222, 0.05)' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#1e2ede', fontWeight: 800, fontSize: '0.78rem', textTransform: 'uppercase', marginBottom: '0.45rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: '#006def', fontWeight: 800, fontSize: '0.78rem', textTransform: 'uppercase', marginBottom: '0.45rem' }}>
                 <MapPin size={15} />
                 <span>MIDWEST CASTING NODE</span>
               </div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.35rem' }}>
                 Detroit Logistics Facility
               </h3>
-              <p style={{ fontSize: '0.9rem', color: '#1e2ede', marginBottom: '0.85rem', fontWeight: 600 }}>
+              <p style={{ fontSize: '0.9rem', color: '#006def', marginBottom: '0.85rem', fontWeight: 600 }}>
                 2200 Hunt Street, Detroit, MI 48207
               </p>
               <div style={{ display: 'flex', gap: '1.25rem', fontSize: '0.86rem', flexWrap: 'wrap' }}>

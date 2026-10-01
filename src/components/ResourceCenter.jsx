@@ -41,7 +41,7 @@ const ResourceCenter = () => {
             <div className="need-help-box" style={{ background: '#ffffff', border: '1px solid #bfdbfe', borderRadius: '8px', padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
               <div style={{ flex: 1 }}>
                 <h4 style={{ marginBottom: '0.2rem', fontSize: '0.95rem', fontWeight: 800, color: '#0047ba' }}>Need Help?</h4>
-                <p style={{ fontSize: '0.82rem', color: '#0052cc', marginBottom: '0.75rem' }}>Our engineering team is ready to assist you.</p>
+                <p style={{ fontSize: '0.82rem', color: '#006def', marginBottom: '0.75rem' }}>Our engineering team is ready to assist you.</p>
                 <a href="#contact" className="button_hero_primary" style={{ padding: '0.45rem 0.9rem', fontSize: '0.78rem', display: 'inline-flex', alignItems: 'center', gap: '6px' }}>
                   <span>Contact Us</span>
                   <ArrowRight size={11} />

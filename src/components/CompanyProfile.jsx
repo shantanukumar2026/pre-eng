@@ -67,8 +67,8 @@ const ThumbnailImage = ({ src, alt, caption, className = '', height = '260px', o
         alignItems: 'center',
         justifyContent: 'center',
         boxShadow: isHovered 
-          ? '0 10px 24px rgba(0, 71, 186, 0.15)' 
-          : '0 3px 12px rgba(0, 71, 186, 0.07)',
+          ? '0 10px 24px rgba(0, 109, 239, 0.15)' 
+          : '0 3px 12px rgba(0, 109, 239, 0.07)',
         transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)'
       }}
     >
@@ -94,7 +94,7 @@ const ThumbnailImage = ({ src, alt, caption, className = '', height = '260px', o
           justifyContent: 'center',
           padding: '1.25rem',
           textAlign: 'center',
-          color: '#0052cc',
+          color: '#006def',
           gap: '0.4rem',
           width: '100%',
           height: '100%',
@@ -109,11 +109,11 @@ const ThumbnailImage = ({ src, alt, caption, className = '', height = '260px', o
             alignItems: 'center',
             justifyContent: 'center',
             color: '#ffffff',
-            boxShadow: '0 2px 8px rgba(0, 71, 186, 0.1)'
+            boxShadow: '0 2px 8px rgba(0, 109, 239, 0.1)'
           }}>
             <ImageIcon size={20} />
           </div>
-          <div style={{ fontWeight: 700, fontSize: '0.88rem', color: '#0052cc' }}>{alt}</div>
+          <div style={{ fontWeight: 700, fontSize: '0.88rem', color: '#006def' }}>{alt}</div>
         </div>
       )}
 
@@ -131,7 +131,7 @@ const ThumbnailImage = ({ src, alt, caption, className = '', height = '260px', o
           lineHeight: 1.25,
           textAlign: 'right',
           maxWidth: '200px',
-          boxShadow: '0 4px 14px rgba(0, 40, 104, 0.4)',
+          boxShadow: '0 4px 14px rgba(0, 47, 122, 0.4)',
           border: '1px solid rgba(255,255,255,0.18)'
         }}>
           {overlayText}
@@ -145,7 +145,7 @@ const ThumbnailImage = ({ src, alt, caption, className = '', height = '260px', o
           left: 0,
           right: 0,
           padding: '8px 12px',
-          background: 'linear-gradient(to top, #0047ba, rgba(0, 40, 104, 0.15))',
+          background: 'linear-gradient(to top, #0047ba, rgba(0, 47, 122, 0.15))',
           color: '#ffffff',
           fontSize: '0.8rem',
           fontWeight: 700
@@ -244,7 +244,7 @@ const CompanyProfile = () => {
         className="cp-hero-banner"
         style={{
           position: 'relative',
-          background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+          background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
           color: '#ffffff',
           display: 'flex',
           alignItems: 'center',
@@ -288,11 +288,11 @@ const CompanyProfile = () => {
           <div>
             <SectionBadge text="WHO WE ARE" />
 
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', lineHeight: 1.25, marginBottom: '0.85rem', letterSpacing: '-0.01em' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', lineHeight: 1.25, marginBottom: '0.85rem', letterSpacing: '-0.01em' }}>
               Engineering a Stronger Tomorrow
             </h2>
 
-            <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.35rem' }}>
+            <p style={{ fontSize: '0.95rem', color: '#006def', lineHeight: 1.65, marginBottom: '1.35rem' }}>
               PETG is a leading provider of precast concrete solutions, delivering high-quality, innovative, and sustainable products for infrastructure, commercial, and industrial projects. With decades of experience and a passion for engineering excellence, we partner with clients to build smarter, faster, and more resilient communities.
             </p>
 
@@ -309,11 +309,11 @@ const CompanyProfile = () => {
                 fontWeight: 700,
                 fontSize: '0.88rem',
                 textDecoration: 'none',
-                boxShadow: '0 4px 12px rgba(0, 71, 186, 0.2)',
+                boxShadow: '0 4px 12px rgba(0, 109, 239, 0.2)',
                 transition: 'all 0.2s ease'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#0052cc';
+                e.currentTarget.style.backgroundColor = '#006def';
                 e.currentTarget.style.transform = 'translateY(-2px)';
               }}
               onMouseLeave={(e) => {
@@ -343,7 +343,7 @@ const CompanyProfile = () => {
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
           <div style={{ marginBottom: '1.75rem' }}>
             <SectionBadge text="OUR PURPOSE" />
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', letterSpacing: '-0.01em' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', letterSpacing: '-0.01em' }}>
               Our Mission, Vision &amp; Values
             </h2>
           </div>
@@ -357,19 +357,19 @@ const CompanyProfile = () => {
                 borderRadius: '14px',
                 padding: '1.75rem 1.5rem',
                 border: '1px solid #bfdbfe',
-                boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                 display: 'flex',
                 flexDirection: 'column',
                 transition: 'all 0.25s ease'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.1)';
+                e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.1)';
                 e.currentTarget.style.borderColor = '#93c5fd';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                 e.currentTarget.style.borderColor = '#bfdbfe';
               }}
             >
@@ -387,10 +387,10 @@ const CompanyProfile = () => {
               }}>
                 <Target size={24} />
               </div>
-              <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.65rem' }}>
+              <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#006def', marginBottom: '0.65rem' }}>
                 Our Mission
               </h3>
-              <p style={{ color: '#0052cc', fontSize: '0.9rem', lineHeight: 1.6, flexGrow: 1 }}>
+              <p style={{ color: '#006def', fontSize: '0.9rem', lineHeight: 1.6, flexGrow: 1 }}>
                 To provide innovative precast solutions that deliver lasting value, safety and sustainability for our customers and communities.
               </p>
             </div>
@@ -402,19 +402,19 @@ const CompanyProfile = () => {
                 borderRadius: '14px',
                 padding: '1.75rem 1.5rem',
                 border: '1px solid #bfdbfe',
-                boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                 display: 'flex',
                 flexDirection: 'column',
                 transition: 'all 0.25s ease'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.1)';
+                e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.1)';
                 e.currentTarget.style.borderColor = '#93c5fd';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                 e.currentTarget.style.borderColor = '#bfdbfe';
               }}
             >
@@ -432,10 +432,10 @@ const CompanyProfile = () => {
               }}>
                 <Eye size={24} />
               </div>
-              <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.65rem' }}>
+              <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#006def', marginBottom: '0.65rem' }}>
                 Our Vision
               </h3>
-              <p style={{ color: '#0052cc', fontSize: '0.9rem', lineHeight: 1.6, flexGrow: 1 }}>
+              <p style={{ color: '#006def', fontSize: '0.9rem', lineHeight: 1.6, flexGrow: 1 }}>
                 To be the global leader in precast engineering, recognized for quality, innovation and contribution to a better, more sustainable world.
               </p>
             </div>
@@ -447,19 +447,19 @@ const CompanyProfile = () => {
                 borderRadius: '14px',
                 padding: '1.75rem 1.5rem',
                 border: '1px solid #bfdbfe',
-                boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                 display: 'flex',
                 flexDirection: 'column',
                 transition: 'all 0.25s ease'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-4px)';
-                e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.1)';
+                e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.1)';
                 e.currentTarget.style.borderColor = '#93c5fd';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                 e.currentTarget.style.borderColor = '#bfdbfe';
               }}
             >
@@ -477,7 +477,7 @@ const CompanyProfile = () => {
               }}>
                 <Gem size={24} />
               </div>
-              <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.65rem' }}>
+              <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#006def', marginBottom: '0.65rem' }}>
                 Our Values
               </h3>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
@@ -508,7 +508,7 @@ const CompanyProfile = () => {
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
           <div style={{ marginBottom: '2.25rem' }}>
             <SectionBadge text="OUR JOURNEY" />
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', letterSpacing: '-0.01em' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', letterSpacing: '-0.01em' }}>
               Key Milestones
             </h2>
           </div>
@@ -556,7 +556,7 @@ const CompanyProfile = () => {
                     <div style={{
                       fontSize: '1.2rem',
                       fontWeight: 800,
-                      color: isItemActive ? '#0052cc' : '#0047BA',
+                      color: isItemActive ? '#006def' : '#0047BA',
                       marginBottom: '0.5rem',
                       lineHeight: 1,
                       transform: isItemActive ? 'scale(1.15)' : 'scale(1)',
@@ -570,19 +570,19 @@ const CompanyProfile = () => {
                       width: '18px',
                       height: '18px',
                       borderRadius: '50%',
-                      backgroundColor: isItemActive ? '#0052cc' : '#0047BA',
+                      backgroundColor: isItemActive ? '#006def' : '#0047BA',
                       border: '4px solid #bfdbfe',
                       marginBottom: '0.85rem',
-                      boxShadow: isItemActive ? '0 0 0 4px rgba(0, 71, 186, 0.3)' : '0 0 0 2px #0047BA',
+                      boxShadow: isItemActive ? '0 0 0 4px rgba(0, 109, 239, 0.3)' : '0 0 0 2px #0047BA',
                       transform: isItemActive ? 'scale(1.15)' : 'scale(1)',
                       transition: 'all 0.2s'
                     }} />
 
                     {/* Title & Desc */}
-                    <div style={{ fontWeight: 800, fontSize: '0.92rem', color: '#0052cc', marginBottom: '0.3rem' }}>
+                    <div style={{ fontWeight: 800, fontSize: '0.92rem', color: '#006def', marginBottom: '0.3rem' }}>
                       {m.title}
                     </div>
-                    <div style={{ fontSize: '0.8rem', color: '#0052cc', lineHeight: 1.4, maxWidth: '150px' }}>
+                    <div style={{ fontSize: '0.8rem', color: '#006def', lineHeight: 1.4, maxWidth: '150px' }}>
                       {m.desc}
                     </div>
                   </div>
@@ -600,11 +600,11 @@ const CompanyProfile = () => {
           <div>
             <SectionBadge text="OUR LEADERSHIP" />
 
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', lineHeight: 1.25, marginBottom: '0.85rem', letterSpacing: '-0.01em' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', lineHeight: 1.25, marginBottom: '0.85rem', letterSpacing: '-0.01em' }}>
               Experienced People. Exceptional Results.
             </h2>
 
-            <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.35rem' }}>
+            <p style={{ fontSize: '0.95rem', color: '#006def', lineHeight: 1.65, marginBottom: '1.35rem' }}>
               Our leadership team brings together deep industry expertise, engineering excellence, and a passion for innovation. Together, we drive PETG's mission to deliver sustainable precast solutions worldwide.
             </p>
 
@@ -621,11 +621,11 @@ const CompanyProfile = () => {
                 fontWeight: 700,
                 fontSize: '0.88rem',
                 textDecoration: 'none',
-                boxShadow: '0 4px 12px rgba(0, 71, 186, 0.2)',
+                boxShadow: '0 4px 12px rgba(0, 109, 239, 0.2)',
                 transition: 'all 0.2s ease'
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#0052cc';
+                e.currentTarget.style.backgroundColor = '#006def';
                 e.currentTarget.style.transform = 'translateY(-2px)';
               }}
               onMouseLeave={(e) => {
@@ -657,11 +657,11 @@ const CompanyProfile = () => {
             <div>
               <SectionBadge text="OUR FACILITIES" />
 
-              <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', lineHeight: 1.25, marginBottom: '0.85rem', letterSpacing: '-0.01em' }}>
+              <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', lineHeight: 1.25, marginBottom: '0.85rem', letterSpacing: '-0.01em' }}>
                 World-Class Manufacturing
               </h2>
 
-              <p style={{ fontSize: '0.95rem', color: '#0052cc', lineHeight: 1.65, marginBottom: '1.35rem' }}>
+              <p style={{ fontSize: '0.95rem', color: '#006def', lineHeight: 1.65, marginBottom: '1.35rem' }}>
                 Our state-of-the-art facilities are equipped with advanced technology and stringent quality control processes, enabling us to deliver precast products that meet global standards.
               </p>
 
@@ -678,11 +678,11 @@ const CompanyProfile = () => {
                   fontWeight: 700,
                   fontSize: '0.88rem',
                   textDecoration: 'none',
-                  boxShadow: '0 4px 12px rgba(0, 71, 186, 0.2)',
+                  boxShadow: '0 4px 12px rgba(0, 109, 239, 0.2)',
                   transition: 'all 0.2s ease'
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#0052cc';
+                  e.currentTarget.style.backgroundColor = '#006def';
                   e.currentTarget.style.transform = 'translateY(-2px)';
                 }}
                 onMouseLeave={(e) => {
@@ -703,7 +703,7 @@ const CompanyProfile = () => {
                   alt="Advanced Production Lines" 
                   height="140px"
                 />
-                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#0052cc', textAlign: 'center' }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#006def', textAlign: 'center' }}>
                   Advanced Production Lines
                 </div>
               </div>
@@ -714,7 +714,7 @@ const CompanyProfile = () => {
                   alt="Large-Scale Capacity" 
                   height="140px"
                 />
-                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#0052cc', textAlign: 'center' }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#006def', textAlign: 'center' }}>
                   Large-Scale Capacity
                 </div>
               </div>
@@ -725,7 +725,7 @@ const CompanyProfile = () => {
                   alt="Quality Assurance Systems" 
                   height="140px"
                 />
-                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#0052cc', textAlign: 'center' }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#006def', textAlign: 'center' }}>
                   Quality Assurance Systems
                 </div>
               </div>
@@ -740,11 +740,11 @@ const CompanyProfile = () => {
         <div style={{ maxWidth: '1280px', margin: '0 auto', textAlign: 'center' }}>
           <SectionBadge text="OUR CERTIFICATIONS" />
 
-          <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc', marginBottom: '0.65rem', letterSpacing: '-0.01em' }}>
+          <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def', marginBottom: '0.65rem', letterSpacing: '-0.01em' }}>
             Trusted. Certified. Global Standards.
           </h2>
 
-          <p style={{ fontSize: '0.94rem', color: '#0052cc', maxWidth: '700px', margin: '0 auto 2rem', lineHeight: 1.55 }}>
+          <p style={{ fontSize: '0.94rem', color: '#006def', maxWidth: '700px', margin: '0 auto 2rem', lineHeight: 1.55 }}>
             We adhere to international standards and best practices to ensure the highest levels of quality, safety, and environmental responsibility.
           </p>
 
@@ -783,7 +783,7 @@ const CompanyProfile = () => {
                   flexDirection: 'column',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 4px 14px rgba(0, 71, 186, 0.1)',
+                  boxShadow: '0 4px 14px rgba(0, 109, 239, 0.1)',
                   padding: '0.45rem',
                   textAlign: 'center'
                 }}>
@@ -797,7 +797,7 @@ const CompanyProfile = () => {
                     {c.code}
                   </div>
                 </div>
-                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#0052cc', maxWidth: '130px', lineHeight: 1.25 }}>
+                <div style={{ fontSize: '0.8rem', fontWeight: 700, color: '#006def', maxWidth: '130px', lineHeight: 1.25 }}>
                   {c.label}
                 </div>
               </div>
@@ -837,7 +837,7 @@ const CompanyProfile = () => {
               Partner with PETG
             </h2>
 
-            <p style={{ fontSize: '0.9rem', color: '#0052cc', maxWidth: '650px', lineHeight: 1.5 }}>
+            <p style={{ fontSize: '0.9rem', color: '#006def', maxWidth: '650px', lineHeight: 1.5 }}>
               Discover how our expertise, innovation, and commitment to sustainability can support your next project.
             </p>
           </div>
@@ -893,25 +893,25 @@ const CompanyProfile = () => {
                   PRECISION<br />ENGINEERING<br />TOMORROW
                 </div>
               </div>
-              <p style={{ fontSize: '0.84rem', color: '#0052cc', lineHeight: 1.5, marginBottom: '1rem' }}>
+              <p style={{ fontSize: '0.84rem', color: '#006def', lineHeight: 1.5, marginBottom: '1rem' }}>
                 Engineering Today for a Stronger Tomorrow.
               </p>
 
               {/* Social Icons */}
               <div style={{ display: 'flex', gap: '0.5rem' }}>
-                <a href="#linkedin" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0052cc', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+                <a href="#linkedin" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#006def', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
                   <IconLinkedin size={15} />
                 </a>
-                <a href="#youtube" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0052cc', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+                <a href="#youtube" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#006def', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
                   <IconYoutube size={15} />
                 </a>
-                <a href="#facebook" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0052cc', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+                <a href="#facebook" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#006def', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
                   <IconFacebook size={15} />
                 </a>
-                <a href="#instagram" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0052cc', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+                <a href="#instagram" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#006def', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
                   <IconInstagram size={15} />
                 </a>
-                <a href="#twitter" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0052cc', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+                <a href="#twitter" style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid rgba(191, 219, 254, 0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#006def', backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
                   <IconTwitter size={15} />
                 </a>
               </div>
@@ -921,10 +921,10 @@ const CompanyProfile = () => {
             <div>
               <h4 style={{ fontSize: '0.88rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.85rem' }}>Company</h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.45rem', fontSize: '0.84rem' }}>
-                <li><a href="#about" style={{ color: '#0052cc', textDecoration: 'none' }}>About Us</a></li>
-                <li><a href="#team" style={{ color: '#0052cc', textDecoration: 'none' }}>Our Team</a></li>
-                <li><a href="#careers" style={{ color: '#0052cc', textDecoration: 'none' }}>Careers</a></li>
-                <li><a href="#contact" style={{ color: '#0052cc', textDecoration: 'none' }}>Contact Us</a></li>
+                <li><a href="#about" style={{ color: '#006def', textDecoration: 'none' }}>About Us</a></li>
+                <li><a href="#team" style={{ color: '#006def', textDecoration: 'none' }}>Our Team</a></li>
+                <li><a href="#careers" style={{ color: '#006def', textDecoration: 'none' }}>Careers</a></li>
+                <li><a href="#contact" style={{ color: '#006def', textDecoration: 'none' }}>Contact Us</a></li>
               </ul>
             </div>
 
@@ -932,10 +932,10 @@ const CompanyProfile = () => {
             <div>
               <h4 style={{ fontSize: '0.88rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.85rem' }}>Products</h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.45rem', fontSize: '0.84rem' }}>
-                <li><a href="#products" style={{ color: '#0052cc', textDecoration: 'none' }}>Precast Systems</a></li>
-                <li><a href="#technical" style={{ color: '#0052cc', textDecoration: 'none' }}>Technical Resources</a></li>
-                <li><a href="#cases" style={{ color: '#0052cc', textDecoration: 'none' }}>Case Studies</a></li>
-                <li><a href="#catalog" style={{ color: '#0052cc', textDecoration: 'none' }}>Product Catalog</a></li>
+                <li><a href="#products" style={{ color: '#006def', textDecoration: 'none' }}>Precast Systems</a></li>
+                <li><a href="#technical" style={{ color: '#006def', textDecoration: 'none' }}>Technical Resources</a></li>
+                <li><a href="#cases" style={{ color: '#006def', textDecoration: 'none' }}>Case Studies</a></li>
+                <li><a href="#catalog" style={{ color: '#006def', textDecoration: 'none' }}>Product Catalog</a></li>
               </ul>
             </div>
 
@@ -943,10 +943,10 @@ const CompanyProfile = () => {
             <div>
               <h4 style={{ fontSize: '0.88rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.85rem' }}>Industries</h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.45rem', fontSize: '0.84rem' }}>
-                <li><a href="#transportation" style={{ color: '#0052cc', textDecoration: 'none' }}>Transportation</a></li>
-                <li><a href="#water" style={{ color: '#0052cc', textDecoration: 'none' }}>Water &amp; Utilities</a></li>
-                <li><a href="#commercial" style={{ color: '#0052cc', textDecoration: 'none' }}>Commercial</a></li>
-                <li><a href="#industrial" style={{ color: '#0052cc', textDecoration: 'none' }}>Industrial</a></li>
+                <li><a href="#transportation" style={{ color: '#006def', textDecoration: 'none' }}>Transportation</a></li>
+                <li><a href="#water" style={{ color: '#006def', textDecoration: 'none' }}>Water &amp; Utilities</a></li>
+                <li><a href="#commercial" style={{ color: '#006def', textDecoration: 'none' }}>Commercial</a></li>
+                <li><a href="#industrial" style={{ color: '#006def', textDecoration: 'none' }}>Industrial</a></li>
               </ul>
             </div>
 
@@ -954,17 +954,17 @@ const CompanyProfile = () => {
             <div>
               <h4 style={{ fontSize: '0.88rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.85rem' }}>Resources</h4>
               <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.45rem', fontSize: '0.84rem' }}>
-                <li><a href="#news" style={{ color: '#0052cc', textDecoration: 'none' }}>News &amp; Insights</a></li>
-                <li><a href="#brochures" style={{ color: '#0052cc', textDecoration: 'none' }}>Brochures</a></li>
-                <li><a href="#faqs" style={{ color: '#0052cc', textDecoration: 'none' }}>FAQs</a></li>
-                <li><a href="#videos" style={{ color: '#0052cc', textDecoration: 'none' }}>Videos</a></li>
+                <li><a href="#news" style={{ color: '#006def', textDecoration: 'none' }}>News &amp; Insights</a></li>
+                <li><a href="#brochures" style={{ color: '#006def', textDecoration: 'none' }}>Brochures</a></li>
+                <li><a href="#faqs" style={{ color: '#006def', textDecoration: 'none' }}>FAQs</a></li>
+                <li><a href="#videos" style={{ color: '#006def', textDecoration: 'none' }}>Videos</a></li>
               </ul>
             </div>
 
             {/* Column 6: Subscribe */}
             <div style={{ minWidth: '200px' }}>
               <h4 style={{ fontSize: '0.88rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.4rem' }}>Subscribe</h4>
-              <p style={{ fontSize: '0.8rem', color: '#0052cc', marginBottom: '0.65rem' }}>
+              <p style={{ fontSize: '0.8rem', color: '#006def', marginBottom: '0.65rem' }}>
                 Get the latest engineering updates.
               </p>
               
@@ -983,7 +983,7 @@ const CompanyProfile = () => {
                     fontSize: '0.82rem',
                     outline: 'none',
                     minWidth: '120px',
-                    color: '#0052cc',
+                    color: '#006def',
                     backgroundColor: '#ffffff'
                   }}
                 />
@@ -1034,11 +1034,11 @@ const CompanyProfile = () => {
             </div>
 
             <div style={{ display: 'flex', gap: '1.25rem' }}>
-              <a href="#privacy" style={{ color: '#0052cc', textDecoration: 'none' }}>Privacy Policy</a>
+              <a href="#privacy" style={{ color: '#006def', textDecoration: 'none' }}>Privacy Policy</a>
               <span style={{ color: 'rgba(191, 219, 254, 0.4)' }}>|</span>
-              <a href="#terms" style={{ color: '#0052cc', textDecoration: 'none' }}>Terms of Use</a>
+              <a href="#terms" style={{ color: '#006def', textDecoration: 'none' }}>Terms of Use</a>
               <span style={{ color: 'rgba(191, 219, 254, 0.4)' }}>|</span>
-              <a href="#sitemap" style={{ color: '#0052cc', textDecoration: 'none' }}>Sitemap</a>
+              <a href="#sitemap" style={{ color: '#006def', textDecoration: 'none' }}>Sitemap</a>
             </div>
           </div>
 

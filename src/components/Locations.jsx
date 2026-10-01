@@ -46,7 +46,7 @@ const Locations = () => {
           <h2 className="locations-title" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem' }}>
             Our Regional Locations
           </h2>
-          <p className="locations-desc" style={{ color: '#0052cc', maxWidth: '600px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6, fontWeight: 500 }}>
+          <p className="locations-desc" style={{ color: '#006def', maxWidth: '600px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6, fontWeight: 500 }}>
             Regional offices and facilities supporting civil precast projects.
           </p>
         </div>
@@ -54,7 +54,7 @@ const Locations = () => {
         {/* 3-Column Cards */}
         <div className="locations-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '1.5rem' }}>
           {LOCATIONS_LIST.map((loc, idx) => (
-            <div key={idx} className="location-card" style={{ background: '#ffffff', borderRadius: '10px', border: '1px solid #bfdbfe', padding: '1.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 4px 14px rgba(0, 71, 186, 0.06)' }}>
+            <div key={idx} className="location-card" style={{ background: '#ffffff', borderRadius: '10px', border: '1px solid #bfdbfe', padding: '1.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 4px 14px rgba(0, 109, 239, 0.06)' }}>
               <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
                   <span style={{ fontSize: '0.7rem', fontWeight: 800, color: '#0047ba', background: '#eff6ff', padding: '3px 8px', borderRadius: '4px', textTransform: 'uppercase', letterSpacing: '0.05em', border: '1px solid #bfdbfe' }}>{loc.tag}</span>
@@ -63,19 +63,19 @@ const Locations = () => {
                 <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#0047ba', marginBottom: '1.25rem' }}>{loc.name}</h3>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.25rem' }}>
-                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: '#0052cc' }}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', fontSize: '0.86rem', color: '#006def' }}>
                     <MapPin size={16} style={{ color: '#0047ba', flexShrink: 0, marginTop: '3px' }} />
                     <span>{loc.address}</span>
                   </div>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#0052cc' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#006def' }}>
                     <Phone size={16} style={{ color: '#0047ba', flexShrink: 0 }} />
                     <a href={`tel:${loc.phone.replace(/[^0-9]/g, '')}`} style={{ color: '#0047ba', fontWeight: 700, textDecoration: 'none' }}>
                       {loc.phone}
                     </a>
                   </div>
 
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#0052cc' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '0.86rem', color: '#006def' }}>
                     <Clock size={16} style={{ color: '#0047ba', flexShrink: 0 }} />
                     <span>{loc.hours}</span>
                   </div>

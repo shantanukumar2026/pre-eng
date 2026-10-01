@@ -46,7 +46,7 @@ const CapabilitiesBento = () => {
           <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.6rem' }}>
             Core Precast Capabilities
           </h2>
-          <p style={{ color: '#0052cc', maxWidth: '600px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6, fontWeight: 500 }}>
+          <p style={{ color: '#006def', maxWidth: '600px', margin: '0 auto', fontSize: '1rem', lineHeight: 1.6, fontWeight: 500 }}>
             Reliable precast engineering, plant manufacturing, and jobsite delivery for civil projects.
           </p>
         </div>
@@ -64,7 +64,7 @@ const CapabilitiesBento = () => {
                 overflow: 'hidden',
                 display: 'flex',
                 flexDirection: 'column',
-                boxShadow: '0 4px 14px rgba(0, 71, 186, 0.05)',
+                boxShadow: '0 4px 14px rgba(0, 109, 239, 0.05)',
                 transition: 'all 0.3s ease'
               }}
             >
@@ -95,7 +95,7 @@ const CapabilitiesBento = () => {
                   fontWeight: 800, 
                   letterSpacing: '0.08em', 
                   color: '#ffffff',
-                  background: 'rgba(0, 40, 104, 0.88)',
+                  background: 'rgba(0, 47, 122, 0.88)',
                   backdropFilter: 'blur(6px)',
                   WebkitBackdropFilter: 'blur(6px)',
                   padding: '4px 10px',
@@ -112,7 +112,7 @@ const CapabilitiesBento = () => {
                   <h3 style={{ fontSize: '1.12rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.6rem', lineHeight: 1.35 }}>
                     {cap.title}
                   </h3>
-                  <p style={{ fontSize: '0.9rem', color: '#0052cc', lineHeight: 1.6, margin: '0 0 1.25rem 0' }}>
+                  <p style={{ fontSize: '0.9rem', color: '#006def', lineHeight: 1.6, margin: '0 0 1.25rem 0' }}>
                     {cap.desc}
                   </p>
                 </div>

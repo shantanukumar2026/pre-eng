@@ -35,9 +35,9 @@ const Navbar = ({ currentView = 'home', onNavigate }) => {
 
         <nav className="navbar_menu">
           <div className="navbar_menu_links">
-            <a 
-              href="#home" 
-              onClick={handleNavClick('home', '#home')} 
+            <a
+              href="#home"
+              onClick={handleNavClick('home', '#home')}
               className={`navbar_link ${currentView === 'home' ? 'active' : ''}`}
             >
               Home
@@ -51,49 +51,49 @@ const Navbar = ({ currentView = 'home', onNavigate }) => {
               </div>
               <div className="simple_dropdown_list">
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <a 
-                    href="#company-profile" 
-                    onClick={handleNavClick('company-profile', '#company-profile')} 
+                  <a
+                    href="#company-profile"
+                    onClick={handleNavClick('company-profile', '#company-profile')}
                     className={`simple_nav_link ${currentView === 'company-profile' ? 'active' : ''}`}
                     style={currentView === 'company-profile' ? { color: 'var(--color-primary, #0047ba)', fontWeight: 700 } : {}}
                   >
                     Company Profile
                   </a>
-                  <a 
-                    href="#team" 
-                    onClick={handleNavClick('team', '#team')} 
+                  <a
+                    href="#team"
+                    onClick={handleNavClick('team', '#team')}
                     className={`simple_nav_link ${currentView === 'team' ? 'active' : ''}`}
                     style={currentView === 'team' ? { color: 'var(--color-primary, #0047ba)', fontWeight: 700 } : {}}
                   >
                     Our Team
                   </a>
-                  <a 
-                    href="#careers" 
-                    onClick={handleNavClick('careers', '#careers')} 
+                  <a
+                    href="#careers"
+                    onClick={handleNavClick('careers', '#careers')}
                     className={`simple_nav_link ${currentView === 'careers' ? 'active' : ''}`}
                     style={currentView === 'careers' ? { color: 'var(--color-primary, #0047ba)', fontWeight: 700 } : {}}
                   >
                     Careers
                   </a>
-                  <a 
-                    href="#governance" 
-                    onClick={handleNavClick('governance', '#governance')} 
+                  <a
+                    href="#governance"
+                    onClick={handleNavClick('governance', '#governance')}
                     className={`simple_nav_link ${currentView === 'governance' ? 'active' : ''}`}
                     style={currentView === 'governance' ? { color: 'var(--color-primary, #0047ba)', fontWeight: 700 } : {}}
                   >
                     Governance
                   </a>
-                  <a 
-                    href="#membership" 
-                    onClick={handleNavClick('membership', '#membership')} 
+                  <a
+                    href="#membership"
+                    onClick={handleNavClick('membership', '#membership')}
                     className={`simple_nav_link ${currentView === 'membership' ? 'active' : ''}`}
                     style={currentView === 'membership' ? { color: 'var(--color-primary, #0047ba)', fontWeight: 700 } : {}}
                   >
                     Membership
                   </a>
-                  <a 
-                    href="#estore" 
-                    onClick={handleNavClick('estore', '#estore')} 
+                  <a
+                    href="#estore"
+                    onClick={handleNavClick('estore', '#estore')}
                     className={`simple_nav_link ${currentView === 'estore' ? 'active' : ''}`}
                     style={currentView === 'estore' ? { color: 'var(--color-primary, #0047ba)', fontWeight: 700 } : {}}
                   >

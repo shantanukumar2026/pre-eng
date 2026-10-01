@@ -34,7 +34,7 @@ const Team = () => {
       
       {/* 1. Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
         color: '#ffffff',
         padding: '6.5rem 5% 3.5rem',
         position: 'relative',
@@ -90,7 +90,7 @@ const Team = () => {
               <span>TECHNICAL DIVISIONS</span>
             </div>
 
-            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#0052cc' }}>
+            <h2 style={{ fontSize: 'clamp(1.7rem, 2.6vw, 2.1rem)', fontWeight: 800, color: '#006def' }}>
               Engineered with Professional Precision
             </h2>
           </div>
@@ -106,19 +106,19 @@ const Team = () => {
                     borderRadius: '14px',
                     padding: '2rem 1.75rem',
                     border: '1px solid #bfdbfe',
-                    boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                    boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                     display: 'flex',
                     flexDirection: 'column',
                     transition: 'all 0.25s ease'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'translateY(-4px)';
-                    e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.12)';
+                    e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.12)';
                     e.currentTarget.style.borderColor = '#0047BA';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                    e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                     e.currentTarget.style.borderColor = '#bfdbfe';
                   }}
                 >
@@ -137,7 +137,7 @@ const Team = () => {
                     <IconComp size={24} />
                   </div>
 
-                  <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.4rem', lineHeight: 1.3 }}>
+                  <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#006def', marginBottom: '0.4rem', lineHeight: 1.3 }}>
                     {dept.title}
                   </h3>
 
@@ -145,7 +145,7 @@ const Team = () => {
                     {dept.head}
                   </div>
 
-                  <p style={{ fontSize: '0.88rem', color: '#0052cc', lineHeight: 1.6, flexGrow: 1 }}>
+                  <p style={{ fontSize: '0.88rem', color: '#006def', lineHeight: 1.6, flexGrow: 1 }}>
                     {dept.responsibilities}
                   </p>
                 </div>
@@ -159,10 +159,10 @@ const Team = () => {
       {/* 3. Direct Contact CTA */}
       <section style={{ backgroundColor: '#f0f5ff', borderTop: '1px solid #dbeafe', padding: '3rem 5%', textAlign: 'center' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.5rem' }}>
+          <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: '#006def', marginBottom: '0.5rem' }}>
             Consult with Our Licensed Engineering Team
           </h3>
-          <p style={{ fontSize: '0.92rem', color: '#0052cc', marginBottom: '1.5rem' }}>
+          <p style={{ fontSize: '0.92rem', color: '#006def', marginBottom: '1.5rem' }}>
             Get direct technical submittals, PE stamped calculations, or jobsite feasibility reviews.
           </p>
           <a 

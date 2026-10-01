@@ -29,7 +29,7 @@ const CompanyIntro = () => {
             gap: '8px',
             backgroundColor: '#eff6ff',
             border: '1px solid #bfdbfe',
-            color: '#1e2ede',
+            color: '#006def',
             padding: '5px 16px',
             borderRadius: '9999px',
             fontSize: '0.8rem',
@@ -38,7 +38,7 @@ const CompanyIntro = () => {
             textTransform: 'uppercase',
             marginBottom: '1rem'
           }}>
-            <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#1e2ede' }}></span>
+            <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#006def' }}></span>
             <span>Precast Infrastructure</span>
           </div>
 
@@ -55,7 +55,7 @@ const CompanyIntro = () => {
 
           <p style={{
             fontSize: '1.08rem',
-            color: '#1e2ede',
+            color: '#006def',
             lineHeight: 1.65,
             fontWeight: 600
           }}>
@@ -87,7 +87,7 @@ const CompanyIntro = () => {
                 height: '44px',
                 borderRadius: '10px',
                 backgroundColor: '#dbeafe',
-                color: '#1e2ede',
+                color: '#006def',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -98,7 +98,7 @@ const CompanyIntro = () => {
               <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.5rem' }}>
                 Licensed PE Engineering
               </h3>
-              <p style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.55, fontWeight: 500 }}>
+              <p style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.55, fontWeight: 500 }}>
                 50-state stamped structural calculations, 3D BIM clash detection, and certified takeoff submittals.
               </p>
             </div>
@@ -124,7 +124,7 @@ const CompanyIntro = () => {
                 height: '44px',
                 borderRadius: '10px',
                 backgroundColor: '#dbeafe',
-                color: '#1e2ede',
+                color: '#006def',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -135,7 +135,7 @@ const CompanyIntro = () => {
               <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.5rem' }}>
                 Automated Casting Plants
               </h3>
-              <p style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.55, fontWeight: 500 }}>
+              <p style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.55, fontWeight: 500 }}>
                 Self-consolidating 8,000–10,000 PSI high-early concrete mixes cast in precision CNC heavy steel formwork.
               </p>
             </div>
@@ -161,7 +161,7 @@ const CompanyIntro = () => {
                 height: '44px',
                 borderRadius: '10px',
                 backgroundColor: '#dbeafe',
-                color: '#1e2ede',
+                color: '#006def',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -172,7 +172,7 @@ const CompanyIntro = () => {
               <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.5rem' }}>
                 ASTM Certified QA Labs
               </h3>
-              <p style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.55, fontWeight: 500 }}>
+              <p style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.55, fontWeight: 500 }}>
                 Rigorous in-house compressive cylinder breaks, rapid chloride permeability testing, and joint vacuum verification.
               </p>
             </div>
@@ -198,7 +198,7 @@ const CompanyIntro = () => {
                 height: '44px',
                 borderRadius: '10px',
                 backgroundColor: '#dbeafe',
-                color: '#1e2ede',
+                color: '#006def',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -209,7 +209,7 @@ const CompanyIntro = () => {
               <h3 style={{ fontSize: '1.18rem', fontWeight: 800, color: '#0047ba', marginBottom: '0.5rem' }}>
                 Synchronized Site Logistics
               </h3>
-              <p style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.55, fontWeight: 500 }}>
+              <p style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.55, fontWeight: 500 }}>
                 Specialized boom truck and multi-axle freight delivery coordinated directly with your jobsite crane pick windows.
               </p>
             </div>
@@ -232,8 +232,8 @@ const CompanyIntro = () => {
           justifyContent: 'space-between',
           flexWrap: 'wrap',
           gap: '1.5rem',
-          border: '1.5px solid #1e2ede',
-          boxShadow: '0 8px 24px rgba(0, 71, 186, 0.2)'
+          border: '1.5px solid #006def',
+          boxShadow: '0 8px 24px rgba(0, 109, 239, 0.2)'
         }}>
           <div>
             <h4 style={{ fontSize: '1.35rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.35rem' }}>

@@ -36,7 +36,7 @@ const CoreValues = () => {
           <h2 className="heading-style-h3 text-color-primary" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem' }}>
             Our Operating Principles
           </h2>
-          <p style={{ color: '#0052cc', maxWidth: '650px', margin: '0 auto', fontSize: '1rem' }}>
+          <p style={{ color: '#006def', maxWidth: '650px', margin: '0 auto', fontSize: '1rem' }}>
             Practical commitments that ensure high-quality precast structures, accurate submittals, and dependable jobsite execution.
           </p>
         </div>
@@ -63,7 +63,7 @@ const CoreValues = () => {
                 <h4 style={{ fontSize: '1.1rem', fontWeight: 800, marginBottom: '0.5rem', color: '#0047ba' }}>
                   {val.title}
                 </h4>
-                <p style={{ fontSize: '0.88rem', color: '#0052cc', lineHeight: 1.55 }}>
+                <p style={{ fontSize: '0.88rem', color: '#006def', lineHeight: 1.55 }}>
                   {val.desc}
                 </p>
               </div>

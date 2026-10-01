@@ -34,7 +34,7 @@ const ManufacturingRnD = () => {
       
       {/* 1. Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
         color: '#ffffff',
         padding: '6.5rem 5% 3.5rem',
         position: 'relative',
@@ -78,7 +78,7 @@ const ManufacturingRnD = () => {
                     backgroundColor: '#ffffff',
                     borderRadius: '16px',
                     border: '1px solid #bfdbfe',
-                    boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                    boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                     overflow: 'hidden',
                     display: 'flex',
                     flexDirection: 'column',
@@ -86,12 +86,12 @@ const ManufacturingRnD = () => {
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'translateY(-4px)';
-                    e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.12)';
+                    e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.12)';
                     e.currentTarget.style.borderColor = '#0047BA';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                    e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                     e.currentTarget.style.borderColor = '#bfdbfe';
                   }}
                 >
@@ -114,11 +114,11 @@ const ManufacturingRnD = () => {
                       <IconComp size={20} />
                     </div>
 
-                    <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.5rem', lineHeight: 1.3 }}>
+                    <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#006def', marginBottom: '0.5rem', lineHeight: 1.3 }}>
                       {cap.title}
                     </h3>
 
-                    <p style={{ fontSize: '0.86rem', color: '#0052cc', lineHeight: 1.55, flexGrow: 1 }}>
+                    <p style={{ fontSize: '0.86rem', color: '#006def', lineHeight: 1.55, flexGrow: 1 }}>
                       {cap.desc}
                     </p>
                   </div>

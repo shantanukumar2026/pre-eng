@@ -107,7 +107,7 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
 
       {/* 1. Header Hero Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #1e2ede 100%)',
+        background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
         color: '#ffffff',
         padding: '6.5rem 5% 3.5rem',
         position: 'relative',
@@ -166,17 +166,17 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
                 fontSize: '0.84rem',
                 fontWeight: 800,
                 flexShrink: 0,
-                border: selectedCatId === 'all' ? '1.5px solid #1e2ede' : '1px solid #bfdbfe',
+                border: selectedCatId === 'all' ? '1.5px solid #006def' : '1px solid #bfdbfe',
                 background: selectedCatId === 'all' ? '#0047ba' : '#ffffff',
                 color: selectedCatId === 'all' ? '#ffffff' : '#0047ba',
                 cursor: 'pointer',
                 whiteSpace: 'nowrap',
                 transition: 'all 0.2s',
-                boxShadow: selectedCatId === 'all' ? '0 4px 12px rgba(0, 71, 186, 0.2)' : 'none'
+                boxShadow: selectedCatId === 'all' ? '0 4px 12px rgba(0, 109, 239, 0.2)' : 'none'
               }}
             >
               <span>All Products</span>
-              <span style={{ fontSize: '0.74rem', background: selectedCatId === 'all' ? '#1e2ede' : '#eff6ff', color: selectedCatId === 'all' ? '#ffffff' : '#0047ba', padding: '1px 6px', borderRadius: '10px' }}>123</span>
+              <span style={{ fontSize: '0.74rem', background: selectedCatId === 'all' ? '#006def' : '#eff6ff', color: selectedCatId === 'all' ? '#ffffff' : '#0047ba', padding: '1px 6px', borderRadius: '10px' }}>123</span>
             </button>
 
             {ASTRO_CATEGORIES_DATA.map(c => {
@@ -195,17 +195,17 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
                     fontSize: '0.84rem',
                     fontWeight: 800,
                     flexShrink: 0,
-                    border: isSelected ? '1.5px solid #1e2ede' : '1px solid #bfdbfe',
+                    border: isSelected ? '1.5px solid #006def' : '1px solid #bfdbfe',
                     background: isSelected ? '#0047ba' : '#ffffff',
                     color: isSelected ? '#ffffff' : '#0047ba',
                     cursor: 'pointer',
                     whiteSpace: 'nowrap',
                     transition: 'all 0.2s',
-                    boxShadow: isSelected ? '0 4px 12px rgba(0, 71, 186, 0.2)' : 'none'
+                    boxShadow: isSelected ? '0 4px 12px rgba(0, 109, 239, 0.2)' : 'none'
                   }}
                 >
                   <span>{catTitle}</span>
-                  <span style={{ fontSize: '0.74rem', background: isSelected ? '#1e2ede' : '#eff6ff', color: isSelected ? '#ffffff' : '#0047ba', padding: '1px 6px', borderRadius: '10px' }}>
+                  <span style={{ fontSize: '0.74rem', background: isSelected ? '#006def' : '#eff6ff', color: isSelected ? '#ffffff' : '#0047ba', padding: '1px 6px', borderRadius: '10px' }}>
                     {c.pages.length}
                   </span>
                 </button>
@@ -257,7 +257,7 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
 
                 {/* Right: Category Specs & USA Standards */}
                 <div className="spotlight-info">
-                  <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: '#eff6ff', color: '#1e2ede', padding: '3px 10px', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, marginBottom: '0.6rem', border: '1px solid #bfdbfe' }}>
+                  <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: '#eff6ff', color: '#006def', padding: '3px 10px', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 800, marginBottom: '0.6rem', border: '1px solid #bfdbfe' }}>
                     <ShieldCheck size={14} />
                     <span>{activeCategory.pages.length} Certified Unit Sizes</span>
                   </div>
@@ -272,7 +272,7 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
                     {activeCategory.spotlightP2}
                   </p>
 
-                  <p className="spotlight-note-p" style={{ borderLeft: '3px solid #1e2ede', paddingLeft: '12px', marginTop: '1rem', fontStyle: 'normal' }}>
+                  <p className="spotlight-note-p" style={{ borderLeft: '3px solid #006def', paddingLeft: '12px', marginTop: '1rem', fontStyle: 'normal' }}>
                     <strong style={{ color: '#0047ba' }}>Product Availability &amp; Engineering:</strong> {activeCategory.spotlightAvail}
                   </p>
 
@@ -298,7 +298,7 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
                     ? `Available ${activeCategory.name} Models (${filteredProducts.length})`
                     : `All Precast Concrete Products (${filteredProducts.length})`}
               </h3>
-              <p style={{ color: '#1e2ede', fontSize: '0.9rem', fontWeight: 600, marginTop: '0.2rem' }}>
+              <p style={{ color: '#006def', fontSize: '0.9rem', fontWeight: 600, marginTop: '0.2rem' }}>
                 All models manufactured with monolithic vibrated concrete, certified steel reinforcement, and pre-formed knockouts.
               </p>
             </div>
@@ -434,25 +434,25 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
                   {modalProduct.title}
                 </h3>
 
-                <p style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.6, marginBottom: '1.25rem', fontWeight: 600 }}>
+                <p style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.6, marginBottom: '1.25rem', fontWeight: 600 }}>
                   {modalProduct.desc}
                 </p>
 
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', background: '#f4f8ff', border: '1px solid #bfdbfe', padding: '1rem', borderRadius: '8px', marginBottom: '1.5rem' }}>
                   <div>
-                    <div style={{ fontSize: '0.7rem', color: '#1e2ede', textTransform: 'uppercase', fontWeight: 800 }}>Dimensions / Size</div>
+                    <div style={{ fontSize: '0.7rem', color: '#006def', textTransform: 'uppercase', fontWeight: 800 }}>Dimensions / Size</div>
                     <div style={{ fontWeight: 800, color: '#0047ba' }}>{modalProduct.size}</div>
                   </div>
                   <div>
-                    <div style={{ fontSize: '0.7rem', color: '#1e2ede', textTransform: 'uppercase', fontWeight: 800 }}>Wall Thickness</div>
+                    <div style={{ fontSize: '0.7rem', color: '#006def', textTransform: 'uppercase', fontWeight: 800 }}>Wall Thickness</div>
                     <div style={{ fontWeight: 800, color: '#0047ba' }}>{modalProduct.wall}</div>
                   </div>
                   <div>
-                    <div style={{ fontSize: '0.7rem', color: '#1e2ede', textTransform: 'uppercase', fontWeight: 800 }}>Approx Unit Weight</div>
+                    <div style={{ fontSize: '0.7rem', color: '#006def', textTransform: 'uppercase', fontWeight: 800 }}>Approx Unit Weight</div>
                     <div style={{ fontWeight: 800, color: '#0047ba' }}>{modalProduct.weight}</div>
                   </div>
                   <div>
-                    <div style={{ fontSize: '0.7rem', color: '#1e2ede', textTransform: 'uppercase', fontWeight: 800 }}>Quality Standard</div>
+                    <div style={{ fontSize: '0.7rem', color: '#006def', textTransform: 'uppercase', fontWeight: 800 }}>Quality Standard</div>
                     <div style={{ fontWeight: 800, color: '#0047ba' }}>{modalProduct.standard}</div>
                   </div>
                 </div>

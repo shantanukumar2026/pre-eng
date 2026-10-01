@@ -15,7 +15,7 @@ const Consultation = () => {
                 <h3 className="consult-title" style={{ fontSize: '1.45rem', color: '#0047ba', fontWeight: 800, marginBottom: '0.4rem' }}>
                   Request a Project Quote &amp; Engineering Submittal
                 </h3>
-                <p className="consult-desc" style={{ fontSize: '0.95rem', color: '#0052cc', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                <p className="consult-desc" style={{ fontSize: '0.95rem', color: '#006def', marginBottom: '1.5rem', lineHeight: 1.6 }}>
                   Speak directly with our licensed precast engineers for detailed plan takeoffs, DOT-approved submittal packages, and dispatch schedules.
                 </p>
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
@@ -35,7 +35,7 @@ const Consultation = () => {
                 <div style={{ color: 'var(--color-primary, #0047ba)' }}><ShieldCheck size={24} /></div>
                 <div>
                   <strong style={{ display: 'block', color: '#0047ba', fontSize: '0.95rem' }}>50-State PE Certified</strong>
-                  <span style={{ fontSize: '0.85rem', color: '#0052cc' }}>Stamped drawings &amp; buoyancy calculations</span>
+                  <span style={{ fontSize: '0.85rem', color: '#006def' }}>Stamped drawings &amp; buoyancy calculations</span>
                 </div>
               </div>
 
@@ -43,7 +43,7 @@ const Consultation = () => {
                 <div style={{ color: 'var(--color-primary, #0047ba)' }}><Clock size={24} /></div>
                 <div>
                   <strong style={{ display: 'block', color: '#0047ba', fontSize: '0.95rem' }}>Responsive Submittals</strong>
-                  <span style={{ fontSize: '0.85rem', color: '#0052cc' }}>Fast turnaround for contractor bid deadlines</span>
+                  <span style={{ fontSize: '0.85rem', color: '#006def' }}>Fast turnaround for contractor bid deadlines</span>
                 </div>
               </div>
 
@@ -51,7 +51,7 @@ const Consultation = () => {
                 <div style={{ color: 'var(--color-primary, #0047ba)' }}><FileSpreadsheet size={24} /></div>
                 <div>
                   <strong style={{ display: 'block', color: '#0047ba', fontSize: '0.95rem' }}>Full Takeoffs Included</strong>
-                  <span style={{ fontSize: '0.85rem', color: '#0052cc' }}>Detailed material quantities &amp; transparent project pricing</span>
+                  <span style={{ fontSize: '0.85rem', color: '#006def' }}>Detailed material quantities &amp; transparent project pricing</span>
                 </div>
               </div>
             </div>

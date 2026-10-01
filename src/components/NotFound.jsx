@@ -7,7 +7,7 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
       
       {/* Top Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
+        background: 'linear-gradient(135deg, #001f4d 0%, #002f7a 50%, #0047BA 100%)',
         color: '#0047BA',
         padding: '6.5rem 5% 3.75rem',
         textAlign: 'center',
@@ -54,7 +54,7 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
 
           <p style={{
             fontSize: 'clamp(1rem, 1.8vw, 1.15rem)',
-            color: '#0052cc',
+            color: '#006def',
             maxWidth: '620px',
             margin: '0 auto 2rem',
             lineHeight: 1.6
@@ -130,10 +130,10 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
       <section style={{ padding: '3.5rem 5%', flexGrow: 1, backgroundColor: '#f0f5ff' }}>
         <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-            <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.4rem' }}>
+            <h2 style={{ fontSize: '1.4rem', fontWeight: 800, color: '#006def', marginBottom: '0.4rem' }}>
               Suggested Direct Navigation
             </h2>
-            <p style={{ fontSize: '0.9rem', color: '#0052cc' }}>
+            <p style={{ fontSize: '0.9rem', color: '#006def' }}>
               Access our verified precast infrastructure resources directly:
             </p>
           </div>
@@ -148,12 +148,12 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
                 borderRadius: '12px',
                 padding: '1.5rem',
                 textDecoration: 'none',
-                color: '#0052cc',
+                color: '#006def',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '0.5rem',
                 transition: 'all 0.2s ease',
-                boxShadow: '0 2px 8px rgba(0, 71, 186, 0.04)'
+                boxShadow: '0 2px 8px rgba(0, 109, 239, 0.04)'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-3px)';
@@ -168,7 +168,7 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
                 <Package size={20} />
               </div>
               <div style={{ fontWeight: 800, fontSize: '1rem' }}>Precast Products</div>
-              <div style={{ fontSize: '0.82rem', color: '#0052cc' }}>Browse box culverts, bridge girders, and manhole systems.</div>
+              <div style={{ fontSize: '0.82rem', color: '#006def' }}>Browse box culverts, bridge girders, and manhole systems.</div>
             </a>
 
             <a 
@@ -179,12 +179,12 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
                 borderRadius: '12px',
                 padding: '1.5rem',
                 textDecoration: 'none',
-                color: '#0052cc',
+                color: '#006def',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '0.5rem',
                 transition: 'all 0.2s ease',
-                boxShadow: '0 2px 8px rgba(0, 71, 186, 0.04)'
+                boxShadow: '0 2px 8px rgba(0, 109, 239, 0.04)'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-3px)';
@@ -199,7 +199,7 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
                 <Compass size={20} />
               </div>
               <div style={{ fontWeight: 800, fontSize: '1rem' }}>eStore Hardware</div>
-              <div style={{ fontSize: '0.82rem', color: '#0052cc' }}>Order precast accessories, joint sealants, and lifting rigging.</div>
+              <div style={{ fontSize: '0.82rem', color: '#006def' }}>Order precast accessories, joint sealants, and lifting rigging.</div>
             </a>
 
             <a 
@@ -210,12 +210,12 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
                 borderRadius: '12px',
                 padding: '1.5rem',
                 textDecoration: 'none',
-                color: '#0052cc',
+                color: '#006def',
                 display: 'flex',
                 flexDirection: 'column',
                 gap: '0.5rem',
                 transition: 'all 0.2s ease',
-                boxShadow: '0 2px 8px rgba(0, 71, 186, 0.04)'
+                boxShadow: '0 2px 8px rgba(0, 109, 239, 0.04)'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-3px)';
@@ -230,7 +230,7 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
                 <Phone size={20} />
               </div>
               <div style={{ fontWeight: 800, fontSize: '1rem' }}>Direct Takeoff Contact</div>
-              <div style={{ fontSize: '0.82rem', color: '#0052cc' }}>Submit structural drawings or request immediate engineering takeoff.</div>
+              <div style={{ fontSize: '0.82rem', color: '#006def' }}>Submit structural drawings or request immediate engineering takeoff.</div>
             </a>
 
           </div>

@@ -71,7 +71,7 @@ const SubmittalWorkflow = () => {
             From Engineering Plans to Jobsite Placement
           </h2>
 
-          <p style={{ fontSize: '1.05rem', color: '#1e2ede', fontWeight: 600 }}>
+          <p style={{ fontSize: '1.05rem', color: '#006def', fontWeight: 600 }}>
             Every precast structure is backed by seamless engineering, certified American manufacturing, and synchronized jobsite logistics to keep your civil projects on schedule.
           </p>
         </div>
@@ -128,7 +128,7 @@ const SubmittalWorkflow = () => {
                     {wf.title}
                   </h3>
 
-                  <p style={{ fontSize: '0.92rem', color: '#1e2ede', lineHeight: 1.6, fontWeight: 500 }}>
+                  <p style={{ fontSize: '0.92rem', color: '#006def', lineHeight: 1.6, fontWeight: 500 }}>
                     {wf.desc}
                   </p>
                 </div>
@@ -153,8 +153,8 @@ const SubmittalWorkflow = () => {
           justifyContent: 'space-between',
           flexWrap: 'wrap',
           gap: '2rem',
-          boxShadow: '0 12px 30px rgba(0, 71, 186, 0.25)',
-          border: '1.5px solid #1e2ede'
+          boxShadow: '0 12px 30px rgba(0, 109, 239, 0.25)',
+          border: '1.5px solid #006def'
         }}>
           <div>
             <h3 style={{ fontSize: '1.55rem', fontWeight: 800, color: '#ffffff', marginBottom: '0.4rem' }}>

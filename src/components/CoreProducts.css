@@ -41,7 +41,7 @@
 
 .find-products-subtitle {
   font-size: 1.05rem;
-  color: #1e2ede;
+  color: #006def;
   font-weight: 600;
 }
 
@@ -100,15 +100,15 @@
 }
 
 .fast-cat-card:hover {
-  border-color: #1e2ede;
+  border-color: #006def;
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(30, 46, 222, 0.14);
 }
 
 .fast-cat-card.is-active-cat {
-  border-color: #1e2ede;
+  border-color: #006def;
   background: #ffffff;
-  box-shadow: 0 0 0 2.5px #1e2ede, 0 12px 24px rgba(30, 46, 222, 0.18);
+  box-shadow: 0 0 0 2.5px #006def, 0 12px 24px rgba(30, 46, 222, 0.18);
 }
 
 .fast-cat-title {
@@ -154,7 +154,7 @@
   gap: 6px;
   font-size: 0.88rem;
   font-weight: 800;
-  color: #1e2ede;
+  color: #006def;
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -197,7 +197,7 @@
   gap: 8px;
   font-size: 0.95rem;
   font-weight: 800;
-  color: #1e2ede;
+  color: #006def;
   text-decoration: none;
   transition: color 0.2s;
 }
@@ -271,7 +271,7 @@
 
 .spotlight-lead-p {
   font-size: 1rem;
-  color: #1e2ede;
+  color: #006def;
   line-height: 1.65;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -289,7 +289,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: #1e2ede;
+  background-color: #006def;
   color: #ffffff;
   font-size: 0.95rem;
   font-weight: 800;
@@ -305,7 +305,7 @@
   background-color: #0047ba;
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 71, 186, 0.3);
+  box-shadow: 0 6px 18px rgba(0, 109, 239, 0.3);
 }
 
 /* ==========================================================================
@@ -356,7 +356,7 @@
 }
 
 .rel-prod-card:hover {
-  border-color: #1e2ede;
+  border-color: #006def;
   box-shadow: 0 10px 24px rgba(30, 46, 222, 0.12);
   transform: translateY(-3px);
 }
@@ -415,7 +415,7 @@
 
 .rel-prod-desc {
   font-size: 0.88rem;
-  color: #1e2ede;
+  color: #006def;
   line-height: 1.5;
   margin-bottom: 1rem;
   flex: 1;
@@ -440,7 +440,7 @@
 }
 
 .rel-spec-lbl {
-  color: #1e2ede;
+  color: #006def;
   font-size: 0.68rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -466,7 +466,7 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-  background: #1e2ede;
+  background: #006def;
   color: #ffffff;
   font-size: 0.84rem;
   font-weight: 700;
@@ -498,14 +498,14 @@
 
 .btn-rel-details:hover {
   background: #dbeafe;
-  color: #1e2ede;
+  color: #006def;
 }
 
 /* Modal Popup for High-Res Inspection */
 .astro-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 71, 186, 0.4);
+  background: rgba(0, 109, 239, 0.4);
   backdrop-filter: blur(4px);
   z-index: 9999;
   display: flex;
@@ -524,7 +524,7 @@
   overflow-y: auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 0 25px 50px -12px rgba(0, 71, 186, 0.25);
+  box-shadow: 0 25px 50px -12px rgba(0, 109, 239, 0.25);
   border: 2px solid #bfdbfe;
 }
 
@@ -547,7 +547,7 @@
 
 .astro-modal-close-btn:hover {
   background: #dbeafe;
-  color: #1e2ede;
+  color: #006def;
 }
 
 @keyframes fadeIn {

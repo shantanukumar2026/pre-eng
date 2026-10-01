@@ -30,7 +30,7 @@ const Governance = () => {
       
       {/* 1. Header Banner */}
       <section style={{
-        background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
+        background: 'linear-gradient(135deg, #001f4d 0%, #002f7a 50%, #0047BA 100%)',
         color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
@@ -77,19 +77,19 @@ const Governance = () => {
                     borderRadius: '14px',
                     padding: '2rem 1.75rem',
                     border: '1px solid #bfdbfe',
-                    boxShadow: '0 4px 16px rgba(0, 71, 186, 0.05)',
+                    boxShadow: '0 4px 16px rgba(0, 109, 239, 0.05)',
                     display: 'flex',
                     flexDirection: 'column',
                     transition: 'all 0.25s ease'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'translateY(-4px)';
-                    e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 71, 186, 0.12)';
+                    e.currentTarget.style.boxShadow = '0 10px 24px rgba(0, 109, 239, 0.12)';
                     e.currentTarget.style.borderColor = '#0047BA';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.05)';
+                    e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.05)';
                     e.currentTarget.style.borderColor = '#bfdbfe';
                   }}
                 >
@@ -108,11 +108,11 @@ const Governance = () => {
                     <IconComp size={24} />
                   </div>
 
-                  <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#0052cc', marginBottom: '0.65rem' }}>
+                  <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: '#006def', marginBottom: '0.65rem' }}>
                     {p.title}
                   </h3>
 
-                  <p style={{ fontSize: '0.88rem', color: '#0052cc', lineHeight: 1.6, flexGrow: 1 }}>
+                  <p style={{ fontSize: '0.88rem', color: '#006def', lineHeight: 1.6, flexGrow: 1 }}>
                     {p.desc}
                   </p>
                 </div>

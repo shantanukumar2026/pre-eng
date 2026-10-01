@@ -89,7 +89,7 @@ const Store = () => {
       
       {/* 1. Header Banner with generous top padding for fixed navbar */}
       <section style={{
-        background: 'linear-gradient(135deg, #001f4d 0%, #002868 50%, #0047BA 100%)',
+        background: 'linear-gradient(135deg, #001f4d 0%, #002f7a 50%, #0047BA 100%)',
         color: '#0047BA',
         padding: '6.5rem 5% 3.25rem',
         position: 'relative',
@@ -137,8 +137,8 @@ const Store = () => {
                   fontWeight: 700,
                   cursor: 'pointer',
                   backgroundColor: selectedCategory === cat.id ? '#0047BA' : '#ffffff',
-                  color: selectedCategory === cat.id ? '#ffffff' : '#0052cc',
-                  boxShadow: selectedCategory === cat.id ? '0 2px 8px rgba(0, 71, 186, 0.25)' : '0 1px 3px rgba(0, 71, 186, 0.08)',
+                  color: selectedCategory === cat.id ? '#ffffff' : '#006def',
+                  boxShadow: selectedCategory === cat.id ? '0 2px 8px rgba(0, 109, 239, 0.25)' : '0 1px 3px rgba(0, 109, 239, 0.08)',
                   border: selectedCategory === cat.id ? '1px solid #0047BA' : '1px solid #bfdbfe',
                   transition: 'all 0.2s ease'
                 }}
@@ -163,7 +163,7 @@ const Store = () => {
                 border: '1px solid #bfdbfe',
                 backgroundColor: '#ffffff',
                 fontSize: '0.84rem',
-                color: '#0052cc',
+                color: '#006def',
                 outline: 'none'
               }}
             />
@@ -184,7 +184,7 @@ const Store = () => {
                   backgroundColor: '#ffffff',
                   borderRadius: '16px',
                   border: '1px solid #bfdbfe',
-                  boxShadow: '0 4px 16px rgba(0, 71, 186, 0.06)',
+                  boxShadow: '0 4px 16px rgba(0, 109, 239, 0.06)',
                   overflow: 'hidden',
                   display: 'flex',
                   flexDirection: 'column',
@@ -194,12 +194,12 @@ const Store = () => {
                 onClick={handleNavigateToProducts}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = 'translateY(-6px)';
-                  e.currentTarget.style.boxShadow = '0 12px 28px rgba(0, 71, 186, 0.16)';
+                  e.currentTarget.style.boxShadow = '0 12px 28px rgba(0, 109, 239, 0.16)';
                   e.currentTarget.style.borderColor = '#0047BA';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 71, 186, 0.06)';
+                  e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 109, 239, 0.06)';
                   e.currentTarget.style.borderColor = '#bfdbfe';
                 }}
               >
@@ -233,7 +233,7 @@ const Store = () => {
                   <h3 style={{
                     fontSize: '1.15rem',
                     fontWeight: 800,
-                    color: '#0052cc',
+                    color: '#006def',
                     lineHeight: 1.35,
                     margin: 0
                   }}>
@@ -256,7 +256,7 @@ const Store = () => {
                       fontWeight: 800,
                       fontSize: '0.88rem',
                       textDecoration: 'none',
-                      boxShadow: '0 2px 8px rgba(0, 71, 186, 0.2)',
+                      boxShadow: '0 2px 8px rgba(0, 109, 239, 0.2)',
                       transition: 'all 0.2s ease',
                       marginTop: 'auto'
                     }}

@@ -59,7 +59,7 @@ const CoreProducts = ({ onNavigateToCategory, onNavigateToProducts }) => {
             >
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.6rem' }}>
-                  <span style={{ fontSize: '0.74rem', fontWeight: 800, background: '#eff6ff', color: '#1e2ede', padding: '3px 8px', borderRadius: '4px', border: '1px solid #bfdbfe' }}>
+                  <span style={{ fontSize: '0.74rem', fontWeight: 800, background: '#eff6ff', color: '#006def', padding: '3px 8px', borderRadius: '4px', border: '1px solid #bfdbfe' }}>
                     {cat.pages.length} Models
                   </span>
                   <span style={{ fontSize: '0.72rem', color: '#0047ba', fontWeight: 700 }}>

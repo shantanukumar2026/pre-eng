@@ -38,7 +38,7 @@ const QualityAssurance = () => {
           <h2 className="heading-style-h3" style={{ fontSize: 'clamp(1.85rem, 2.8vw, 2.35rem)', color: '#0047ba', marginBottom: '0.5rem', fontWeight: 800 }}>
             Quality Control &amp; Testing Standards
           </h2>
-          <p style={{ color: '#0052cc', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6, fontWeight: 500 }}>
+          <p style={{ color: '#006def', maxWidth: '650px', margin: '0 auto', fontSize: '0.95rem', lineHeight: 1.6, fontWeight: 500 }}>
             Quality control procedures applied during precast concrete fabrication.
           </p>
         </div>
@@ -58,7 +58,7 @@ const QualityAssurance = () => {
                   display: 'flex',
                   flexDirection: 'column',
                   gap: '0.75rem',
-                  boxShadow: '0 2px 8px rgba(0, 71, 186, 0.05)',
+                  boxShadow: '0 2px 8px rgba(0, 109, 239, 0.05)',
                   transition: 'all 0.25s ease'
                 }}
               >
@@ -68,7 +68,7 @@ const QualityAssurance = () => {
                 <h3 style={{ fontSize: '1.05rem', fontWeight: 800, color: '#0047ba', margin: 0, lineHeight: 1.3 }}>
                   {item.title}
                 </h3>
-                <p style={{ fontSize: '0.86rem', color: '#0052cc', lineHeight: 1.55, margin: 0 }}>
+                <p style={{ fontSize: '0.86rem', color: '#006def', lineHeight: 1.55, margin: 0 }}>
                   {item.desc}
                 </p>
               </div>
