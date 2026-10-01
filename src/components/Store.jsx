@@ -91,7 +91,7 @@ const Store = () => {
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002f7a 50%, #0047BA 100%)',
         color: '#0047BA',
-        padding: '6.5rem 5% 3.25rem',
+        padding: '9.5rem 5% 3.25rem',
         position: 'relative',
         overflow: 'hidden'
       }}>

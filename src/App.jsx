@@ -145,36 +145,31 @@ function App() {
         return (
           <>
             <Store />
-            <Footer />
-          </>
+            </>
         );
       case 'careers':
         return (
           <>
             <NotFound isCareer={true} />
-            <Footer />
-          </>
+            </>
         );
       case 'team':
         return (
           <>
             <Team />
-            <Footer />
-          </>
+            </>
         );
       case 'governance':
         return (
           <>
             <Governance />
-            <Footer />
-          </>
+            </>
         );
       case 'membership':
         return (
           <>
             <Membership />
-            <Footer />
-          </>
+            </>
         );
       case 'products':
         return (
@@ -183,43 +178,37 @@ function App() {
               initialCategory={currentCategory} 
               onNavigate={handleNavigate}
             />
-            <Footer />
-          </>
+            </>
         );
       case 'manufacturing':
         return (
           <>
             <ManufacturingRnD />
-            <Footer />
-          </>
+            </>
         );
       case 'news':
         return (
           <>
             <NewsPage />
-            <Footer />
-          </>
+            </>
         );
       case 'contact':
         return (
           <>
             <Contact />
-            <Footer />
-          </>
+            </>
         );
       case 'about':
         return (
           <>
             <About />
-            <Footer />
-          </>
+            </>
         );
       case 'notfound':
         return (
           <>
             <NotFound />
-            <Footer />
-          </>
+            </>
         );
       case 'home':
       default:
@@ -237,8 +226,7 @@ function App() {
             <Certifications />
             <OfficeLocations />
             <Consultation />
-            <Footer />
-          </>
+            </>
         );
     }
   };
@@ -254,6 +242,8 @@ function App() {
       <Navbar currentView={currentView} onNavigate={handleNavigate} />
 
       {renderCurrentView()}
+
+      <Footer />
 
       {/* Floating Back to Top Button */}
       <button

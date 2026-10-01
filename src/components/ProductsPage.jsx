@@ -109,7 +109,7 @@ const ProductsPage = ({ initialCategory = 'all', onNavigate }) => {
       <section style={{
         background: 'linear-gradient(135deg, #0038b8 0%, #0047ba 50%, #006def 100%)',
         color: '#ffffff',
-        padding: '6.5rem 5% 3.5rem',
+        padding: '9.5rem 5% 3.5rem',
         position: 'relative',
         overflow: 'hidden'
       }}>

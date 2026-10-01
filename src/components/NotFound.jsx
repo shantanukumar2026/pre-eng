@@ -9,7 +9,7 @@ const NotFound = ({ customMessage = "The page or resource you are looking for is
       <section style={{
         background: 'linear-gradient(135deg, #001f4d 0%, #002f7a 50%, #0047BA 100%)',
         color: '#0047BA',
-        padding: '6.5rem 5% 3.75rem',
+        padding: '9.5rem 5% 3.75rem',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden'

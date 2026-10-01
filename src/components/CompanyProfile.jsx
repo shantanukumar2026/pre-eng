@@ -248,7 +248,7 @@ const CompanyProfile = () => {
           color: '#ffffff',
           display: 'flex',
           alignItems: 'center',
-          padding: '6.5rem 5% 3.5rem',
+          padding: '9.5rem 5% 3.5rem',
           overflow: 'hidden'
         }}
       >
